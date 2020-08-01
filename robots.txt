@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jynee.netlify.app/sitemap.xml
-Host: https://jynee.netlify.app
+Sitemap: https://jynee.github.io/sitemap.xml
+Host: https://jynee.github.io
