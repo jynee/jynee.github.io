@@ -68,9 +68,7 @@ const Layout = (props: LayoutPropsType) => {
         <div id="content">
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()} JunhoBaik, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()} jynee
           </footer>
         </div>
 
