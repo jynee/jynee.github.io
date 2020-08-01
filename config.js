@@ -1,10 +1,10 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `jynee`,                           // (* Required)
+  title: `JyneeEarth`,                           // (* Required)
   description: `jynee's lab`,          // (* Required)
   author: `jynee`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: 'https://jynee.netlify.app',                      // (* Required)
+  siteUrl: 'https://jynee.github.io',                      // (* Required) //https://jynee.netlify.app
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
@@ -14,12 +14,12 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
+  comment: 'When are you going to do it?　/ ML, DL, Contents, Japanese.　/　I am interesting all about making contents　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　',
   name: 'jynee',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://jynee.netlify.app',           // ex.'https://junhobaik.github.io'
+  email: 'y.jynee@gmail.com',
+  // website: 'https://jynee.github.io', 　　　　　　　　          // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
