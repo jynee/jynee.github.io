@@ -1,33 +1,66 @@
 ---
-title: TQT
+title: TQT: The question I asked the teacher today
 date: 2020-08-01
+update: 2020-08-05
 tags:
   - TQT
 ---
 
 
 
-**TQT(The question I asked the teacher today.)**
+
+
+
+
+# **TQT(The question I asked the teacher today.)**
+
+
+
+
+
+
+
+# Hyper parameter
+
+* alpha:처음에는 적당히 높게 Epoch=1. 점차 alpha를 줄여 나간다 => weight decay / annealing
+
+
+
+
+
 
 
 # Dense
 
 * `Dense`: fully connected
+
 * `ANN(FNN)`에서는 여러 `Dense`를 써도 되지만, `RNN(LSTM)`에선 마지막 층에서만 `Dense`를 써야함.
-  * `CNN`에서는 여러 `Dense` 써도 됨  ##?#?#??#?#???
-  * => 일단... `lstm`에서 `lstm() → Dense → lstm()`은 `lstm 네트워크가 2개` 만들어진다고 보면 됨. `lstm() → Dense` 했을 때, `1개의 네트워크`가 형성된 것
+  * `CNN`에서는 여러 `Dense` 써도 될까?
+  * => 일단... `lstm`에서 `lstm() → Dense → lstm()`은 `lstm 네트워크가 2개` 만들어진다고 보면 된다. `lstm() → Dense` 했을 때, `1개의 네트워크`가 형성된 것
   * => 그리고 `CNN`은 일종의 잘 짜여진 레시피라서 `con1D → pooling → Dense → con1D → pooling`은 위 `lstm`처럼 좀 이상한 네트워크 구조가 되는 거라 생각함...
+
 * Dense(1, activation='sigmoid')
-* ==LSTM에서 FNN으로 보내는 마지막 Dense에선 relu 쓰면 안됨==
+
+* **LSTM에서 FNN으로 보내는 마지막 Dense에선 relu 쓰면 안됨**
+
+
+
+
+
+
 
 
 
 # FNN(순방향 신경망)
+
 * ↔ RNN
+  
 * hidden 층에서
+  
   * Dense(4, `activation` = 'sigmoid', `kernel_regularizer`=regularizers.l2(0.0001), activation='relu')
   * `Dropout`(rate=0.5)
 * `BatchNormalization`(momentum=0.9, epsilon=0.005, center=True, scale=True, moving_variance_initializer='ones')
+  
 * `predict`까지 끝낸 **연속형** `yHat` 값을, `np.where` 써줘서 **바이너리 형태**로 변환 
 
   ``` python
@@ -36,15 +69,25 @@ tags:
   ```
 
 * `history` 활용
+
   ```python
   hist.history['loss']
   hist.history['val_loss']
   # 딥러닝_파일: 4-4.ANN(Credit_Keras)_직접 해보기.py
   ```
+
 * 학습/평가/예측용 model로 나누었을 때 **평가 데이터 활용**
+
   ```python
   model.fit(trainX, trainY, validation_data=(evlX, evlY), epochs=200, batch_size=50)
   ```
+
+
+
+
+
+
+
 
 
 
@@ -56,6 +99,12 @@ tags:
   | 양방향       | `bidirectional` + `merge_mode = ‘concat’` <br />FNN, BFN 값을 merge_mode 형태로 합쳐서 list형으로 되돌려줌 |
   | many-to-many | `return-sequences = True`<br />LSTM의 중간 스텝의 출력을 모두 사용 |
   |              | `timedistributed`<br /> FFN으로 가기 전 LSTM 마지막 층에서 각 뉴런의 각 지점에서 계산한 오류를 다음 층으로 전파 |
+
+
+
+
+
+
 
 
 
@@ -72,7 +121,25 @@ tags:
   | `Flatten()`                                                  | 2D는 4차원이라 shape 맞추려고 보통 flatten을 써줌<br />1d는 안 써도 되는 듯(?) |
   | `Dense`(nOutput, activation='linear')                        |                                                              |
 
-  
+
+
+
+
+
+
+
+## LSTM과 CNN의 차이
+
+* 둘다 (흐름을 보는)시계열 데이터에 사용할 수 있다.
+* LSTM과 CNN1D는 기능은 비슷하지만 CNN1D는 table 中 **(colum 전체+n row)아래 방향으로의 흐름**을 보는 거고, 
+* LSTM은 bidirectional 을 사용해서 table 中 **위/아래로 흐름**을 이동시켜서 볼 수 있다.
+* CNN2D는 kernel_size, pooling 등을 통해 tabel 中 **(n colum(일부분) + n row(일부분) = 내가 focus를 맞춰 보고 싶은 부분)에 따라 그 흐름을 볼 수 있다는 데**서 차이가 있다.
+
+![image-20200805122723206](markdown-images/image-20200805122723206.png)
+
+
+
+
 
 # activation
 
@@ -95,6 +162,28 @@ tags:
 
 
 
+## softmax - sigmoid
+
+|                |                                |
+| -------------- | ------------------------------ |
+| 회귀           | 항등함수(출력값을 그대로 반환) |
+| 분류(0/1)      | sigmoid                        |
+| 분류(multiple) | softmax                        |
+
+
+
+>  Cross-Entropy : 예측한 값과 실제값의 차를 계산. entropy 값이 감소하는 방향으로 진행하다 보면 최저 값을 찾을 수 있다. 
+>
+> * sshkim Sh.TK. 2017. 8. 23. "[모두의딥러닝] Softmax Regression (Multinomial Logistic Regression)". "https://sshkim.tistory.com/146"
+
+>  argmax 을 사용하면 2라는 값이 나온다. 가장 큰 값의 위치가 2번째에 있는 1이기 때문
+>
+> * JINSOL KIM. 2017. 12. 24. "Softmax vs Sigmoid". https://blog.naver.com/infoefficien/221170205067
+
+
+
+
+
 ## ReLu
 
 * 히든층에 자주 쓰임
@@ -109,7 +198,17 @@ tags:
 
 
 
+------------------
+
+
+
+
+
+
+
 # 학습(compile), 예측(predict)
+
+
 
 ## optimizer
 
@@ -124,11 +223,19 @@ tags:
 
 
 
+
+
+
+
 ## epoch
 
 * `epoch` 수치가 커지면 `optimizer`가 일을 해서 local이 아닌 global을 찾아간다.
 * 그런데 너무 크면 overfitting
 * 따라서 적당한 `epoch` 설정이 필요 
+
+
+
+
 
 
 
@@ -141,13 +248,29 @@ tags:
 
 
 
+
+
+
+
+-----------------------
+
+
+
+
+
+
+
+
+
 # NLP & DL
+
+
 
 * SGNS
 
 | 용어          | 설명                      | CODE                                | 참고                             |
 | ------------- | ------------------------- | ----------------------------------- | -------------------------------- |
-| pre-trained   | SKNS에서 학습한 We를 적용 | model.layers[1]**.set_weights**(We) | 해당 code 적용 후 model fit 진행 |
+| pre-trained   | SGNS에서 학습한 We를 적용 | model.layers[1]**.set_weights**(We) | 해당 code 적용 후 model fit 진행 |
 |               |                           |                                     |                                  |
 | fine-training |                           |                                     |                                  |
 
@@ -205,7 +328,19 @@ tags:
 
 
 
+----------------------
+
+
+
+
+
+
+
+
+
 # 기타
+
+
 
 ## 유클리디안 거리
 
@@ -216,6 +351,7 @@ tags:
   ```
 
 
+
 ## 가중치 저장(Save)
 
 * Embedding (left side) layer의 W를 저장할 때, [2]를 저장한단 사실 알아두기
@@ -224,5 +360,6 @@ tags:
   with open('data/embedding_W.pickle', 'wb') as f:
       pickle.dump(model.layers[2].get_weights(), f, pickle.HIGHEST_PROTOCOL)
   ```
+
 
 
