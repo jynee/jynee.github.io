@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Aug 2020 17:35:57 GMT</lastBuildDate><item><title><![CDATA[TQT]]></title><description><![CDATA[TQT(The question I asked the teacher today.) Dense : fully connected…]]></description><link>https://jynee.github.io/TQT/</link><guid isPermaLink="false">https://jynee.github.io/TQT/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;TQT(The question I asked the teacher today.)&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Aug 2020 09:56:48 GMT</lastBuildDate><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[Hyper parameter alpha:처음에는 적당히 높게 Epoch=1. 점차 alpha를 줄여 나간다 => weight decay / annealing Dense : fully connected…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hyper-parameter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hyper-parameter&quot; aria-label=&quot;hyper parameter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hyper parameter&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;alpha:처음에는 적당히 높게 Epoch=1. 점차 alpha를 줄여 나간다 =&gt; weight decay / annealing&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;dense&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dense&quot; aria-label=&quot;dense permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dense&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Dense&lt;/code&gt;: fully connected&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ANN(FNN)&lt;/code&gt;에서는 여러 &lt;code class=&quot;language-text&quot;&gt;Dense&lt;/code&gt;를 써도 되지만, &lt;code class=&quot;language-text&quot;&gt;RNN(LSTM)&lt;/code&gt;에선 마지막 층에서만 &lt;code class=&quot;language-text&quot;&gt;Dense&lt;/code&gt;를 써야함.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CNN&lt;/code&gt;에서는 여러 &lt;code class=&quot;language-text&quot;&gt;Dense&lt;/code&gt; 써도 됨  ##?#?#??#?#???&lt;/li&gt;
-&lt;li&gt;=&gt; 일단... &lt;code class=&quot;language-text&quot;&gt;lstm&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;lstm() → Dense → lstm()&lt;/code&gt;은 &lt;code class=&quot;language-text&quot;&gt;lstm 네트워크가 2개&lt;/code&gt; 만들어진다고 보면 됨. &lt;code class=&quot;language-text&quot;&gt;lstm() → Dense&lt;/code&gt; 했을 때, &lt;code class=&quot;language-text&quot;&gt;1개의 네트워크&lt;/code&gt;가 형성된 것&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CNN&lt;/code&gt;에서는 여러 &lt;code class=&quot;language-text&quot;&gt;Dense&lt;/code&gt; 써도 될까?&lt;/li&gt;
+&lt;li&gt;=&gt; 일단... &lt;code class=&quot;language-text&quot;&gt;lstm&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;lstm() → Dense → lstm()&lt;/code&gt;은 &lt;code class=&quot;language-text&quot;&gt;lstm 네트워크가 2개&lt;/code&gt; 만들어진다고 보면 된다. &lt;code class=&quot;language-text&quot;&gt;lstm() → Dense&lt;/code&gt; 했을 때, &lt;code class=&quot;language-text&quot;&gt;1개의 네트워크&lt;/code&gt;가 형성된 것&lt;/li&gt;
 &lt;li&gt;=&gt; 그리고 &lt;code class=&quot;language-text&quot;&gt;CNN&lt;/code&gt;은 일종의 잘 짜여진 레시피라서 &lt;code class=&quot;language-text&quot;&gt;con1D → pooling → Dense → con1D → pooling&lt;/code&gt;은 위 &lt;code class=&quot;language-text&quot;&gt;lstm&lt;/code&gt;처럼 좀 이상한 네트워크 구조가 되는 거라 생각함...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Dense(1, activation=&apos;sigmoid&apos;)&lt;/li&gt;
-&lt;li&gt;==LSTM에서 FNN으로 보내는 마지막 Dense에선 relu 쓰면 안됨==&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LSTM에서 FNN으로 보내는 마지막 Dense에선 relu 쓰면 안됨&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;fnn순방향-신경망&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fnn%EC%88%9C%EB%B0%A9%ED%96%A5-%EC%8B%A0%EA%B2%BD%EB%A7%9D&quot; aria-label=&quot;fnn순방향 신경망 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FNN(순방향 신경망)&lt;/h1&gt;
 &lt;ul&gt;
@@ -107,6 +110,14 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;/table&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;lstm과-cnn의-차이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lstm%EA%B3%BC-cnn%EC%9D%98-%EC%B0%A8%EC%9D%B4&quot; aria-label=&quot;lstm과 cnn의 차이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LSTM과 CNN의 차이&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;둘다 (흐름을 보는)시계열 데이터에 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;LSTM과 CNN1D는 기능은 비슷하지만 CNN1D는 table 中 &lt;strong&gt;(colum 전체+n row)아래 방향으로의 흐름&lt;/strong&gt;을 보는 거고, &lt;/li&gt;
+&lt;li&gt;LSTM은 bidirectional 을 사용해서 table 中 &lt;strong&gt;위/아래로 흐름&lt;/strong&gt;을 이동시켜서 볼 수 있다.&lt;/li&gt;
+&lt;li&gt;CNN2D는 kernel_size, pooling 등을 통해 tabel 中 &lt;strong&gt;(n colum(일부분) + n row(일부분) = 내가 focus를 맞춰 보고 싶은 부분)에 따라 그 흐름을 볼 수 있다는 데&lt;/strong&gt;서 차이가 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;markdown-images/image-20200805122723206.png&quot; alt=&quot;image-20200805122723206&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;activation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#activation&quot; aria-label=&quot;activation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;activation&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -160,6 +171,41 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;softmax---sigmoid&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#softmax---sigmoid&quot; aria-label=&quot;softmax   sigmoid permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;softmax - sigmoid&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;회귀&lt;/td&gt;
+&lt;td&gt;항등함수(출력값을 그대로 반환)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;분류(0/1)&lt;/td&gt;
+&lt;td&gt;sigmoid&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;분류(multiple)&lt;/td&gt;
+&lt;td&gt;softmax&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt; Cross-Entropy : 예측한 값과 실제값의 차를 계산. entropy 값이 감소하는 방향으로 진행하다 보면 최저 값을 찾을 수 있다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sshkim Sh.TK. 2017. 8. 23. &quot;[모두의딥러닝] Softmax Regression (Multinomial Logistic Regression)&quot;. &quot;&lt;a href=&quot;https://sshkim.tistory.com/146&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://sshkim.tistory.com/146&lt;/a&gt;&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt; argmax 을 사용하면 2라는 값이 나온다. 가장 큰 값의 위치가 2번째에 있는 1이기 때문&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JINSOL KIM. 2017. 12. 24. &quot;Softmax vs Sigmoid&quot;. &lt;a href=&quot;https://blog.naver.com/infoefficien/221170205067&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blog.naver.com/infoefficien/221170205067&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&quot;relu&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#relu&quot; aria-label=&quot;relu permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ReLu&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;히든층에 자주 쓰임&lt;/li&gt;
@@ -170,6 +216,7 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h1 id=&quot;학습compile-예측predict&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%99%EC%8A%B5compile-%EC%98%88%EC%B8%A1predict&quot; aria-label=&quot;학습compile 예측predict permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;학습(compile), 예측(predict)&lt;/h1&gt;
 &lt;h2 id=&quot;optimizer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optimizer&quot; aria-label=&quot;optimizer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;optimizer&lt;/h2&gt;
 &lt;ul&gt;
@@ -213,6 +260,7 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h1 id=&quot;nlp--dl&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp--dl&quot; aria-label=&quot;nlp  dl permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP &amp;#x26; DL&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;SGNS&lt;/li&gt;
@@ -229,7 +277,7 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;pre-trained&lt;/td&gt;
-&lt;td&gt;SKNS에서 학습한 We를 적용&lt;/td&gt;
+&lt;td&gt;SGNS에서 학습한 We를 적용&lt;/td&gt;
 &lt;td&gt;model.layers[1]&lt;strong&gt;.set_weights&lt;/strong&gt;(We)&lt;/td&gt;
 &lt;td&gt;해당 code 적용 후 model fit 진행&lt;/td&gt;
 &lt;/tr&gt;
@@ -289,6 +337,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
                             name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;embedding&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h1 id=&quot;기타&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%ED%83%80&quot; aria-label=&quot;기타 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기타&lt;/h1&gt;
 &lt;h2 id=&quot;유클리디안-거리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%94%94%EC%95%88-%EA%B1%B0%EB%A6%AC&quot; aria-label=&quot;유클리디안 거리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;유클리디안 거리&lt;/h2&gt;
 &lt;ul&gt;
@@ -304,51 +353,4 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;data/embedding_W.pickle&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wb&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
   pickle&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dump&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;layers&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pickle&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;HIGHEST_PROTOCOL&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Tag, 태그 게시물 예제]]></title><description><![CDATA[게시물에 태그를 지정할 수 있습니다. 해당 게시물의 Markdown YAML Front matter은 아래와 같습니다. 가이드의 Markdown YAML Front matter를 참고하세요. 자세한 가이드는 Documents를 확인해주세요.]]></description><link>https://jynee.github.io/tag-post-example/</link><guid isPermaLink="false">https://jynee.github.io/tag-post-example/</guid><pubDate>Sun, 24 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;게시물에 태그를 지정할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;해당 게시물의 Markdown YAML Front matter은 아래와 같습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
-title: Tag, 태그 게시물 예제
-date: 2019-07-30
-tags:
-  - tag
-  - 태그
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;가이드의 Markdown YAML Front matter를 참고하세요.&lt;/p&gt;
-&lt;p&gt;자세한 가이드는 &lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Image, 이미지 게시물 예제]]></title><description><![CDATA[이미지 파일이 첨부된 게시물의 예제입니다. 폴더를 만들고 폴더의 제목이 해당 게시물의 주소가 됩니다. 게시물 파일명은 index.md 로 합니다. 이미지 파일은 폴더 내에 위치시킵니다. 자세한 가이드는 Documents를 확인해주세요.]]></description><link>https://jynee.github.io/image-post-example.md/</link><guid isPermaLink="false">https://jynee.github.io/image-post-example.md/</guid><pubDate>Sun, 24 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/c0566/screenshot.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB00lEQVQ4y52SW2sUMRiG1+qN3uwhx0nmkMOeatei9G8I/igPoAi6IuKVf05hL6wj88lQaNHxzW531SKWNfDwJZnkmTchvR7aiXe3HxxX3ATLjDbMmA0WZFnGQggsxsi01uv5NHcFjvk7vW1bWPt4cWjPZKk/SiFXUv5CcL4qy3LlqmrF0VdKXeUT+Ia1z3dCIfgbrWWnpGiUlC0WtPI30lhp3WJTK4RsGeMt5FtICNExxt7vhEqJ16Gquli5L7MQmqM4bu77RGwWGN8bx2bufFNWFTAN1jeciwaiRA2+Q/huJ5R5viwWR115fFLLOCVtDAWmKI40WS6oshk5KckYVC8ozwVdJoOYf0X98YcwM2Y5mR12k/mins7vEpJQVhSUo5bOky1KMhhjHY1GnHDkJEvSvwsxsayc65xztfcBKQLF8YR8jOh7KpIsM2vJln8mNNYsy+msG/pYMyRK6SbC0hTkSpMvcAVa46iWwlhSXlwjlJwvM607JmXNcVcCSKRQfJNGbpEbrk04YuwVPnR4c59R6z05hfACwrc7YXpDeGMdPpynv+3JRdoLx4edsN/vPxwMBi9Rn6A+2wfseYr6AvXRWjYcDm9ceg/ALXDzPzjYun4C4yPqy09MVMcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;screenshot&quot;
-        title=&quot;screenshot&quot;
-        src=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/fcda8/screenshot.png&quot;
-        srcset=&quot;/static/483b2386e38636bd5d9e7357b4c6796b/12f09/screenshot.png 148w,
-/static/483b2386e38636bd5d9e7357b4c6796b/e4a3f/screenshot.png 295w,
-/static/483b2386e38636bd5d9e7357b4c6796b/fcda8/screenshot.png 590w,
-/static/483b2386e38636bd5d9e7357b4c6796b/efc66/screenshot.png 885w,
-/static/483b2386e38636bd5d9e7357b4c6796b/c83ae/screenshot.png 1180w,
-/static/483b2386e38636bd5d9e7357b4c6796b/c0566/screenshot.png 1544w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;이미지 파일이 첨부된 게시물의 예제입니다.&lt;/p&gt;
-&lt;p&gt;폴더를 만들고 폴더의 제목이 해당 게시물의 주소가 됩니다.&lt;/p&gt;
-&lt;p&gt;게시물 파일명은 index.md 로 합니다.&lt;/p&gt;
-&lt;p&gt;이미지 파일은 폴더 내에 위치시킵니다.&lt;/p&gt;
-&lt;p&gt;자세한 가이드는 &lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Borderless Documents]]></title><description><![CDATA[블로그를 본인에 맞춰 커스터마이징하려면 우선 config.js의 수정이 필요합니다. Documents를 확인해주세요.]]></description><link>https://jynee.github.io/first-post/</link><guid isPermaLink="false">https://jynee.github.io/first-post/</guid><pubDate>Sat, 23 Mar 1991 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;블로그를 본인에 맞춰 커스터마이징하려면 우선 config.js의 수정이 필요합니다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/junhobaik/junhobaik.github.io/wiki/Document-(Borderless)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Documents&lt;/a&gt;를 확인해주세요.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item></channel></rss>
