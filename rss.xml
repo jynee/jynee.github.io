@@ -1,4 +1,948 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 07 Aug 2020 06:41:50 GMT</lastBuildDate><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[Hyper parameter (annealing): epoch(alpha)를 처음에는 적당히 높게 했다가, 점차 줄여 나가는 방법 Dense : fully connected…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hyper-parameter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hyper-parameter&quot; aria-label=&quot;hyper parameter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hyper parameter&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Aug 2020 04:07:29 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+EX…]]></description><link>https://jynee.github.io/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;비모수적방법&lt;/strong&gt;으로도 비교적 정확한 &lt;strong&gt;sampling이 가능&lt;/strong&gt;함 &lt;/li&gt;
+&lt;li&gt;위조 데이터 생성 및 판별에 사용
+EX) 이미지 색깔(색칠) 해주는 프로그램, 딥페이크 영상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz31Su0oDURC9iBZaWfgZfomIH2BroYVEJCAWYqdfIGgKwcLaSkHsBEXUwsJCELNJ1GiMicnmscnexx5n7j7cQOKBKfbOzpk5Z0ZgBIIgsMHQxkDqvwhzSPLpf8V/hAxjAvSlTt4VEfaib005qQOYFLGI2YdFUqQ0+sqg1pa2uOlJ+z5M0dAJFXXlAi5mIl/p5J2D2mDv0sV87guHN23kv2VSayfk4jjiydLoSYWur+GRVNdTlnDrtA6x/ILxjIPZ3XcUaj1rhVAm9ISnYPMrrsT22Q8e3vp4rkrsnDfwWPbISyIkUpZLziJ7QoRLecxsvmLxqIpqyw8J7dYQSmN8ugpitYCpbAnTGyWawsF1vhtNaqwKpTUunjyS28JHUw2oESoirHckTWmok8JYpoiJNQeT6wWIFQe3BY9tp5y0ltQ7/sgzs4Qqui1GuSExt1/BwVULx/cdLOQquCt2kyK2hqXxkuOTSV+GXQrfGRvPkb65GOm8JTPBwK2mF/kL+MP0X/SgmJAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728184326510&quot;
+        title=&quot;image 20200728184326510&quot;
+        src=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png&quot;
+        srcset=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/12f09/image-20200728184326510.png 148w,
+/static/ff466a3851f29e6c207a88c4333ce60e/e4a3f/image-20200728184326510.png 295w,
+/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png 590w,
+/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://www.naverlabs.com/storyDetail/44&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.naverlabs.com/storyDetail/44&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;그림-보충-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%A6%BC-%EB%B3%B4%EC%B6%A9-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;그림 보충 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그림 보충 설명:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Real&lt;/code&gt;: 실제 데이터(이미지, 음성 등)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Input&lt;/code&gt;: 랜덤 데이터. &lt;strong&gt;노이즈 섞인 것&lt;/strong&gt;. 	&lt;em&gt;But,&lt;/em&gt; Generator 통과하면, Real data 같은 것으로 변환돼 나온다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;생성자&lt;/code&gt;. &lt;strong&gt;진짜 같은 가짜(Fake) 생성&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;판별자&lt;/code&gt;. &lt;strong&gt;실제 데이터(Real)와 가짜 데이터(Fake)를 판별&lt;/strong&gt;함&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;즉-총-2개의-네트워크-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A6%89-%EC%B4%9D-2%EA%B0%9C%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;즉 총 2개의 네트워크 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;즉, 총 2개의 네트워크 사용:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;: real or fake 판별자&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;: fake 생성자&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;gan의-loss-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan%EC%9D%98-loss-function&quot; aria-label=&quot;gan의 loss function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gan의 loss function:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;minGmaxDV(D,G) = logD(x) + log(1-D(G(z)))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;학습을 반복하여 (Pg = Pdata가 되어) Discriminator가 구별 불가능인 상태(‘D(x)=0.5’)로 수렴하도록
+→ 마치 Generator가 x를 만들어낸 것처럼 됨 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Discriminator&lt;/th&gt;
+&lt;th&gt;Generator&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;엔트로피 최대화&lt;/td&gt;
+&lt;td&gt;엔트로피 최소화&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;엔트로피: 정보의 가치(정보량)과 ~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1)&lt;/strong&gt;  &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;&lt;/strong&gt;(network): &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;maxV(D, G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(x) = 1 and D(G(z)) = 0일 때 최대&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 1이 되고, D(x)가 1이 되니까&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/strong&gt; network: &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;minV(G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(G(z)) = 1 일 때 최소. 이때(D(x)는 상관 X)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 0이 되니까&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;원리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EB%A6%AC&quot; aria-label=&quot;원리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원리:&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABSUlEQVQoz31R2W7DMAzL//9c99Khd9cka27ncNw0jm1OUtECG4oZIGg7MUVK0Xr9idXqA7vdHpvNFvv9QXA8nnA4HBHHiezP5y85Z1kGXiEEwd8V1XWN7XaHJElR5AX4bG433O93zPMsPE0TbnI3wzn3EnuHiFW5MuN6zVCVFS7kSDUK42jIUS7gb22rRPi/FbGq1hpVVSMnh6ppoIhb4kYpctxgtuwswJiFXDsS9QJrA7n3AmO8/BMtyyKC4zii7TqJ+4zHcbUeoUdNDyYMw0OMmQWee2atHZaFBPkRNzxJv5FTtPwSIzmdpJdFUYrzYRhE2Dn/6pX34X1k7/2vaU3kriQhYwwJaWEehLUefR/ozqPrHBVcoNTDFUfl+FwkqskBT5h7pahn7KQnRx3F7/seHaPrpS3MPKgQWNQiTSc0zYyynIWtdfgBzhpml1rCyu4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728185621472&quot;
+        title=&quot;image 20200728185621472&quot;
+        src=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png&quot;
+        srcset=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/12f09/image-20200728185621472.png 148w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/e4a3f/image-20200728185621472.png 295w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png 590w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처: Goodfellow 논문 공식&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;를 k번 학습시키고, &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;를 1번 학습시킨다.&lt;/p&gt;
+&lt;p&gt;→ &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;가 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;보다 더 많이 학습된다.    &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt; / &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;이에 따라&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Real Data와 Fake Data를 구별해내는 &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;는 점점 더 작아져 영향력이 줄어들고,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 점점 더 비슷해지며,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이 적어지고,   &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;KL: G와 D의 정보량의 차이/분산의 차이&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;이럴수록&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​	3-1) &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;가 더 많은 영향력을 행사하고(역할을 하고),&lt;/p&gt;
+&lt;p&gt;​	3-2) &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;를 계산하는 공식 中 [-log4 + 2JSD(Pdata+||Pg)]에서 -log4의 값이 더욱더 &lt;code class=&quot;language-text&quot;&gt;1.38&lt;/code&gt;에 가까워진다.
+​    *&lt;code class=&quot;language-text&quot;&gt;[2JSD(Pdata+||Pg) ]&lt;/code&gt; : &lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이라 보면 됨. &lt;code class=&quot;language-text&quot;&gt;(KL이 작아진다) = (D와 G의 분산이 적다) = (D loss가 1.38에 가깝다)&lt;/code&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;p&gt;   &lt;em&gt;따라서&lt;/em&gt;  &gt;&lt;/p&gt;
+&lt;p&gt;   분별할 수 없이 실제와 가까운 Fake Data가 생성된다.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;위 원리에 따라,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;학습이 안 된 상태에선&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;( = Fake Data. 이때 ‘z’는 input에서 들어온 random data임)&lt;/code&gt;의 분포가 오른쪽으로 치우친 상태로서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;는 1에 가까운 값이 출력되고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt;는 0에 가까운 값이 출력된다.&lt;/p&gt;
+&lt;p&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;: 이때 D와 G는 아래 함수와 같은 상태임&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 377px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.216216216216214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnUlEQVQI1z1PSwqFMBDz/sfxAuJKwR/oQt2KC0EQaj/W/iLTPt4iZCaESSYzxkNrB2LOLYDwA6LGWNKex0WEECClw31bKJU02oVInC2LQp5faFuBpuE4jhf7riOmSaKuOaqKoygY1lXFI+MoUZYs+vteYBgEuk5gnhUyakHG901NKZmObZvGeZrY8rpM1K31cM7De//3UwC1o+9o/gBXXeO5Ghev+wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200728190633284&quot;
+        title=&quot;image-20200728190633284&quot;
+        src=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
+        srcset=&quot;/static/7329e5014c8de29c438849a8359f8ee5/12f09/image-20200728190633284.png 148w,
+/static/7329e5014c8de29c438849a8359f8ee5/e4a3f/image-20200728190633284.png 295w,
+/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png 377w&quot;
+        sizes=&quot;(max-width: 377px) 100vw, 377px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 9.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbklEQVQI1yWMSwqAMAxEvf/1ClYENy3oQvBTbVqbyEji4jHhZZLOe0IIFfvOxrI86HuCcxnjSIixYp4f4zgY01Rsp1772lU3DH92KmsVbFvDujakxLhvMYgEpQhae3FdYg9yFpwnm2d+7VZn9Zofk++YH5r8gOMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200728190622855&quot;
+        title=&quot;image-20200728190622855&quot;
+        src=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png&quot;
+        srcset=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/12f09/image-20200728190622855.png 148w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/e4a3f/image-20200728190622855.png 295w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png 590w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;즉, &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;진짜 (X)&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;가짜 G(z)&lt;/code&gt;를 잘 구별하고, &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 진짜 같은 가짜를 잘 못 만든다&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;학습이 진행되면&lt;/em&gt; &gt; &lt;/p&gt;
+&lt;p&gt;가짜 데이터 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 점점 &lt;code class=&quot;language-text&quot;&gt;Real Data( = X)&lt;/code&gt;의 분포와 유사해지고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt; 값도 점차 커져서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;값은 점차 작아진다 &lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;학습이 완료되면&lt;/em&gt; &gt; &lt;/p&gt;
+&lt;p&gt;Real data와 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 잘 일치하고 “&lt;code class=&quot;language-text&quot;&gt;D(x) = D(G(z)) = 0.5&lt;/code&gt; “로 수렴한다.&lt;/p&gt;
+&lt;p&gt;즉, 임의의 random data를 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;에 입력해 나온 Fake data는 Real data와 유사한 분포 특성을 갖는 데이터가 출력된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.756756756756754%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABCElEQVQY00VR2XKDMAzM//9d+tRMkpeUI4AhYGMDPthq3ZBqZse2jtVKPu37DoK2LAuMMZjnGdZaOOfQdR3Ksvz4CN4ZI0IIOIw8p+NCSykJqYP3HjFERnIBwRjzQgyffPqtnTMO4tMRJAkVar2hKGtoMwlpkrcULDaTJ+lBxSH4TOrcgn54oVM9nHXiS38K2Z2E3ktHt6IbRihJ5GhaVtAMCmY2mKYJqioxjeN7RRvUS6MXBB//R6YyFvN8tjW+LxfUdYvNb3gUD5zPX7LbOZNeb1dU9fNN6HC/31AUP0iiLo9MkuMDqFJrjaqqpIFBjBFKqTwmp1jXVRrVGXwH2XPTNGjbNsdovxtm0E5Ax17BAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728190502482&quot;
+        title=&quot;image 20200728190502482&quot;
+        src=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png&quot;
+        srcset=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/12f09/image-20200728190502482.png 148w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/e4a3f/image-20200728190502482.png 295w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png 590w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;참고:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; &lt;a href=&quot;http://blog.skby.net/gan-generative-adversarial-networks/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://blog.skby.net/gan-generative-adversarial-networks/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;&apos;D(x)는 1에 가까운 값이 출력되고 D(G(z))는 0에 가까운 값이 출력된다&apos;&lt;/p&gt;
+&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GAN 실전 응용]]></title><description><![CDATA[GAN 1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다. fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등) Discrimi의 loss는 maxlog(Dx) + log…]]></description><link>https://jynee.github.io/GAN-v1_2/</link><guid isPermaLink="false">https://jynee.github.io/GAN-v1_2/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+&lt;/br&gt;
+&lt;ul&gt;
+&lt;li&gt;1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다.&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등)&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Discrimi의 loss는 max[log(Dx) + log(1 - DGz)]이고, Generator의 loss는 min[log(Dx + log(1 - DGz))]이다. &lt;/br&gt;&lt;/p&gt;
+&lt;/br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tensorflow에서는 이 loss 함수를 이용하여 직접 GAN을 학습할 수 있지만, &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;Keras에서는 model.fit(), model.train&lt;em&gt;on&lt;/em&gt;batch() 함수에서 target 값을 지정해야 하기 때문에 이 loss로 GAN을 학습할 수 없다 &lt;strong&gt;Keras는 기본적으로 Supervised learning 목적이다.&lt;/strong&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keras에서는 supervised learning 방식으로 바꿔 binary_crossentropy loss 함수를 써서 GAN을 학습하는 것이 보통이다.&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이 코드는 아래 자료를 참조해서 응용했다.&lt;/br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Rowel Atienza, 2018, Advanced Deep Learning with Keras. Chap 4. p.107 ~ p.113&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;아마추어 퀀트, blog.naver.com/chunjein,  2020.04.08&lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;함수들의 기능을 파악하기 쉽도록 순서를 변경하였다.&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h2 id=&quot;basic-code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#basic-code&quot; aria-label=&quot;basic code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Basic CODE&lt;/h2&gt;
+&lt;/br&gt;
+&lt;ul&gt;
+&lt;li&gt;Keras를 이용하여 기본 GAN 모델을 연습한다.&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;file: 딥러닝 8-2.GAN(Kears)&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step1-정규분포로부터-데이터를-샘플링한다br&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step1-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC%EB%A1%9C%EB%B6%80%ED%84%B0-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EC%83%98%ED%94%8C%EB%A7%81%ED%95%9C%EB%8B%A4br&quot; aria-label=&quot;step1 정규분포로부터 데이터를 샘플링한다br permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step1. 정규분포로부터 데이터를 샘플링한다&lt;/br&gt;&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;realData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+realData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step2-network-빌드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step2-network-%EB%B9%8C%EB%93%9C&quot; aria-label=&quot;step2 network 빌드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step2. Network 빌드&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;nDInput &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# nDInput.shape[1] = 1&lt;/span&gt;
+nDHidden &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;
+nDOutput &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+nGInput &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;
+nGHidden &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;
+nGOutput &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nDInput
+
+&lt;span class=&quot;token comment&quot;&gt;## nDInput와 nGOutput는 값이 같아야 함&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getNoise&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;uniform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;m&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; z&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;MyOptimizer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; RMSprop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step3-모델-그림&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step3-%EB%AA%A8%EB%8D%B8-%EA%B7%B8%EB%A6%BC&quot; aria-label=&quot;step3 모델 그림 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step3. 모델 그림&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;Generator &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; Discriminator를 연결한 모델을 생성한다&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+아래 네트워크로 z가 들어가면 DGz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;이 나오도록 G를 학습한다&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+D 네트워크는 업데이트하지 않고&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; G 네트워크만 업데이트한다&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+
+        &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;   Gz   &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;
+  z &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; G &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; D &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; DGz
+        &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;        &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;
+      trainable   &lt;span class=&quot;token keyword&quot;&gt;not&lt;/span&gt; trainable&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step4-객체지향-함수-정의&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step4-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98&quot; aria-label=&quot;step4 객체지향 함수 정의 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step4. (객체지향) 함수 정의&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;0. K.clear_session()&lt;/br&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-discriminator--builddiscriminatorbr&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-discriminator--builddiscriminatorbr&quot; aria-label=&quot;1 discriminator  builddiscriminatorbr permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Discriminator = BuildDiscriminator()&lt;/br&gt;&lt;/h5&gt;
+&lt;h5 id=&quot;2-generator--buildgeneratorbr&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-generator--buildgeneratorbr&quot; aria-label=&quot;2 generator  buildgeneratorbr permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Generator = BuildGenerator()&lt;/br&gt;&lt;/h5&gt;
+&lt;h5 id=&quot;3-gan--buildgandiscriminator-generatorbr&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-gan--buildgandiscriminator-generatorbr&quot; aria-label=&quot;3 gan  buildgandiscriminator generatorbr permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. GAN = BuildGAN(Discriminator, Generator)&lt;/br&gt;&lt;/h5&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step5-학습-세팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step5-%ED%95%99%EC%8A%B5-%EC%84%B8%ED%8C%85&quot; aria-label=&quot;step5 학습 세팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step5. 학습 세팅&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;nBatchCnt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;# Mini-batch를 위해 input 데이터를 n개 블록으로 나눈다. # 333개, 333개, 334개로 쪼개짐 &lt;/span&gt;
+nBatchSize &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; nBatchCnt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 블록 당 Size # nBatchSize: 333개, 333개, 334개 순으로 들어감 &lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; epoch &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# Mini-batch 방식으로 학습한다&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; n &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nBatchCnt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# input 데이터를 Mini-batch 크기에 맞게 자른다&lt;/span&gt;
+        nFrom &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; nBatchSize &lt;span class=&quot;token comment&quot;&gt;#for문 다 돌면 nFrom= 666&lt;/span&gt;
+        nTo &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; nBatchSize &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; nBatchSize &lt;span class=&quot;token comment&quot;&gt;#for문 다 돌면 nTo=1000&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# 마지막 루프이면 nTo는 input 데이터의 끝까지. &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;## 왜 써주냐면 , n=2(마지막)일때 nTo = n * nBatchSize + nBatchSize는 999로 1000이 안되기 땜에.&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; nBatchCnt &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            nTo &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;        &lt;span class=&quot;token comment&quot;&gt;# 학습 데이터를 준비한다&lt;/span&gt;
+        bx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; realData&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nFrom &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nTo&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#진짜 data 형성&lt;/span&gt;
+        bz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; getNoise&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;bx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# bx.shape[0]=333-&gt;333-&gt;334, nGInput=16&lt;/span&gt;
+        Gz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bz&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#진짜 data shape 맞춰서 noise 써가지고 가짜 data 형성(fake data)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 410px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/300cd66c5e4a62c747237923b76d20a9/d68e4/image-20200715110832016.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 102.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAADGUlEQVQ4y4VU2XKbQBDk/38p5Tw4kQ/FkqwbgUBC3OhE6LKjqvb0IGw5FScPU8Ay29PT07vGYRcjX8+wWc1w3Cc4HVK8HDMcdgn2RQz+v459Eb2/M7+Kas2Ypw7Mfh1xMELoDzW8SQ9FHgh4dgGVQrIp3/g47pL3Yvnax1bW1ksPu22k60YaW1jOXamSYrWYKtM4HCGJLA0CFVLZSyzEqymihYuDgAWzoUYSWnDsZ/izgXZmLOcTXWg+3aLVuMVY3gkaBSayZAxr+ISB00JvUIfZqyNIx4iysXRkCoFyb5GH2hnlMkjbc7vaP6mT5W4bqgTbTYDR4BdsrwvbaaMhRa1JB/O1hyyykcY22q0a7mrfMOg9qkTGZuXBlE1kwxaZxKqRADJY5CiVXWl5EPThhEOcTwtMhQT3kAj32KOWMjU44YlUpx4Tp6P6UdNANKmml0tizXzETb8GU0AJGIt2gTfA2GrpXhanAwyiWmZDqZO2Y7d0csFF5MomSym8FSkKCX5Tr/PrAr6AkkBlI4MDKAXNVDMGk1mV76X3JJk+K8rgt9pEALrtex0gXaIM2fJQfMhFsmKwAHUkYNl22fr+3eDl9+tpjrXMgIN9Oc5LH/Jj6nY0gdNlu3zOxNz8d30KDleAzGHx2bQn0deOyNygTWjuLHHgy49F5uopIWOy/xsgp06pSKTV/KG5BCYZg06nNZ6bP1F/+I6H+xuxj61TzFdfAO5LQErDvNA3laXahgzpv1iCnswSW9th0pcML4BkxUGQEC1HzS8+LDUkIMHOr0ut/hWgaihAJOLK8OhH+lc1LMUdqsDUIpR33+urYSvbXF9dBKps9HLK0BXvroTIbzG7AjKRBuZPts+hUFwO5lObtAnNzFwORf67cgwbnTtMIhNzAeXVZlSVaWZr1NDTQn991kzuQgEYC0DTbSJdTjBLbWWXi36RyOMKaCFmNw5/mJUSXN/K19GZtnFn1eHEJmI5bryBHJGGt83Ik0u5+AT472DLvGzPciLYMrWMhelUbqFxNMSCFqta/n98HL2K/cdNFOj6SazEvDfbQBgvvvdP4gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200715110832016&quot;
+        title=&quot;image-20200715110832016&quot;
+        src=&quot;/static/300cd66c5e4a62c747237923b76d20a9/d68e4/image-20200715110832016.png&quot;
+        srcset=&quot;/static/300cd66c5e4a62c747237923b76d20a9/12f09/image-20200715110832016.png 148w,
+/static/300cd66c5e4a62c747237923b76d20a9/e4a3f/image-20200715110832016.png 295w,
+/static/300cd66c5e4a62c747237923b76d20a9/d68e4/image-20200715110832016.png 410w&quot;
+        sizes=&quot;(max-width: 410px) 100vw, 410px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/br&gt;
+&lt;h5 id=&quot;discriminator--builddiscriminator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#discriminator--builddiscriminator&quot; aria-label=&quot;discriminator  builddiscriminator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Discriminator = BuildDiscriminator()&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;    	&lt;span class=&quot;token comment&quot;&gt;### &amp;lt; Discriminator를 학습한다. &gt; ###&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# Real data가 들어가면 Discriminator의 출력이 &apos;1&apos;이 나오도록 학습하고,&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# Fake data (Gz)가 들어가면 Discriminator의 출력이 &apos;0&apos;이 나오도록 학습한다.&lt;/span&gt;
+        &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;target data 만들기&quot;&quot;&quot;&lt;/span&gt;
+        target &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        target&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; bx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.9&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;# &apos;1&apos; 대신 0.9로 함&lt;/span&gt;
+        target&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;bx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;# &apos;0&apos; 대신 0.1로 함&lt;/span&gt;
+        &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;target data 형성 완료&quot;&quot;&quot;&lt;/span&gt;
+        
+        bx_Gz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;concatenate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;bx&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Gz&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# D 학습 &lt;/span&gt;
+        Dloss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;train_on_batch&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bx_Gz&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; target&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+        &lt;span class=&quot;token comment&quot;&gt;#real data &amp;amp; fake data 모두가 D를 거치게 한다. &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;##참고: fit 함수보다 train_on_batch 쓰는 게 더 속도가 빨라서 이거 씀&lt;/span&gt;
+ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 310px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/98081371ab2415f2244c7b50905f4563/5fad2/image-20200715110841184.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.8108108108108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAAC2UlEQVQ4y2VUaXeaUBDl//+Mfm97emo/tGlimibGeFww7iiKuIAI4sbiktzOjGBM+uEdYHjvzr13Zp4SbCwEWwtxYCOiFW5tbDdTiQX05Nh2PcEumCFKYiE9eQUX36d3CwoHGMy0NcwXQwE7hA524UyWvxzhEDmw3D5Wq7GAMgA/0yRRQojJKIzKG2xvIAcaZg1PegntcQN1o4q7dh4VQ0VrVMeS/gs7OrMm1s7CkISb9RSOZ8h5JTxntHGMXVS6JXz9k0G2lEWufIdiNYcf+Z/wfJMYOyKL2YycLr5XbpCh9SmXwb1WEPlKqp99Yr9Wngm9UxY5LP0Yz6FrKhbEIAptOcT7eS+zZJvmxHTD50+STx4e6fDLzsXSG6LfUyXBwjUQk49GvyZx8TXxjYmwXJfA9hQPkwIpMW2YzHU8dgpQyTNvYaJefUSNpGavM1jSNwNqwzrMWRe59hNsKtCeCrVcjsWKU3eckijsS9/SyIssrpsP6Jh1dJpFVEp/MRm1xDPTaGDuDuCvx9AmLTJ/ImxdfyjgzDpIAVMP2QPsPfgkrcceEoOVPxLZzHhFTOOz5DdG6/VbKwlg2jYhNyhRXxCTQv4GA70KvVvBxGyh2XiSRCxNikJrR+8Dq4MZtVt8jltvbZNOhU/VHA5qeD36wvLlsKDvugAyQ+kI2suFYE+n5P8uKcpZcph0+uvOE2kMyP5Zk86HKjsid59M0pT8qw5UKVDwXrJNnT4Uww1aIypCo5bH71/fUCzcot9V4c5pkshnl6qqT9vSozOyp0f7GVzuBJbMGXlkvhSv8Ll0hZvGPZrtokjkSj+rDzD0ZwE0Zz2U9bKsF2p4l5raoDtAPPwomX+ylJjbqFel2FR8BFYCyN4eCCQdvSjx8vLC+M9DmRoC5LYx+s9UZZXGroJOqySTE14cDJPxiz7Ezm2TtkNEfeY6Ouyphg1lX9N4pWDpnvd34MX9SFj/AOky8Iew8ES7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200715110841184&quot;
+        title=&quot;image-20200715110841184&quot;
+        src=&quot;/static/98081371ab2415f2244c7b50905f4563/5fad2/image-20200715110841184.png&quot;
+        srcset=&quot;/static/98081371ab2415f2244c7b50905f4563/12f09/image-20200715110841184.png 148w,
+/static/98081371ab2415f2244c7b50905f4563/e4a3f/image-20200715110841184.png 295w,
+/static/98081371ab2415f2244c7b50905f4563/5fad2/image-20200715110841184.png 310w&quot;
+        sizes=&quot;(max-width: 310px) 100vw, 310px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/br&gt;
+&lt;h6 id=&quot;def-builddiscriminator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#def-builddiscriminator&quot; aria-label=&quot;def builddiscriminator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;def BuildDiscriminator()&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Discriminator를 G. D 각각 생성한다&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;BuildDiscriminator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;batch_shape &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nDInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    h &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nDHidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;relu&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Dx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nDOutput&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;sigmoid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#0이면 가짜, 1이면 진짜로 하려고 sigmoid를 출력값으로 &lt;/span&gt;
+    model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Dx&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;binary_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; optimizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; MyOptimizer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;token comment&quot;&gt;#sigmoid 짝꿍 binary_crossentropy를 loss에 넣어서 1과 0 값이 출력되게 함 &lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; model&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h5 id=&quot;gan--buildgandiscriminator-generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan--buildgandiscriminator-generator&quot; aria-label=&quot;gan  buildgandiscriminator generator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN = BuildGAN(Discriminator, Generator)&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;### &amp;lt; Generator를 학습한다. &gt; ###&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Fake data (z --&gt; Gz --&gt; DGz)가 들어가도 Discriminator의 출력이 &apos;1&apos;이 나오도록 Generator를 학습한다.&lt;/span&gt;
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;target data 만들기&quot;&quot;&quot;&lt;/span&gt;
+target &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.9&lt;/span&gt;
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;target data 형성 완료&quot;&quot;&quot;&lt;/span&gt;
+        
+Gloss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; GAN&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;train_on_batch&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bz&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; target&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;token comment&quot;&gt;## GAN 함수 참고: D는 위에서 학습해서 여기선 학습 안 하고 G만 학습 &lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 어떤 학습? 가짜 data가 들어가면 target이 전부 1로 출력되도록(Discriminator가 전부 진짜로 판별하도록)! &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 448px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/97569fb6e53b4464c4b19ffaa74c0241/33b38/image-20200715110850214.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABsElEQVQoz11T2VLCQBDM/3+Gj/oNPmhpiSAhIEeICSHk2oT7Ri1rnJ6wIfCwtdmdmZ7uno1x2KV03Gd0OmS8K8L5dFC03ya0XoZ8VhKb5R6tFhP6OU0ljjvk6oV87AZAZvlI1nzq024TC9DY69CgV6c0dmiqPDI/nsnuN8jn+1nmkUoc2qzCM5AqyRjo6DoWdaxXGnTrtJwHNHIt8pwW9T7fOdaiwO/yd43B2txgKDkAbzaeyDJfhIAmYxR0Uz4UEtEJctLIJsduilTE3aFJYdA/W5Ixu0hiOLcY9OH+TuJG1YfjvvACoFj6GzvkbdexyEPu9zEvm0/ZgjDoicfGrbFIgiRIiyZ9ypVbgqA4Zz/BPGEFeni410NlwEQkaUAE0A2+wZcJf0OeZh2HAwH03bZ4puvKKV8Y6m5KgGpvjzLlJLSlcDzqyITBGKBgj3s9Xb2uAAsflXiRqy/6+51L8XYdiQ0YGp6RAAZVQHUNWJWMhMVsTF+2yT4NhZUuxCCiyUDeIGzRkq8e9i1DvcAK3uE5lQUMCpYYCJpW5WpSxuXJVAFVOYRbjzTTy69XlazoHzpngHnz2qseAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200715110850214&quot;
+        title=&quot;image-20200715110850214&quot;
+        src=&quot;/static/97569fb6e53b4464c4b19ffaa74c0241/33b38/image-20200715110850214.png&quot;
+        srcset=&quot;/static/97569fb6e53b4464c4b19ffaa74c0241/12f09/image-20200715110850214.png 148w,
+/static/97569fb6e53b4464c4b19ffaa74c0241/e4a3f/image-20200715110850214.png 295w,
+/static/97569fb6e53b4464c4b19ffaa74c0241/33b38/image-20200715110850214.png 448w&quot;
+        sizes=&quot;(max-width: 448px) 100vw, 448px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/br&gt;
+&lt;h6 id=&quot;def-buildgand-g&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#def-buildgand-g&quot; aria-label=&quot;def buildgand g permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;def BuildGAN(D, G)&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;BuildGAN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;D&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; G&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 전체 NETWORK Build &lt;/span&gt;
+    D&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;trainable &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;# Discriminator는 업데이트하지 않는다= 학습하지 않는다. 왜냐면 자체적으로 위에서 학습했으니까. 따라서 G만 학습됨 &lt;/span&gt;
+    z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;batch_shape&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Gz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; G&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    DGz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; D&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Gz&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; DGz&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#z가 들어가면 최종적으로 DGz가 나온다. &lt;/span&gt;
+    model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;binary_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; optimizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; MyOptimizer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.0005&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# binary_crossentropy: 출력값이 0 아니면 1 나오도록&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; model&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h6 id=&quot;def-builddiscriminator--discriminator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#def-builddiscriminator--discriminator&quot; aria-label=&quot;def builddiscriminator  discriminator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;def BuildDiscriminator() = Discriminator&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Discriminator를 G. D 각각 생성한다&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;BuildDiscriminator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;batch_shape &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nDInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    h &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nDHidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;relu&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Dx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nDOutput&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;sigmoid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#0이면 가짜, 1이면 진짜로 하려고 sigmoid를 출력값으로 &lt;/span&gt;
+    model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Dx&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;binary_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; optimizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; MyOptimizer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;token comment&quot;&gt;#sigmoid 짝꿍 binary_crossentropy를 loss에 넣어서 1과 0 값이 출력되게 함 &lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; model&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h6 id=&quot;def-buildgenerator--generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#def-buildgenerator--generator&quot; aria-label=&quot;def buildgenerator  generator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;def BuildGenerator() = Generator&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Generator를 생성한다 &lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# G는 여기서 학습 안 하므로 &apos;.complie&apos; 안 함 &lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;BuildGenerator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
+    z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;batch_shape &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    h &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nGHidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;relu&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Gz &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nGOutput&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activation&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;linear&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Gz&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h5 id=&quot;kd--klraldata-fakedata&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kd--klraldata-fakedata&quot; aria-label=&quot;kd  klraldata fakedata permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;kd = KL(ralData, fakeData)&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; epoch &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; getNoise&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        fakeData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  
+        &lt;span class=&quot;token comment&quot;&gt;# Generator = BuildGenerator()에서 만든 Model(z, Gz)를 활용하여, &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# &quot;model.predict(z=노이즈 data)&quot; 하라는 뜻 &lt;/span&gt;
+        kd &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; KL&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fakeData&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;epoch = %d, D-Loss = %.3f, G-Loss = %.3f, KL divergence = %.3f&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;epoch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Dloss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Gloss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kd&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# Dloss: 0.6932636 , Gloss: 0.6933405 , kd: 0.2189525518812676 = 분산이 적다&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;h6 id=&quot;def-kl&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#def-kl&quot; aria-label=&quot;def kl permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;def KL&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 두 분포 (P, Q)의 KL divergence를 계산한다.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;KL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;P&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 두 데이터의 분포를 계산한다&lt;/span&gt;
+    histP&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; binsP &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;histogram&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;P&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bins&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    histQ&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; binsQ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;histogram&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Q&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bins&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;binsP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# 두 분포를 pdf로 만들기 위해 normalization한다.&lt;/span&gt;
+    histP &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; histP &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;histP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    histQ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; histQ &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;histQ&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# KL divergence를 계산한다&lt;/span&gt;
+    kld &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;histP &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;log&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;histP &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;log&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;histQ &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; kld&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;plt&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#plt&quot; aria-label=&quot;plt permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;plt&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# real data 분포 (p)와 fake data 분포 (q)를 그려본다&lt;/span&gt;
+z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; getNoise&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nGInput&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fakeData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;figure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;figsize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+sns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;set_style&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;whitegrid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+sns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;kdeplot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;realData&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; color&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;blue&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bw&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; label&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Real&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+sns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;kdeplot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fakeData&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; color&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;red&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bw&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; label&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Fake&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;legend&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Distibution of real and fake data&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 487px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c2ef4c0767c4f98f9747be8c0cb92d40/7b439/image-20200809130155797.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.86486486486486%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABtUlEQVQ4y3VTDbObIBD0///GtvNeGicaH6h8iICwPY5Ikr5Wh1G55W5v9+xijDiO422llPg5jiP6vseXEJimO+7TiGEYeN97z7hEOB8zQqh5OmstB1+TlfUslJBThPkcsNw0Mt3vxQ9o4XC7DphniW7bNsoeWqKycs4teQZwLAryaiB/CWwm0k7mQowhbN4dnDWwlIsZviYsyVpCOlSu9VMQOCMai/mieC89GDK+lKBnOd9prf/fciYWbof8mBFZrwDxU1CssiuYU8fyXta3lk+GMR7MRI0W7ktVFkjQ/QK7+KbliT+N7IwxT8de1sEMQYwkUnGQ9cxw84blulZt47Ojs8Nu3/fm6LsxCVYFrBfJTJsktGwvucA/GZ4a/s2wsFl/zwhqYzbNBHoPYqV9yw4zPj9HqXPOsYZn9eJsOeQ1tfYhqqOl+gujgyTYbxNr+q3l5nIJoI5AucSPO7VcxT8PsKuPghsZtV5qwYqp8cYwB49ArNzqiJmEnVRjd2rUpuAx8OqmYK4S3ngilXjYebBj+R81BUcJMyievT14Zn6KXszjwo/vQLFIv2TcPJww0LrgA/4A4XP6fxf+uRsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200809130155797&quot;
+        title=&quot;image-20200809130155797&quot;
+        src=&quot;/static/c2ef4c0767c4f98f9747be8c0cb92d40/7b439/image-20200809130155797.png&quot;
+        srcset=&quot;/static/c2ef4c0767c4f98f9747be8c0cb92d40/12f09/image-20200809130155797.png 148w,
+/static/c2ef4c0767c4f98f9747be8c0cb92d40/e4a3f/image-20200809130155797.png 295w,
+/static/c2ef4c0767c4f98f9747be8c0cb92d40/7b439/image-20200809130155797.png 487w&quot;
+        sizes=&quot;(max-width: 487px) 100vw, 487px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h2 id=&quot;cnn-gan-dcgan-code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cnn-gan-dcgan-code&quot; aria-label=&quot;cnn gan dcgan code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CNN GAN (DCGAN) CODE&lt;/h2&gt;
+&lt;/br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;사용한 함수 총 5개:&lt;/br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;def build&lt;em&gt;generator(inputs, image&lt;/em&gt;size)&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;def build_discriminator(inputs)&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;def train(models, x_train, params)&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;def build&lt;em&gt;and&lt;/em&gt;train&lt;em&gt;models(load&lt;/em&gt;W = False, train_steps = 100)&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;def plot_images():&lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4867ffac049680dfe4dd33daef7986d9/573d3/image-20200809130207635.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.10810810810811%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQoz3VTS67CMBDrwTkBF+A8bNiwYc8CEC08+qOl/1/m2UNSFSQijRoRx/Z4gic/ljFGDDfDIH1VSVXXUvGL6vv+A7dcnl78VURMk1R5LhmKZF3XaY0QGsfxkxRfb1b6duh+w6XYD8S/3STLMilBWjeNVgviGWtJPQMHhkptJxPaYnsDvgZgFlWropAIhNH9LsH5LOnjAUyjcRi0bxZOPdO2YmgfilUYSRRFkj+f0pMQQCXmOaoDNsZ5Ese6n2iG95t2QWhb7KCUI6c7XKRpKg0EXEZcbI8YCr5eL2ks4fdwdChlWWrgSZLI5XKRMAylQJszITCcLH87nU4qWtupFyBnVLNDtkeCB3K5ISff99UFRZYOSRij1TMyJCFdspM/7HOLV0Jnmy1yio6Q6gNyc4tPxRFSmPG4uxOINE/N0PZOBy1yoTrBJHMgYy/QFc8pSAPD4i3OD/v7H7JarWS73eqeLt0Q6JC5Ubiz72+z2ch6vZb3cx3fDhk0W2XR2W63k+PxqAO6Xq9ajCEIgrl4xswOh4Ps93vd13Yw/zXqn4f5hoHcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200809130207635&quot;
+        title=&quot;image-20200809130207635&quot;
+        src=&quot;/static/4867ffac049680dfe4dd33daef7986d9/fcda8/image-20200809130207635.png&quot;
+        srcset=&quot;/static/4867ffac049680dfe4dd33daef7986d9/12f09/image-20200809130207635.png 148w,
+/static/4867ffac049680dfe4dd33daef7986d9/e4a3f/image-20200809130207635.png 295w,
+/static/4867ffac049680dfe4dd33daef7986d9/fcda8/image-20200809130207635.png 590w,
+/static/4867ffac049680dfe4dd33daef7986d9/efc66/image-20200809130207635.png 885w,
+/static/4867ffac049680dfe4dd33daef7986d9/c83ae/image-20200809130207635.png 1180w,
+/static/4867ffac049680dfe4dd33daef7986d9/573d3/image-20200809130207635.png 1650w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;base&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#base&quot; aria-label=&quot;base permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Base&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# load MNIST dataset&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x_train&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; _&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;_&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; _&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mnist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;load_data&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot; 비지도 방법으로 사용 &quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# reshape data for CNN as (28, 28, 1) and normalize &lt;/span&gt;
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot; 2D CNN &quot;&quot;&quot;&lt;/span&gt;
+image_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# x_train.shape (60000, 28, 28)&lt;/span&gt;
+x_train &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x_train&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# x_train.shape = (60000, 28, 28, 1)&lt;/span&gt;
+x_train &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;astype&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;float32&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;255&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 표준화&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# the latent or z vector is 100-dim&lt;/span&gt;
+latent_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#latent: KNN 가기 전 층들&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step-1-build_generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-1-build_generator&quot; aria-label=&quot;step 1 build_generator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step 1. build_generator&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;build_generator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# latent 층에 씀 &lt;/span&gt;
+    image_resize &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image_size &lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# network parameters &lt;/span&gt;
+    kernel_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+    layer_filters &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image_resize &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; image_resize &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image_resize&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_resize&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; filters &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# hidden 층을 for문으로 써줌(쫙 쌓아주는 것)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# first two convolution layers use strides = 2&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# the last two use strides = 1&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; filters &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            strides &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 따라서 layer_filters의 뒤에서 2번째까진 strides = 2&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            strides &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BatchNormalization&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Activation&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;relu&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Conv2DTranspose&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;filters&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;filters&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                            kernel_size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kernel_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                            strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;strides&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                            padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;same&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# data 양 뿔려줌 &lt;/span&gt;
+
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Activation&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;sigmoid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;generator&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 모방 모델이므로 y 자리엔 x 학습 결과를 써줌 &lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; generator &lt;span class=&quot;token comment&quot;&gt;# 요렇게 fake data 만들어서 전에 모델처럼 Discriminator에 넣어줌 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step-2-build_discriminator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-2-build_discriminator&quot; aria-label=&quot;step 2 build_discriminator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step 2. build_discriminator&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;build_discriminator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    kernel_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+    layer_filters &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; inputs
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; filters &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# first 3 convolution layers use strides = 2&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# last one uses strides = 1&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# 따라서 Discriminator를 더 많이 학습하게 됨 &lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; filters &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; layer_filters&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            strides &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            strides &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; LeakyReLU&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Conv2D&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;filters&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;filters&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                   kernel_size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kernel_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                   strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;strides&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                   padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;same&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Flatten&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Activation&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;sigmoid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    discriminator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;discriminator&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; discriminator&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step-3-buildandtrain_models&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-3-buildandtrain_models&quot; aria-label=&quot;step 3 buildandtrain_models permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step 3. build&lt;em&gt;and&lt;/em&gt;train_models&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;build_and_train_models&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;load_W &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; train_steps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    model_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dcgan_mnist&quot;&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# network parameters&lt;/span&gt;
+    batch_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;
+    lr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+    decay &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;
+    input_shape &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# build discriminator model&lt;/span&gt;
+    inputs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;shape&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;input_shape&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;discriminator_input&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    discriminator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; build_discriminator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# [1] or original paper uses Adam, &lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# but discriminator converges easily with RMSprop&lt;/span&gt;
+    optimizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; RMSprop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;lr&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; decay&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;decay&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;binary_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                          optimizer&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;optimizer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                          metrics&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;accuracy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;summary&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# 저장된 discriminator 모델을 읽어온다.&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; load_W&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;load_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dataset/dcgan_D.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# build generator model&lt;/span&gt;
+    input_shape &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;latent_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    inputs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;shape&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;input_shape&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;z_input&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; build_generator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;summary&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# 저장된 generator 모델을 읽어온다.&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; load_W&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;load_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dataset/dcgan_G.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+    &lt;span class=&quot;token comment&quot;&gt;# build adversarial model&lt;/span&gt;
+    optimizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; RMSprop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;lr &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; decay&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;decay &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# freeze the weights of discriminator during adversarial training&lt;/span&gt;
+    discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;trainable &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# adversarial = generator + discriminator&lt;/span&gt;
+    adversarial &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+                        discriminator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;generator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;model_name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    adversarial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;binary_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        optimizer&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;optimizer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        metrics&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;accuracy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    adversarial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;summary&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#adversarial: 최종모델&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# train discriminator and adversarial networks&lt;/span&gt;
+    models &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;generator&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; discriminator&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; adversarial&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    params &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; latent_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; train_steps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; model_name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    train&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# 모델을 저장해 둔다&lt;/span&gt;
+    discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;save_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dataset/dcgan_D.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;save_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dataset/dcgan_G.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step-4-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-4-train&quot; aria-label=&quot;step 4 train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step 4. train&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# the GAN component models&lt;/span&gt;
+    generator&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; discriminator&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; adversarial &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models 
+    
+    
+    &lt;span class=&quot;token comment&quot;&gt;# network parameters&lt;/span&gt;
+    batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; latent_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; train_steps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; model_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; params 
+    
+    
+    &lt;span class=&quot;token comment&quot;&gt;# number of elements in train dataset&lt;/span&gt;
+    train_size &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;train_steps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# train the discriminator for 1 batch&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# 1 batch of real (label=1.0) and fake images (label=0.0)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# randomly pick real images from dataset&lt;/span&gt;
+        rand_indexes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;randint&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; train_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        real_images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x_train&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;rand_indexes&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# generate fake images from noise using generator &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# generate noise using uniform distribution(모든 확률변수에 대해 균일한 확률을 가짐)&lt;/span&gt;
+        noise &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;uniform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                  &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                  size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; latent_size&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# generate fake images&lt;/span&gt;
+        fake_images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;noise&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# real + fake images = 1 batch of train data&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;concatenate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;real_images&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fake_images&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# label real and fake images&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# real images label is 1.0&lt;/span&gt;
+        y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# fake images label is 0.0&lt;/span&gt;
+        y&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# train discriminator network, log the loss and accuracy&lt;/span&gt;
+        loss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; acc &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; discriminator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;train_on_batch&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+        &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;Q. loss: 인덱스??? &quot;&quot;&quot;&lt;/span&gt;
+        log &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;%d: [D-loss: %.4f, acc: %.4f]&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; loss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; acc&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;# train the adversarial network for 1 batch&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# 1 batch of fake images with label=1.0&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# since the discriminator weights &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# are frozen in adversarial network(adversarial network: 적대적 신경망(경쟁 속 반대편에 놓인 신경망))&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# only the generator is trained&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# generate noise using uniform distribution&lt;/span&gt;
+        noise &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;uniform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                  &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+                                  size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; latent_size&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;token comment&quot;&gt;# label fake images as real or 1.0&lt;/span&gt;
+        y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;batch_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# train the adversarial network &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# note that unlike in discriminator training, &lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# we do not save the fake images in a variable&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# the fake images go to the discriminator input of the adversarial&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# for classification&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# log the loss and accuracy&lt;/span&gt;
+        loss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; acc &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; adversarial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;train_on_batch&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;noise&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+        &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;Q. adversarial 뜻???&quot;&quot;&quot;&lt;/span&gt;
+        log &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;%s [G-loss: %.4f, acc: %.4f]&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; loss&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; acc&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;log&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   
+    &lt;span class=&quot;token comment&quot;&gt;# save the model after training the generator&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# the trained generator can be reloaded for &lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# future MNIST digit generation&lt;/span&gt;
+    generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;save&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;model_name &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;step-5-fake-data를-화면에-표시&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-5-fake-data%EB%A5%BC-%ED%99%94%EB%A9%B4%EC%97%90-%ED%91%9C%EC%8B%9C&quot; aria-label=&quot;step 5 fake data를 화면에 표시 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;step 5. fake data를 화면에 표시&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Generator가 생성한 이미지(fake data)를 화면에 표시한다.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;plot_images&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    inputs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Input&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;shape&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;latent_size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;z_input&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; build_generator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;load_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dataset/dcgan_G.h5&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    noise_input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;uniform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; latent_size&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; generator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;noise_input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Generator 통해 나온 fake data&lt;/span&gt;
+    plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;figure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;figsize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    num_images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; images&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    
+    noise_input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;uniform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    rows &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sqrt&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;noise_input&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num_images&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;subplot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;rows&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; rows&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;images&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image _size&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; image_size&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+        &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;why 3차원 reshape???&quot;&quot;&quot;&lt;/span&gt;
+        plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;imshow&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; cmap&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;gray&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;axis&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;off&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h4 id=&quot;final&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#final&quot; aria-label=&quot;final permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Final&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 이미 학습된 weights를 읽어오고, 추가로 학습한다.&lt;/span&gt;
+build_and_train_models&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;load_W &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; train_steps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# train_steps 만큼 반복 학습&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Generator가 생성한 이미지를 화면에 표시한다.&lt;/span&gt;
+plot_images&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/br&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fa51182f7404b07162d67390997b0e5b/f6b72/image-20200714193936268.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABe0lEQVQoz5WSW28TMRCF9///Jp5QhVBFKoRACEqTkmUTmna7V9u7vn3MuApQ9amWjsYzts/xGbtCRgiRZXGC5QW8D7RtS9P84tA0WGtZ17WsnaOxDmNMQaXFvu9JKZOF/AXcSE6RlDNJ8mQHkpskl7nUY/D03SPb7Zbj8UjlRLHrelY7MXcnzNBiH/YsY0sY74j1FVFtPO5gPMB0hyzy/yiCAucclVroB1EVpegX4jKTpnvi6Rr34wJXf8Qcv2Nu3mN2l6zbd4T2lhgDmHuYRSCFQqz2K+3POIqtzPNRNknRPEBzRer2pHaH//YGW3/C/dxgr9+W3HsPrmNx0kNl7bpOCPNznHuYEzmGszno9/D7M+wvSfUGf/iCvd0UAac3VN/6KK8a3jz1cRVkEWs+wOkrq9y0SikxSA/1piGEv1GF/uVe7Lhi7SlKffVCEFn1e5kB72xpXVXaJaT6OHpgnucSp2kqUf+WEtd1XWqaK6nuszLXc1b+oUJrfwDgd7kdNL4X5wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200714193936268&quot;
+        title=&quot;image-20200714193936268&quot;
+        src=&quot;/static/fa51182f7404b07162d67390997b0e5b/fcda8/image-20200714193936268.png&quot;
+        srcset=&quot;/static/fa51182f7404b07162d67390997b0e5b/12f09/image-20200714193936268.png 148w,
+/static/fa51182f7404b07162d67390997b0e5b/e4a3f/image-20200714193936268.png 295w,
+/static/fa51182f7404b07162d67390997b0e5b/fcda8/image-20200714193936268.png 590w,
+/static/fa51182f7404b07162d67390997b0e5b/f6b72/image-20200714193936268.png 615w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/924334ab46f3f70fd22ca0d3fb7204b7/0a47e/image-20200714193941200.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABoElEQVQoz3WSbY+bMAzH+f6fam/25t5s0m7XHdf2Cm2a0kILJBAICb8ltJWmabNk+SG2Y/vvZBgG/sfWWq7XK1mWIYT4R8y4yK43aK0XPdFKMQPeGnwrcYPCzzPee1zgKL1zf8gne2ZnmaYJ1dbsdjvKsiTp+55IVlU4+RoUvdjMPn7D3zQ/5FRLOrG6+x4NNE1DEtuejGb78wX54wuukcym4SrWtHJ9z+6v4EY63TKHCSJVh5RL+vKo3sWqtG1LYkKH6pyzWae8f//K8XNFfjzxEeztxxvzJcUUG/xlTb5Zcc5TaASHLNjv3xirPUeRh490KKjCDrseGRznQlIWgto4fp0UBymp65o0XfFRtBz2O/I8o1AWcTwgpSA7XXjb7hE3Q61DYwGPJCJTdY5Sj7T9iB4musBm8lg3k1U9ojahqAr+cZmwaAyfF0V4pgkNxJymt2j1GNn5mX6cwmLnZcE8OKIc7cFO1N29WFx+pFINATe/wGQnt8QuoHRdt9zQON5v6na7YYxZ7BgQx7BBj3Hx7XmDcR3PvCirqmIMd/sbQ+20LI/AryoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200714193941200&quot;
+        title=&quot;image-20200714193941200&quot;
+        src=&quot;/static/924334ab46f3f70fd22ca0d3fb7204b7/fcda8/image-20200714193941200.png&quot;
+        srcset=&quot;/static/924334ab46f3f70fd22ca0d3fb7204b7/12f09/image-20200714193941200.png 148w,
+/static/924334ab46f3f70fd22ca0d3fb7204b7/e4a3f/image-20200714193941200.png 295w,
+/static/924334ab46f3f70fd22ca0d3fb7204b7/fcda8/image-20200714193941200.png 590w,
+/static/924334ab46f3f70fd22ca0d3fb7204b7/0a47e/image-20200714193941200.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[Hyper parameter (annealing): epoch(alpha)를 처음에는 적당히 높게 했다가, 점차 줄여 나가는 방법 Dense : fully connected…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hyper-parameter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hyper-parameter&quot; aria-label=&quot;hyper parameter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hyper parameter&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;weight decay&lt;/code&gt;(annealing): epoch(alpha)를 처음에는 적당히 높게 했다가, 점차 줄여 나가는 방법&lt;/li&gt;
 &lt;/ul&gt;
