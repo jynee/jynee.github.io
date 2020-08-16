@@ -1,4 +1,271 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags/#main</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 16:38:34 GMT</lastBuildDate><item><title><![CDATA[GAN 실전 응용]]></title><description><![CDATA[GAN 1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다. fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등) Discrimi의 loss는 maxlog(Dx) + log…]]></description><link>https://jynee.github.io/tags/#main/GAN-v1_2/</link><guid isPermaLink="false">https://jynee.github.io/tags/#main/GAN-v1_2/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 16:43:58 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+EX…]]></description><link>https://jynee.github.io/tags#1st/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;비모수적방법&lt;/strong&gt;으로도 비교적 정확한 &lt;strong&gt;sampling이 가능&lt;/strong&gt;함 &lt;/li&gt;
+&lt;li&gt;위조 데이터 생성 및 판별에 사용
+EX) 이미지 색깔(색칠) 해주는 프로그램, 딥페이크 영상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz31Su0oDURC9iBZaWfgZfomIH2BroYVEJCAWYqdfIGgKwcLaSkHsBEXUwsJCELNJ1GiMicnmscnexx5n7j7cQOKBKfbOzpk5Z0ZgBIIgsMHQxkDqvwhzSPLpf8V/hAxjAvSlTt4VEfaib005qQOYFLGI2YdFUqQ0+sqg1pa2uOlJ+z5M0dAJFXXlAi5mIl/p5J2D2mDv0sV87guHN23kv2VSayfk4jjiydLoSYWur+GRVNdTlnDrtA6x/ILxjIPZ3XcUaj1rhVAm9ISnYPMrrsT22Q8e3vp4rkrsnDfwWPbISyIkUpZLziJ7QoRLecxsvmLxqIpqyw8J7dYQSmN8ugpitYCpbAnTGyWawsF1vhtNaqwKpTUunjyS28JHUw2oESoirHckTWmok8JYpoiJNQeT6wWIFQe3BY9tp5y0ltQ7/sgzs4Qqui1GuSExt1/BwVULx/cdLOQquCt2kyK2hqXxkuOTSV+GXQrfGRvPkb65GOm8JTPBwK2mF/kL+MP0X/SgmJAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728184326510&quot;
+        title=&quot;image 20200728184326510&quot;
+        src=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png&quot;
+        srcset=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/12f09/image-20200728184326510.png 148w,
+/static/ff466a3851f29e6c207a88c4333ce60e/e4a3f/image-20200728184326510.png 295w,
+/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png 590w,
+/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://www.naverlabs.com/storyDetail/44&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.naverlabs.com/storyDetail/44&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;그림-보충-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%A6%BC-%EB%B3%B4%EC%B6%A9-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;그림 보충 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그림 보충 설명:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Real&lt;/code&gt;: 실제 데이터(이미지, 음성 등)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Input&lt;/code&gt;: 랜덤 데이터. &lt;strong&gt;노이즈 섞인 것&lt;/strong&gt;. 	&lt;em&gt;But,&lt;/em&gt; Generator 통과하면, Real data 같은 것으로 변환돼 나온다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;생성자&lt;/code&gt;. &lt;strong&gt;진짜 같은 가짜(Fake) 생성&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;판별자&lt;/code&gt;. &lt;strong&gt;실제 데이터(Real)와 가짜 데이터(Fake)를 판별&lt;/strong&gt;함&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;즉-총-2개의-네트워크-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A6%89-%EC%B4%9D-2%EA%B0%9C%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;즉 총 2개의 네트워크 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;즉, 총 2개의 네트워크 사용:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;: real or fake 판별자&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;: fake 생성자&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;gan의-loss-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan%EC%9D%98-loss-function&quot; aria-label=&quot;gan의 loss function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gan의 loss function:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;minGmaxDV(D,G) = logD(x) + log(1-D(G(z)))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;학습을 반복하여 (Pg = Pdata가 되어) Discriminator가 구별 불가능인 상태(‘D(x)=0.5’)로 수렴하도록
+→ 마치 Generator가 x를 만들어낸 것처럼 됨 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Discriminator&lt;/th&gt;
+&lt;th&gt;Generator&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;엔트로피 최대화&lt;/td&gt;
+&lt;td&gt;엔트로피 최소화&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;엔트로피: 정보의 가치(정보량)과 ~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1)&lt;/strong&gt;  &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;&lt;/strong&gt;(network): &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;maxV(D, G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(x) = 1 and D(G(z)) = 0일 때 최대&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 1이 되고, D(x)가 1이 되니까&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/strong&gt; network: &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;minV(G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(G(z)) = 1 일 때 최소. 이때(D(x)는 상관 X)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 0이 되니까&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;원리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EB%A6%AC&quot; aria-label=&quot;원리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원리:&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABSUlEQVQoz31R2W7DMAzL//9c99Khd9cka27ncNw0jm1OUtECG4oZIGg7MUVK0Xr9idXqA7vdHpvNFvv9QXA8nnA4HBHHiezP5y85Z1kGXiEEwd8V1XWN7XaHJElR5AX4bG433O93zPMsPE0TbnI3wzn3EnuHiFW5MuN6zVCVFS7kSDUK42jIUS7gb22rRPi/FbGq1hpVVSMnh6ppoIhb4kYpctxgtuwswJiFXDsS9QJrA7n3AmO8/BMtyyKC4zii7TqJ+4zHcbUeoUdNDyYMw0OMmQWee2atHZaFBPkRNzxJv5FTtPwSIzmdpJdFUYrzYRhE2Dn/6pX34X1k7/2vaU3kriQhYwwJaWEehLUefR/ozqPrHBVcoNTDFUfl+FwkqskBT5h7pahn7KQnRx3F7/seHaPrpS3MPKgQWNQiTSc0zYyynIWtdfgBzhpml1rCyu4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728185621472&quot;
+        title=&quot;image 20200728185621472&quot;
+        src=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png&quot;
+        srcset=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/12f09/image-20200728185621472.png 148w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/e4a3f/image-20200728185621472.png 295w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png 590w,
+/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처: Goodfellow 논문 공식&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;를 k번 학습시키고, &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;를 1번 학습시킨다.&lt;/p&gt;
+&lt;p&gt;→ &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;가 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;보다 더 많이 학습된다.    &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt; / &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;이에 따라&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Real Data와 Fake Data를 구별해내는 &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;는 점점 더 작아져 영향력이 줄어들고,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 점점 더 비슷해지며,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이 적어지고,   &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;KL: G와 D의 정보량의 차이/분산의 차이&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;이럴수록&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​	3-1) &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;가 더 많은 영향력을 행사하고(역할을 하고),&lt;/p&gt;
+&lt;p&gt;​	3-2) &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;를 계산하는 공식 中 [-log4 + 2JSD(Pdata+||Pg)]에서 -log4의 값이 더욱더 &lt;code class=&quot;language-text&quot;&gt;1.38&lt;/code&gt;에 가까워진다.
+​    *&lt;code class=&quot;language-text&quot;&gt;[2JSD(Pdata+||Pg) ]&lt;/code&gt; : &lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이라 보면 됨. &lt;code class=&quot;language-text&quot;&gt;(KL이 작아진다) = (D와 G의 분산이 적다) = (D loss가 1.38에 가깝다)&lt;/code&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;p&gt;   &lt;em&gt;따라서&lt;/em&gt;  &gt;&lt;/p&gt;
+&lt;p&gt;   분별할 수 없이 실제와 가까운 Fake Data가 생성된다.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;위 원리에 따라,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;학습이 안 된 상태에선&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;( = Fake Data. 이때 ‘z’는 input에서 들어온 random data임)&lt;/code&gt;의 분포가 오른쪽으로 치우친 상태로서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;는 1에 가까운 값이 출력되고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt;는 0에 가까운 값이 출력된다.&lt;/p&gt;
+&lt;p&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;: 이때 D와 G는 아래 함수와 같은 상태임&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 377px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.216216216216214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnUlEQVQI1z1PSwqFMBDz/sfxAuJKwR/oQt2KC0EQaj/W/iLTPt4iZCaESSYzxkNrB2LOLYDwA6LGWNKex0WEECClw31bKJU02oVInC2LQp5faFuBpuE4jhf7riOmSaKuOaqKoygY1lXFI+MoUZYs+vteYBgEuk5gnhUyakHG901NKZmObZvGeZrY8rpM1K31cM7De//3UwC1o+9o/gBXXeO5Ghev+wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200728190633284&quot;
+        title=&quot;image-20200728190633284&quot;
+        src=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
+        srcset=&quot;/static/7329e5014c8de29c438849a8359f8ee5/12f09/image-20200728190633284.png 148w,
+/static/7329e5014c8de29c438849a8359f8ee5/e4a3f/image-20200728190633284.png 295w,
+/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png 377w&quot;
+        sizes=&quot;(max-width: 377px) 100vw, 377px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 9.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbklEQVQI1yWMSwqAMAxEvf/1ClYENy3oQvBTbVqbyEji4jHhZZLOe0IIFfvOxrI86HuCcxnjSIixYp4f4zgY01Rsp1772lU3DH92KmsVbFvDujakxLhvMYgEpQhae3FdYg9yFpwnm2d+7VZn9Zofk++YH5r8gOMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200728190622855&quot;
+        title=&quot;image-20200728190622855&quot;
+        src=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png&quot;
+        srcset=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/12f09/image-20200728190622855.png 148w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/e4a3f/image-20200728190622855.png 295w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png 590w,
+/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;즉, &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;진짜 (X)&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;가짜 G(z)&lt;/code&gt;를 잘 구별하고, &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 진짜 같은 가짜를 잘 못 만든다&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;학습이 진행되면&lt;/em&gt; &gt; &lt;/p&gt;
+&lt;p&gt;가짜 데이터 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 점점 &lt;code class=&quot;language-text&quot;&gt;Real Data( = X)&lt;/code&gt;의 분포와 유사해지고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt; 값도 점차 커져서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;값은 점차 작아진다 &lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;학습이 완료되면&lt;/em&gt; &gt; &lt;/p&gt;
+&lt;p&gt;Real data와 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 잘 일치하고 “&lt;code class=&quot;language-text&quot;&gt;D(x) = D(G(z)) = 0.5&lt;/code&gt; “로 수렴한다.&lt;/p&gt;
+&lt;p&gt;즉, 임의의 random data를 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;에 입력해 나온 Fake data는 Real data와 유사한 분포 특성을 갖는 데이터가 출력된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.756756756756754%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABCElEQVQY00VR2XKDMAzM//9d+tRMkpeUI4AhYGMDPthq3ZBqZse2jtVKPu37DoK2LAuMMZjnGdZaOOfQdR3Ksvz4CN4ZI0IIOIw8p+NCSykJqYP3HjFERnIBwRjzQgyffPqtnTMO4tMRJAkVar2hKGtoMwlpkrcULDaTJ+lBxSH4TOrcgn54oVM9nHXiS38K2Z2E3ktHt6IbRihJ5GhaVtAMCmY2mKYJqioxjeN7RRvUS6MXBB//R6YyFvN8tjW+LxfUdYvNb3gUD5zPX7LbOZNeb1dU9fNN6HC/31AUP0iiLo9MkuMDqFJrjaqqpIFBjBFKqTwmp1jXVRrVGXwH2XPTNGjbNsdovxtm0E5Ax17BAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image 20200728190502482&quot;
+        title=&quot;image 20200728190502482&quot;
+        src=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png&quot;
+        srcset=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/12f09/image-20200728190502482.png 148w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/e4a3f/image-20200728190502482.png 295w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png 590w,
+/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;참고:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; &lt;a href=&quot;http://blog.skby.net/gan-generative-adversarial-networks/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://blog.skby.net/gan-generative-adversarial-networks/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;&apos;D(x)는 1에 가까운 값이 출력되고 D(G(z))는 0에 가까운 값이 출력된다&apos;&lt;/p&gt;
+&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GAN 실전 응용]]></title><description><![CDATA[GAN 1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다. fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등) Discrimi의 loss는 maxlog(Dx) + log…]]></description><link>https://jynee.github.io/tags#1st/GAN-v1_2/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/GAN-v1_2/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;/br&gt;
 &lt;ul&gt;
 &lt;li&gt;1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다.&lt;/br&gt;&lt;/li&gt;
@@ -675,274 +942,7 @@ plot_images&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;spa
     &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
-EX…]]></description><link>https://jynee.github.io/tags/#main/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/tags/#main/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;비모수적방법&lt;/strong&gt;으로도 비교적 정확한 &lt;strong&gt;sampling이 가능&lt;/strong&gt;함 &lt;/li&gt;
-&lt;li&gt;위조 데이터 생성 및 판별에 사용
-EX) 이미지 색깔(색칠) 해주는 프로그램, 딥페이크 영상&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz31Su0oDURC9iBZaWfgZfomIH2BroYVEJCAWYqdfIGgKwcLaSkHsBEXUwsJCELNJ1GiMicnmscnexx5n7j7cQOKBKfbOzpk5Z0ZgBIIgsMHQxkDqvwhzSPLpf8V/hAxjAvSlTt4VEfaib005qQOYFLGI2YdFUqQ0+sqg1pa2uOlJ+z5M0dAJFXXlAi5mIl/p5J2D2mDv0sV87guHN23kv2VSayfk4jjiydLoSYWur+GRVNdTlnDrtA6x/ILxjIPZ3XcUaj1rhVAm9ISnYPMrrsT22Q8e3vp4rkrsnDfwWPbISyIkUpZLziJ7QoRLecxsvmLxqIpqyw8J7dYQSmN8ugpitYCpbAnTGyWawsF1vhtNaqwKpTUunjyS28JHUw2oESoirHckTWmok8JYpoiJNQeT6wWIFQe3BY9tp5y0ltQ7/sgzs4Qqui1GuSExt1/BwVULx/cdLOQquCt2kyK2hqXxkuOTSV+GXQrfGRvPkb65GOm8JTPBwK2mF/kL+MP0X/SgmJAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image 20200728184326510&quot;
-        title=&quot;image 20200728184326510&quot;
-        src=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png&quot;
-        srcset=&quot;/static/ff466a3851f29e6c207a88c4333ce60e/12f09/image-20200728184326510.png 148w,
-/static/ff466a3851f29e6c207a88c4333ce60e/e4a3f/image-20200728184326510.png 295w,
-/static/ff466a3851f29e6c207a88c4333ce60e/fcda8/image-20200728184326510.png 590w,
-/static/ff466a3851f29e6c207a88c4333ce60e/32056/image-20200728184326510.png 602w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;출처: &lt;a href=&quot;https://www.naverlabs.com/storyDetail/44&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.naverlabs.com/storyDetail/44&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;그림-보충-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%A6%BC-%EB%B3%B4%EC%B6%A9-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;그림 보충 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그림 보충 설명:&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Real&lt;/code&gt;: 실제 데이터(이미지, 음성 등)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Input&lt;/code&gt;: 랜덤 데이터. &lt;strong&gt;노이즈 섞인 것&lt;/strong&gt;. 	&lt;em&gt;But,&lt;/em&gt; Generator 통과하면, Real data 같은 것으로 변환돼 나온다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;생성자&lt;/code&gt;. &lt;strong&gt;진짜 같은 가짜(Fake) 생성&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator(network)&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;판별자&lt;/code&gt;. &lt;strong&gt;실제 데이터(Real)와 가짜 데이터(Fake)를 판별&lt;/strong&gt;함&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;즉-총-2개의-네트워크-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A6%89-%EC%B4%9D-2%EA%B0%9C%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;즉 총 2개의 네트워크 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;즉, 총 2개의 네트워크 사용:&lt;/strong&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;: real or fake 판별자&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;: fake 생성자&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;gan의-loss-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan%EC%9D%98-loss-function&quot; aria-label=&quot;gan의 loss function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gan의 loss function:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;minGmaxDV(D,G) = logD(x) + log(1-D(G(z)))&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;학습을 반복하여 (Pg = Pdata가 되어) Discriminator가 구별 불가능인 상태(‘D(x)=0.5’)로 수렴하도록
-→ 마치 Generator가 x를 만들어낸 것처럼 됨 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Discriminator&lt;/th&gt;
-&lt;th&gt;Generator&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;엔트로피 최대화&lt;/td&gt;
-&lt;td&gt;엔트로피 최소화&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;엔트로피: 정보의 가치(정보량)과 ~&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;1)&lt;/strong&gt;  &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;&lt;/strong&gt;(network): &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;maxV(D, G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(x) = 1 and D(G(z)) = 0일 때 최대&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 1이 되고, D(x)가 1이 되니까&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/strong&gt; network: &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;minV(G)&lt;/code&gt;&lt;/strong&gt;로 학습. D(G(z)) = 1 일 때 최소. 이때(D(x)는 상관 X)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;why?&lt;/em&gt; D(G(z))가 0이 되니까&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&quot;원리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EB%A6%AC&quot; aria-label=&quot;원리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원리:&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABSUlEQVQoz31R2W7DMAzL//9c99Khd9cka27ncNw0jm1OUtECG4oZIGg7MUVK0Xr9idXqA7vdHpvNFvv9QXA8nnA4HBHHiezP5y85Z1kGXiEEwd8V1XWN7XaHJElR5AX4bG433O93zPMsPE0TbnI3wzn3EnuHiFW5MuN6zVCVFS7kSDUK42jIUS7gb22rRPi/FbGq1hpVVSMnh6ppoIhb4kYpctxgtuwswJiFXDsS9QJrA7n3AmO8/BMtyyKC4zii7TqJ+4zHcbUeoUdNDyYMw0OMmQWee2atHZaFBPkRNzxJv5FTtPwSIzmdpJdFUYrzYRhE2Dn/6pX34X1k7/2vaU3kriQhYwwJaWEehLUefR/ozqPrHBVcoNTDFUfl+FwkqskBT5h7pahn7KQnRx3F7/seHaPrpS3MPKgQWNQiTSc0zYyynIWtdfgBzhpml1rCyu4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image 20200728185621472&quot;
-        title=&quot;image 20200728185621472&quot;
-        src=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png&quot;
-        srcset=&quot;/static/6be073ef6d6fa9dd4ff79d7d459669c9/12f09/image-20200728185621472.png 148w,
-/static/6be073ef6d6fa9dd4ff79d7d459669c9/e4a3f/image-20200728185621472.png 295w,
-/static/6be073ef6d6fa9dd4ff79d7d459669c9/fcda8/image-20200728185621472.png 590w,
-/static/6be073ef6d6fa9dd4ff79d7d459669c9/32056/image-20200728185621472.png 602w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;출처: Goodfellow 논문 공식&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt;를 k번 학습시키고, &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;를 1번 학습시킨다.&lt;/p&gt;
-&lt;p&gt;→ &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;가 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;보다 더 많이 학습된다.    &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Discriminator&lt;/code&gt; / &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Generator&lt;/code&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;em&gt;이에 따라&lt;/em&gt; &gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Real Data와 Fake Data를 구별해내는 &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;는 점점 더 작아져 영향력이 줄어들고,&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 점점 더 비슷해지며,&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이 적어지고,   &lt;strong&gt;*&lt;/strong&gt;&lt;code class=&quot;language-text&quot;&gt;KL: G와 D의 정보량의 차이/분산의 차이&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;em&gt;이럴수록&lt;/em&gt; &gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;​	3-1) &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;가 더 많은 영향력을 행사하고(역할을 하고),&lt;/p&gt;
-&lt;p&gt;​	3-2) &lt;code class=&quot;language-text&quot;&gt;D loss&lt;/code&gt;를 계산하는 공식 中 [-log4 + 2JSD(Pdata+||Pg)]에서 -log4의 값이 더욱더 &lt;code class=&quot;language-text&quot;&gt;1.38&lt;/code&gt;에 가까워진다.
-​    *&lt;code class=&quot;language-text&quot;&gt;[2JSD(Pdata+||Pg) ]&lt;/code&gt; : &lt;code class=&quot;language-text&quot;&gt;KL&lt;/code&gt;이라 보면 됨. &lt;code class=&quot;language-text&quot;&gt;(KL이 작아진다) = (D와 G의 분산이 적다) = (D loss가 1.38에 가깝다)&lt;/code&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;p&gt;   &lt;em&gt;따라서&lt;/em&gt;  &gt;&lt;/p&gt;
-&lt;p&gt;   분별할 수 없이 실제와 가까운 Fake Data가 생성된다.&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;위 원리에 따라,&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;학습이 안 된 상태에선&lt;/em&gt; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;( = Fake Data. 이때 ‘z’는 input에서 들어온 random data임)&lt;/code&gt;의 분포가 오른쪽으로 치우친 상태로서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;는 1에 가까운 값이 출력되고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt;는 0에 가까운 값이 출력된다.&lt;/p&gt;
-&lt;p&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;: 이때 D와 G는 아래 함수와 같은 상태임&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 377px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 16.216216216216214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnUlEQVQI1z1PSwqFMBDz/sfxAuJKwR/oQt2KC0EQaj/W/iLTPt4iZCaESSYzxkNrB2LOLYDwA6LGWNKex0WEECClw31bKJU02oVInC2LQp5faFuBpuE4jhf7riOmSaKuOaqKoygY1lXFI+MoUZYs+vteYBgEuk5gnhUyakHG901NKZmObZvGeZrY8rpM1K31cM7De//3UwC1o+9o/gBXXeO5Ghev+wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20200728190633284&quot;
-        title=&quot;image-20200728190633284&quot;
-        src=&quot;/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png&quot;
-        srcset=&quot;/static/7329e5014c8de29c438849a8359f8ee5/12f09/image-20200728190633284.png 148w,
-/static/7329e5014c8de29c438849a8359f8ee5/e4a3f/image-20200728190633284.png 295w,
-/static/7329e5014c8de29c438849a8359f8ee5/6146e/image-20200728190633284.png 377w&quot;
-        sizes=&quot;(max-width: 377px) 100vw, 377px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 9.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbklEQVQI1yWMSwqAMAxEvf/1ClYENy3oQvBTbVqbyEji4jHhZZLOe0IIFfvOxrI86HuCcxnjSIixYp4f4zgY01Rsp1772lU3DH92KmsVbFvDujakxLhvMYgEpQhae3FdYg9yFpwnm2d+7VZn9Zofk++YH5r8gOMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20200728190622855&quot;
-        title=&quot;image-20200728190622855&quot;
-        src=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png&quot;
-        srcset=&quot;/static/112ffbe40ca0e7e655685f848da8bdb7/12f09/image-20200728190622855.png 148w,
-/static/112ffbe40ca0e7e655685f848da8bdb7/e4a3f/image-20200728190622855.png 295w,
-/static/112ffbe40ca0e7e655685f848da8bdb7/fcda8/image-20200728190622855.png 590w,
-/static/112ffbe40ca0e7e655685f848da8bdb7/32056/image-20200728190622855.png 602w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;즉, &lt;code class=&quot;language-text&quot;&gt;D&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;진짜 (X)&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;가짜 G(z)&lt;/code&gt;를 잘 구별하고, &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;는 진짜 같은 가짜를 잘 못 만든다&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;em&gt;학습이 진행되면&lt;/em&gt; &gt; &lt;/p&gt;
-&lt;p&gt;가짜 데이터 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 점점 &lt;code class=&quot;language-text&quot;&gt;Real Data( = X)&lt;/code&gt;의 분포와 유사해지고 &lt;code class=&quot;language-text&quot;&gt;D(G(z))&lt;/code&gt; 값도 점차 커져서 &lt;code class=&quot;language-text&quot;&gt;D(x)&lt;/code&gt;값은 점차 작아진다 &lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;em&gt;학습이 완료되면&lt;/em&gt; &gt; &lt;/p&gt;
-&lt;p&gt;Real data와 &lt;code class=&quot;language-text&quot;&gt;G(z)&lt;/code&gt;의 분포가 잘 일치하고 “&lt;code class=&quot;language-text&quot;&gt;D(x) = D(G(z)) = 0.5&lt;/code&gt; “로 수렴한다.&lt;/p&gt;
-&lt;p&gt;즉, 임의의 random data를 &lt;code class=&quot;language-text&quot;&gt;G&lt;/code&gt;에 입력해 나온 Fake data는 Real data와 유사한 분포 특성을 갖는 데이터가 출력된다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.756756756756754%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABCElEQVQY00VR2XKDMAzM//9d+tRMkpeUI4AhYGMDPthq3ZBqZse2jtVKPu37DoK2LAuMMZjnGdZaOOfQdR3Ksvz4CN4ZI0IIOIw8p+NCSykJqYP3HjFERnIBwRjzQgyffPqtnTMO4tMRJAkVar2hKGtoMwlpkrcULDaTJ+lBxSH4TOrcgn54oVM9nHXiS38K2Z2E3ktHt6IbRihJ5GhaVtAMCmY2mKYJqioxjeN7RRvUS6MXBB//R6YyFvN8tjW+LxfUdYvNb3gUD5zPX7LbOZNeb1dU9fNN6HC/31AUP0iiLo9MkuMDqFJrjaqqpIFBjBFKqTwmp1jXVRrVGXwH2XPTNGjbNsdovxtm0E5Ax17BAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image 20200728190502482&quot;
-        title=&quot;image 20200728190502482&quot;
-        src=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png&quot;
-        srcset=&quot;/static/4fb82e1ce3bea1e96e8be416befbd8a0/12f09/image-20200728190502482.png 148w,
-/static/4fb82e1ce3bea1e96e8be416befbd8a0/e4a3f/image-20200728190502482.png 295w,
-/static/4fb82e1ce3bea1e96e8be416befbd8a0/fcda8/image-20200728190502482.png 590w,
-/static/4fb82e1ce3bea1e96e8be416befbd8a0/32056/image-20200728190502482.png 602w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;참고:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt; &lt;a href=&quot;http://blog.skby.net/gan-generative-adversarial-networks/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://blog.skby.net/gan-generative-adversarial-networks/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;
-&lt;p&gt;&apos;D(x)는 1에 가까운 값이 출력되고 D(G(z))는 0에 가까운 값이 출력된다&apos;&lt;/p&gt;
-&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[처음 방문했다면 블로그 소개를]]></title><description><![CDATA[안녕하세요. 이곳엔 다양한 포스팅이 올라옵니다. 태그로 동일 관심분야를 검색해주세요. 안하면 모를테고, 하면 늘겠지 싶은 마음으로 일단 파고들었던 모든 것들을 이곳에 올릴 예정입니다. 이런 것까지...?  이런 것까지... 올라올 거예요.]]></description><link>https://jynee.github.io/tags/#main/main/</link><guid isPermaLink="false">https://jynee.github.io/tags/#main/main/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[처음 방문했다면 블로그 소개를]]></title><description><![CDATA[안녕하세요. 이곳엔 다양한 포스팅이 올라옵니다. 태그로 동일 관심분야를 검색해주세요. 안하면 모를테고, 하면 늘겠지 싶은 마음으로 일단 파고들었던 모든 것들을 이곳에 올릴 예정입니다. 이런 것까지...?  이런 것까지... 올라올 거예요.]]></description><link>https://jynee.github.io/tags#1st/main/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/main/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;JyneeEarth git blog&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;batch&quot;&gt;&lt;pre class=&quot;language-batch&quot;&gt;&lt;code class=&quot;language-batch&quot;&gt;&lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;ML&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;DL&lt;/span&gt;&lt;/span&gt;
@@ -965,7 +965,7 @@ EX) 이미지 색깔(색칠) 해주는 프로그램, 딥페이크 영상&lt;/li&
 &lt;blockquote&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;이런 것까지... 올라올 거예요.&lt;/p&gt;
-&lt;br&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[pre-training & fine-tuning  설명 pre-training Weight와 Bias를 초기화 시키는 방법 fine-tuning…]]></description><link>https://jynee.github.io/tags/#main/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/tags/#main/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pre-training--fine-tuning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pre-training--fine-tuning&quot; aria-label=&quot;pre training  fine tuning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pre-training &amp;#x26; fine-tuning&lt;/h1&gt;
+&lt;br&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[pre-training & fine-tuning  설명 pre-training Weight와 Bias를 초기화 시키는 방법 fine-tuning…]]></description><link>https://jynee.github.io/tags#1st/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pre-training--fine-tuning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pre-training--fine-tuning&quot; aria-label=&quot;pre training  fine tuning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pre-training &amp;#x26; fine-tuning&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
