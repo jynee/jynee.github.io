@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Aug 2020 14:45:50 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 15:44:10 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
 EX…]]></description><link>https://jynee.github.io/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
@@ -942,7 +942,29 @@ plot_images&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;spa
     &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[W(weights) 네트워크 및 model build까지 완성해서 실행되어 역전파 되었을 때 형성된다. : 네트워크 만들고 난 후 model build하는 과정. optimizer & loss 값을 정의해주는 부분임. w…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;wweights&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wweights&quot; aria-label=&quot;wweights permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;W(weights)&lt;/h1&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[pre-training & fine-tuning  설명 pre-training Weight와 Bias를 초기화 시키는 방법 fine-tuning…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pre-training--fine-tuning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pre-training--fine-tuning&quot; aria-label=&quot;pre training  fine tuning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pre-training &amp;#x26; fine-tuning&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;pre-training&lt;/td&gt;
+&lt;td&gt;Weight와 Bias를 초기화 시키는 방법&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;fine-tuning&lt;/td&gt;
+&lt;td&gt;기존에 학습되어져 있는 모델을 기반으로 아키텍쳐를 새로운 목적(나의 이미지 데이터에 맞게)변형하고 이미 학습된 모델 Weights로 부터 학습을 업데이트하는 방법&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처: 꾸준희. 2017.08.17. &quot;[Deep Learning] pre-training 과 fine-tuning (파인튜닝)&quot;. &lt;a href=&quot;https://eehoeskrap.tistory.com/186&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://eehoeskrap.tistory.com/186&lt;/a&gt;. Enough is not enough&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;wweights&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wweights&quot; aria-label=&quot;wweights permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;W(weights)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;네트워크 및 model build까지 완성해서 실행되어 역전파 되었을 때 형성된다.&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;compile에서 w&lt;/code&gt;: 네트워크 만들고 난 후 model build하는 과정. optimizer &amp;#x26; loss 값을 정의해주는 부분임. w는 만들어져있지 않다.&lt;/li&gt;
@@ -1106,7 +1128,36 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 &lt;li&gt;LSTM은 bidirectional 을 사용해서 table 中 &lt;strong&gt;위/아래로 흐름&lt;/strong&gt;을 이동시켜서 볼 수 있다.&lt;/li&gt;
 &lt;li&gt;CNN2D는 kernel_size, pooling 등을 통해 tabel 中 &lt;strong&gt;(n colum(일부분) + n row(일부분) = 내가 focus를 맞춰 보고 싶은 부분)에 따라 그 흐름을 볼 수 있다는 데&lt;/strong&gt;서 차이가 있다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;markdown-images/image-20200805122723206.png&quot; alt=&quot;image-20200805122723206&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/05265afca2b82133a555e66d16254a73/108f8/image-20200805122723206.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.51351351351351%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABmUlEQVQ4y5WTW1ODMBCF+///W1860xkdb22tCpYCuZMQOO4GUlHbBxmYwMnm25PNshpB1zjS/feZpv6nrxIM168c9B99lR2azxPa93eIokBzPMILkYLsqULz9gbJOo2ubpIelELz9Az58Ij29RW6mfQJOMQk+nONUUooApuqSgHySBBKxrotPyE/iqSbooR6fkG8u4cvy2TmG6gryLrCMAyTK2PgOk/OeyjRIoSQdO89NM3RBGxbJ/fQGlFpyLZdAD0LNWIGWgvrOnLuoUj3ob8AlSbgGGElAedEkUomaQcLoCFgswCaGRgI2BAw/ASCgIKAzk3Avv8FDDZZjjFO9aFt2Y6A0UG3Z4R+0nnrOgEpqTjDcVI+AjLyE6hOEFVxaR/n5i33BuL0kd65JbgUeaEp96m+2XlzOWWmDFR8KSi7TovqukbXTdn5EFpyz3oeE8SZFCeovRj27XBuUra93W6x2+3+dP9+v8dms0lOcmx2tl6vcTgcFo3Ni+bF7Cq3yBLKOjvLoKzzN0N7OpSsra79SsvvW3O39C+NMPfX+fR5GQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200805122723206&quot;
+        title=&quot;image-20200805122723206&quot;
+        src=&quot;/static/05265afca2b82133a555e66d16254a73/fcda8/image-20200805122723206.png&quot;
+        srcset=&quot;/static/05265afca2b82133a555e66d16254a73/12f09/image-20200805122723206.png 148w,
+/static/05265afca2b82133a555e66d16254a73/e4a3f/image-20200805122723206.png 295w,
+/static/05265afca2b82133a555e66d16254a73/fcda8/image-20200805122723206.png 590w,
+/static/05265afca2b82133a555e66d16254a73/108f8/image-20200805122723206.png 777w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;activation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#activation&quot; aria-label=&quot;activation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;activation&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1160,6 +1211,10 @@ hist&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;history&lt;spa
 model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;optimizer&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;optimizers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Adam&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; loss&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;sparse_categorical_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;sparse 안 쓸 거면 위에 &apos;outputY&apos;를 to&lt;em&gt;categorical()로 변형 후, loss 함수로 &quot;categorical&lt;/em&gt;crossentropy&quot; 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
 &lt;li&gt;target이 one-hot encoding되어 있으면 categorical&lt;em&gt;crossentropy,
 target이 integer로 되어 있으면 sparse&lt;/em&gt;categorical&lt;em&gt;crossentropy를 쓴다.
 sparse&lt;/em&gt;categorical&lt;em&gt;entropy는 integer인 target을 one-hot으로 바꾼 후에 categorical&lt;/em&gt;entropy를 수행한다.&lt;/li&gt;
@@ -1203,13 +1258,13 @@ sparse&lt;/em&gt;categorical&lt;em&gt;entropy는 integer인 target을 one-hot으
 &lt;blockquote&gt;
 &lt;p&gt; Cross-Entropy : 예측한 값과 실제값의 차를 계산. entropy 값이 감소하는 방향으로 진행하다 보면 최저 값을 찾을 수 있다. &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;sshkim Sh.TK. 2017. 8. 23. &quot;[모두의딥러닝] Softmax Regression (Multinomial Logistic Regression)&quot;. &quot;&lt;a href=&quot;https://sshkim.tistory.com/146&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://sshkim.tistory.com/146&lt;/a&gt;&quot;&lt;/li&gt;
+&lt;li&gt;출처: sshkim Sh.TK. 2017. 8. 23. &quot;[모두의딥러닝] Softmax Regression (Multinomial Logistic Regression)&quot;. &quot;&lt;a href=&quot;https://sshkim.tistory.com/146&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://sshkim.tistory.com/146&lt;/a&gt;&quot;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt; argmax 을 사용하면 2라는 값이 나온다. 가장 큰 값의 위치가 2번째에 있는 1이기 때문&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;JINSOL KIM. 2017. 12. 24. &quot;Softmax vs Sigmoid&quot;. &lt;a href=&quot;https://blog.naver.com/infoefficien/221170205067&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blog.naver.com/infoefficien/221170205067&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;출처: JINSOL KIM. 2017. 12. 24. &quot;Softmax vs Sigmoid&quot;. &lt;a href=&quot;https://blog.naver.com/infoefficien/221170205067&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blog.naver.com/infoefficien/221170205067&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;relu&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#relu&quot; aria-label=&quot;relu permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ReLu&lt;/h2&gt;
@@ -1456,5 +1511,12 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;p&gt;Embedding (left side) layer의 W를 저장할 때, [2]를 저장한단 사실 알아두기&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;data/embedding_W.pickle&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wb&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
   pickle&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dump&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;layers&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_weights&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pickle&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;HIGHEST_PROTOCOL&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;영역별-code--논문-참고하기-좋은-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%81%EC%97%AD%EB%B3%84-code--%EB%85%BC%EB%AC%B8-%EC%B0%B8%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A2%8B%EC%9D%80-site&quot; aria-label=&quot;영역별 code  논문 참고하기 좋은 site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;영역별 code &amp;#x26; 논문 참고하기 좋은 site&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SOTA site&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://paperswithcode.com/sota&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://paperswithcode.com/sota&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
