@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 15:44:10 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
-EX…]]></description><link>https://jynee.github.io/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 16:07:22 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+EX…]]></description><link>https://jynee.github.io/tags/GAN-v1_1/</link><guid isPermaLink="false">https://jynee.github.io/tags/GAN-v1_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;비모수적방법&lt;/strong&gt;으로도 비교적 정확한 &lt;strong&gt;sampling이 가능&lt;/strong&gt;함 &lt;/li&gt;
@@ -265,7 +265,7 @@ EX) 이미지 색깔(색칠) 해주는 프로그램, 딥페이크 영상&lt;/li&
 &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GAN 실전 응용]]></title><description><![CDATA[GAN 1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다. fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등) Discrimi의 loss는 maxlog(Dx) + log…]]></description><link>https://jynee.github.io/GAN-v1_2/</link><guid isPermaLink="false">https://jynee.github.io/GAN-v1_2/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GAN 실전 응용]]></title><description><![CDATA[GAN 1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다. fake data는 정규분포의 특성을 갖는다. (KL divergence, 평균, 분산, 왜도, 첨도 등) Discrimi의 loss는 maxlog(Dx) + log…]]></description><link>https://jynee.github.io/tags/GAN-v1_2/</link><guid isPermaLink="false">https://jynee.github.io/tags/GAN-v1_2/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;/br&gt;
 &lt;ul&gt;
 &lt;li&gt;1D 정규분포에서 샘플링한 데이터를 모방하여, fake data를 생성한다.&lt;/br&gt;&lt;/li&gt;
@@ -942,7 +942,7 @@ plot_images&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;spa
     &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[pre-training & fine-tuning  설명 pre-training Weight와 Bias를 초기화 시키는 방법 fine-tuning…]]></description><link>https://jynee.github.io/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pre-training--fine-tuning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pre-training--fine-tuning&quot; aria-label=&quot;pre training  fine tuning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pre-training &amp;#x26; fine-tuning&lt;/h1&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[TQT(The question I asked the teacher today)]]></title><description><![CDATA[pre-training & fine-tuning  설명 pre-training Weight와 Bias를 초기화 시키는 방법 fine-tuning…]]></description><link>https://jynee.github.io/tags/TQT(The question I asked the teacher today.)/</link><guid isPermaLink="false">https://jynee.github.io/tags/TQT(The question I asked the teacher today.)/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pre-training--fine-tuning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pre-training--fine-tuning&quot; aria-label=&quot;pre training  fine tuning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pre-training &amp;#x26; fine-tuning&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1392,6 +1392,8 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;/ul&gt;
 &lt;h2 id=&quot;embedding--pad_sequences&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#embedding--pad_sequences&quot; aria-label=&quot;embedding  pad_sequences permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Embedding &amp;#x26; pad_sequences&lt;/h2&gt;
 &lt;h3 id=&quot;word2vec-기준&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#word2vec-%EA%B8%B0%EC%A4%80&quot; aria-label=&quot;word2vec 기준 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;word2vec 기준&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1412,12 +1414,12 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;td&gt;pad_sequences&lt;/td&gt;
 &lt;td&gt;train&lt;em&gt;inputs = pad&lt;/em&gt;sequences(train&lt;em&gt;sequences, maxlen=MAX&lt;/em&gt;SEQUENCE_LENGTH, padding=&apos;post&apos;)&lt;/td&gt;
 &lt;td&gt;[13, 4, 3]&lt;/td&gt;
-&lt;td&gt;([0,0...1,..],&lt;br /&gt;[0,0,0,1,0,...],&lt;br /&gt;[0,0,1,...])&lt;/td&gt;
+&lt;td&gt;([0,0...1,..],[0,0,0,1,0,...],[0,0,1,...])&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Embedding&lt;/td&gt;
 &lt;td&gt;embedding&lt;em&gt;layer = Embedding(input&lt;/em&gt;dim=VOCAB&lt;em&gt;SIZE, output&lt;/em&gt;dim=EMB_SIZE)&lt;/td&gt;
-&lt;td&gt;([0,0...1,..],&lt;br /&gt;[0,0,0,1,0,...],&lt;br /&gt;[0,0,1,...])&lt;/td&gt;
+&lt;td&gt;([0,0...1,..],[0,0,0,1,0,...],[0,0,1,...])&lt;/td&gt;
 &lt;td&gt;[0,0...1,..] -&gt; ANN layer&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1426,7 +1428,11 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;p&gt;embedding&lt;em&gt;layer 는 결국 pad&lt;/em&gt;sequence된 단어들끼리 모임. 즉, 1개 문장에 대한 임베딩 행렬이 됨 &lt;/p&gt;
 &lt;p&gt;1개 단어 = 1개 임베딩 레이어=벡터값&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;doc2vec-기준&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#doc2vec-%EA%B8%B0%EC%A4%80&quot; aria-label=&quot;doc2vec 기준 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;doc2vec 기준&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1440,7 +1446,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;tr&gt;
 &lt;td&gt;TaggedDocument&lt;/td&gt;
 &lt;td&gt;documents = [TaggedDocument(doc, [i]) for i, doc in enumerate(sentences)]&lt;/td&gt;
-&lt;td&gt;[...,&apos;laughabl&apos;,&lt;br/&gt;  &apos;horror&apos;],&lt;br/&gt; ...]&lt;/td&gt;
+&lt;td&gt;[...,&apos;laughabl&apos;, &apos;horror&apos;], ...]&lt;/td&gt;
 &lt;td&gt;TaggedDocument(words=[&apos;move&apos;, &apos;last&apos;, ... &apos;horror&apos;], tags=[999])&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1457,6 +1463,8 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;p&gt;(word2vec의 경우 한 문장에 있는 각각의 단어 수만큼 벡터가 나온다.)&lt;/p&gt;
 &lt;p&gt;1개 문장 = 1개 임베딩 레이어 = 1개 벡터값&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&quot;chatbot&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#chatbot&quot; aria-label=&quot;chatbot permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ChatBot&lt;/h1&gt;
 &lt;h2 id=&quot;sequence-to-sequence&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sequence-to-sequence&quot; aria-label=&quot;sequence to sequence permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sequence to Sequence&lt;/h2&gt;

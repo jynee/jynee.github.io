@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jynee.github.io/sitemap.xml
+Sitemap: https://jynee.github.io/tags/sitemap.xml
 Host: https://jynee.github.io
