@@ -711,7 +711,7 @@ Grid search<span class="token punctuation">:</span>
 <ol>
 <li>엔트로피 계산량에 의해 엔트로피(E)가 낮고, </li>
 <li>정보획득량(IG)가 높은 선택지를 선택함</li>
-<li>온도 속성은 끝내 결정 노드에 쓰이지 않았다. 4개의 속성 중에 가장 변별력이 낮은 속성이었던 것이다.</li>
+<li>A 속성은 마지막에도 결정 노드에 쓰이지 않았다. N개의 속성 중에 가장 변별력이 낮은 속성이었던 이유다.</li>
 </ol>
 </li>
 <li>불순척도(지니지수, 엔트로피) 작아지도록 분할 기준 선택. 분할 전 부모노드 보다 분할 후 자식노드의 불순척도가 작아지는 게 좋음(IG)</li>
@@ -750,9 +750,9 @@ grid search <span class="token punctuation">:</span>
 <li>
 <blockquote>
 <p> 모델 생성시 특정 옵션을 주어야 <code class="language-text">predict_proba</code>가 사용 가능</p>
-<p>predict_proba 함수를 가지고 있지만, 모델 생성시 <code class="language-text">probalility=True</code>를 설정하지 않으면 사용할 수 없다.</p>
-<p>이때, 레이블이 3개 이상인 경우, LinearSVC보단 SVC를 사용하고, probability=True 옵션 주는 것을 추천한다. </p>
-<p>출처: <a href="https://m.blog.naver.com/cjh226/221358912619" target="_blank" rel="nofollow noopener noreferrer">https://m.blog.naver.com/cjh226/221358912619</a>)</p>
+<p> predict_proba 함수를 가지고 있지만, 모델 생성시 <code class="language-text">probalility=True</code>를 설정하지 않으면 사용할 수 없다.</p>
+<p> 이때, 레이블이 3개 이상인 경우, LinearSVC보단 SVC를 사용하고, probability=True 옵션 주는 것을 추천한다. </p>
+<p> 출처: <a href="https://m.blog.naver.com/cjh226/221358912619" target="_blank" rel="nofollow noopener noreferrer">https://m.blog.naver.com/cjh226/221358912619</a>)</p>
 </blockquote>
 </li>
 </ul>
@@ -764,6 +764,7 @@ grid search <span class="token punctuation">:</span>
 <ul>
 <li>그 중 가장 간단한 것이 선형 SVM(linear SVM)</li>
 </ul>
+</br>
 </li>
 <li>
 <p>SVM 알고리즘의 목표: 클래스가 다른 데이터들을 가장 큰 마진(margin)으로 분리해내는 선 또는 면(결정 경계 또는 분리 초평면)을 찾아내는 것</p>
@@ -771,16 +772,18 @@ grid search <span class="token punctuation">:</span>
 <li>마진: 두 데이터 군과 결정 경계와 떨어져있는 정도</li>
 <li>서포트 벡터: 결정 경계와 가장 먼저 만나는 데이터</li>
 </ul>
+</br>
 </li>
 <li>SVM의 기본 매개변수인 C</li>
 <li>
 <p>cost(C): C는 얼마나 많은 데이터 샘플이 다른 클래스에 놓이는 것을 허용하는지를 결정</p>
-<ul>
-<li>ex: 작을 수록 많이 허용, 클 수록 적게 허용</li>
-<li>ex: C값을 낮게 설정하면 이상치들이 있을 가능성을 크게 잡아 일반적인 결정 경계를 찾아내고, 높게 설정하면 반대로 이상치의 존재 가능성을 작게 봐서 좀 더 세심하게 결정 경계를 찾아낸다.</li>
-<li>ex: "난 데이터 샘플하나도 잘못 분류할 수 없어!" : C를 높여야</li>
-<li>ex: "몇 개는 놓쳐도 괜찮아, 이상치들이 꽤 있을 수도 있으니까" : C를 낮춰야</li>
-</ul>
+<blockquote>
+<p>ex: 작을 수록 많이 허용, 클 수록 적게 허용
+ex: C값을 낮게 설정하면 이상치들이 있을 가능성을 크게 잡아 일반적인 결정 경계를 찾아내고, 높게 설정하면 반대로 이상치의 존재 가능성을 작게 봐서 좀 더 세심하게 결정 경계를 찾아낸다.
+ex: "난 데이터 샘플하나도 잘못 분류할 수 없어!" : C를 높여야
+ex: "몇 개는 놓쳐도 괜찮아, 이상치들이 꽤 있을 수도 있으니까" : C를 낮춰야</p>
+<p>인용: 심교훈. 2017. 10. 21. "서포트 벡터 머신(SVM)의 사용자로서 꼭 알아야할 것들 - 매개변수 C와 gamma". <a href="https://bskyvision.com/163" target="_blank" rel="nofollow noopener noreferrer">https://bskyvision.com/163</a>. b스카이비전.</p>
+</blockquote>
 </li>
 <li>C가 너무 낮으면 과소적합(underfitting)</li>
 <li>
@@ -875,61 +878,6 @@ grid search <span class="token punctuation">:</span>
 </ol>
 </li>
 </ul>
-<blockquote>
-<p>총 105개의 특성을 라쏘 회귀 모델을 만들기 위해 사용했다. <span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 36px; "
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 47.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKklEQVQoz4VSu6qDUBDMN/oDqfIDaUQwKVPHTiwEg11Io0hSBFJaWIgkihGSVisfnfiae/eAYmJy78B6luXM7O4cZ/hF13Xoz/9ijKZpMOYTZu9ihLZtJ+SxqOu6WK/XeDwew/1B8L3DOO+FKXpSkiSwbRuLxQJBEEwFe4GqqnA6nXA4HHA+n7Hf72GaJjabDbbbLTuv1+tAXK1W8H1/stGsV9c0DcfjEVmWYT6fw3EcVq/rmhHIr/5uWZbgeR63220qSJ88z7FcLlnBMAxIksTyy+UCWZax2+2gKAqiKBomFEXxu4fUURAEWJYFXddZTpPGcczWDMOQTUM1Ak3PcRxUVUWapi/eDx6S2ff7neUkUBQFPoFWfz6f8DzvpcnLyn+98jjef6VPnB+lqpvwRtKYcAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="image-20200721081736446"
-        title="image-20200721081736446"
-        src="/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png"
-        srcset="/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png 36w"
-        sizes="(max-width: 36px) 100vw, 36px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-  </a>
-    </span>로 설정했더니 105개의 가중치 중에서 101개가 0이 되면서 특성은 단 4개만 사용되었다. 훈련셋에서의 점수와 테스트셋에서의 점수를 보니 과소적합이었다. 따라서 복잡도를 높이기 위해서 <span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 73px; "
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 23.287671232876715%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA9klEQVQY021QyYqDUBDM/3+AJyF3QTEuwagHb+KCBESIghAQRC+K4oKg1tAdJsxh6vDorep11+U8T/yHqqowzzPH0zRxTmiaBn3fc/x+v3EcB9Z1/dYu9AzDgHEcUdc1N16vF0zThG3bPOS6Lu73O3zf59hxHARBAF3XEccx0jSFJEkfQUoMw4BlWYiiCEmSMJnqmqZh2zaoqoo8zyEIAp7PJzzPw/V6RVEUPLssC/NZkDaRZZkFaCDLMiYrioIwDFGWJZMejwdvfrvdeDv6mHjUp9NFUfwIkjqdSz78BZ1O/pB/tCXZ8msP5YSu674et22Lfd/xAzbWZmyVUan7AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="image-20200721081835369"
-        title="image-20200721081835369"
-        src="/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png"
-        srcset="/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png 73w"
-        sizes="(max-width: 73px) 100vw, 73px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-  </a>
-    </span>로 설정했더니 가중치 중에서 7개만 0이 되면서 94개의 특성이 사용되었다. 훈련셋과 테스트셋에서의 점수를 보니 훈련셋에서는 좋은데 테스트셋에서는 많이 떨어졌다. 즉, 과대적합이었다. 따라서 다시 복잡도를 낮추기 위해 <img src="https://t1.daumcdn.net/cfile/tistory/99E9B0335A0547A912" alt="img">을 사용했다. 105개의 가중치 중에서 72개가 0이 되면서 33개의 특성이 사용되었다. 훈련셋에서의 점수와 테스트셋에서의 점수가 모두 괜찮았다. </p>
-</blockquote>
 <br>
 <h3 id="code-classlanguage-text릿지l2code" style="position:relative;"><a href="#code-classlanguage-text%EB%A6%BF%EC%A7%80l2code" aria-label="code classlanguage text릿지l2code permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code class="language-text">릿지(L2)</code></h3>
 <ul>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 23:57:06 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2020 00:06:05 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
 EX…]]></description><link>https://jynee.github.io/tags#1st/GAN_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/GAN_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
@@ -1618,7 +1618,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;p&gt;따라서 각 뉴런에서 latent layer로 이어지는 정보량(마지막에 FNN정보량+BFN정보량)은 같다&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;One to many&lt;/li&gt;
-&lt;li&gt;Many to many&lt;/li&gt;
+&lt;li&gt;Many to many&lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -2297,7 +2297,7 @@ Grid search&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;ol&gt;
 &lt;li&gt;엔트로피 계산량에 의해 엔트로피(E)가 낮고, &lt;/li&gt;
 &lt;li&gt;정보획득량(IG)가 높은 선택지를 선택함&lt;/li&gt;
-&lt;li&gt;온도 속성은 끝내 결정 노드에 쓰이지 않았다. 4개의 속성 중에 가장 변별력이 낮은 속성이었던 것이다.&lt;/li&gt;
+&lt;li&gt;A 속성은 마지막에도 결정 노드에 쓰이지 않았다. N개의 속성 중에 가장 변별력이 낮은 속성이었던 이유다.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;불순척도(지니지수, 엔트로피) 작아지도록 분할 기준 선택. 분할 전 부모노드 보다 분할 후 자식노드의 불순척도가 작아지는 게 좋음(IG)&lt;/li&gt;
@@ -2336,9 +2336,9 @@ grid search &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
 &lt;p&gt; 모델 생성시 특정 옵션을 주어야 &lt;code class=&quot;language-text&quot;&gt;predict_proba&lt;/code&gt;가 사용 가능&lt;/p&gt;
-&lt;p&gt;predict_proba 함수를 가지고 있지만, 모델 생성시 &lt;code class=&quot;language-text&quot;&gt;probalility=True&lt;/code&gt;를 설정하지 않으면 사용할 수 없다.&lt;/p&gt;
-&lt;p&gt;이때, 레이블이 3개 이상인 경우, LinearSVC보단 SVC를 사용하고, probability=True 옵션 주는 것을 추천한다. &lt;/p&gt;
-&lt;p&gt;출처: &lt;a href=&quot;https://m.blog.naver.com/cjh226/221358912619&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://m.blog.naver.com/cjh226/221358912619&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt; predict_proba 함수를 가지고 있지만, 모델 생성시 &lt;code class=&quot;language-text&quot;&gt;probalility=True&lt;/code&gt;를 설정하지 않으면 사용할 수 없다.&lt;/p&gt;
+&lt;p&gt; 이때, 레이블이 3개 이상인 경우, LinearSVC보단 SVC를 사용하고, probability=True 옵션 주는 것을 추천한다. &lt;/p&gt;
+&lt;p&gt; 출처: &lt;a href=&quot;https://m.blog.naver.com/cjh226/221358912619&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://m.blog.naver.com/cjh226/221358912619&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -2350,6 +2350,7 @@ grid search &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;ul&gt;
 &lt;li&gt;그 중 가장 간단한 것이 선형 SVM(linear SVM)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;SVM 알고리즘의 목표: 클래스가 다른 데이터들을 가장 큰 마진(margin)으로 분리해내는 선 또는 면(결정 경계 또는 분리 초평면)을 찾아내는 것&lt;/p&gt;
@@ -2357,16 +2358,18 @@ grid search &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;li&gt;마진: 두 데이터 군과 결정 경계와 떨어져있는 정도&lt;/li&gt;
 &lt;li&gt;서포트 벡터: 결정 경계와 가장 먼저 만나는 데이터&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/br&gt;
 &lt;/li&gt;
 &lt;li&gt;SVM의 기본 매개변수인 C&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;cost(C): C는 얼마나 많은 데이터 샘플이 다른 클래스에 놓이는 것을 허용하는지를 결정&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ex: 작을 수록 많이 허용, 클 수록 적게 허용&lt;/li&gt;
-&lt;li&gt;ex: C값을 낮게 설정하면 이상치들이 있을 가능성을 크게 잡아 일반적인 결정 경계를 찾아내고, 높게 설정하면 반대로 이상치의 존재 가능성을 작게 봐서 좀 더 세심하게 결정 경계를 찾아낸다.&lt;/li&gt;
-&lt;li&gt;ex: &quot;난 데이터 샘플하나도 잘못 분류할 수 없어!&quot; : C를 높여야&lt;/li&gt;
-&lt;li&gt;ex: &quot;몇 개는 놓쳐도 괜찮아, 이상치들이 꽤 있을 수도 있으니까&quot; : C를 낮춰야&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ex: 작을 수록 많이 허용, 클 수록 적게 허용
+ex: C값을 낮게 설정하면 이상치들이 있을 가능성을 크게 잡아 일반적인 결정 경계를 찾아내고, 높게 설정하면 반대로 이상치의 존재 가능성을 작게 봐서 좀 더 세심하게 결정 경계를 찾아낸다.
+ex: &quot;난 데이터 샘플하나도 잘못 분류할 수 없어!&quot; : C를 높여야
+ex: &quot;몇 개는 놓쳐도 괜찮아, 이상치들이 꽤 있을 수도 있으니까&quot; : C를 낮춰야&lt;/p&gt;
+&lt;p&gt;인용: 심교훈. 2017. 10. 21. &quot;서포트 벡터 머신(SVM)의 사용자로서 꼭 알아야할 것들 - 매개변수 C와 gamma&quot;. &lt;a href=&quot;https://bskyvision.com/163&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/163&lt;/a&gt;. b스카이비전.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;C가 너무 낮으면 과소적합(underfitting)&lt;/li&gt;
 &lt;li&gt;
@@ -2461,61 +2464,6 @@ grid search &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;총 105개의 특성을 라쏘 회귀 모델을 만들기 위해 사용했다. &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 36px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKklEQVQoz4VSu6qDUBDMN/oDqfIDaUQwKVPHTiwEg11Io0hSBFJaWIgkihGSVisfnfiae/eAYmJy78B6luXM7O4cZ/hF13Xoz/9ijKZpMOYTZu9ihLZtJ+SxqOu6WK/XeDwew/1B8L3DOO+FKXpSkiSwbRuLxQJBEEwFe4GqqnA6nXA4HHA+n7Hf72GaJjabDbbbLTuv1+tAXK1W8H1/stGsV9c0DcfjEVmWYT6fw3EcVq/rmhHIr/5uWZbgeR63220qSJ88z7FcLlnBMAxIksTyy+UCWZax2+2gKAqiKBomFEXxu4fUURAEWJYFXddZTpPGcczWDMOQTUM1Ak3PcRxUVUWapi/eDx6S2ff7neUkUBQFPoFWfz6f8DzvpcnLyn+98jjef6VPnB+lqpvwRtKYcAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20200721081736446&quot;
-        title=&quot;image-20200721081736446&quot;
-        src=&quot;/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png&quot;
-        srcset=&quot;/static/de1e4e5f483c13ccd70931eaeed07ced/b501b/image-20200721081736446.png 36w&quot;
-        sizes=&quot;(max-width: 36px) 100vw, 36px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;로 설정했더니 105개의 가중치 중에서 101개가 0이 되면서 특성은 단 4개만 사용되었다. 훈련셋에서의 점수와 테스트셋에서의 점수를 보니 과소적합이었다. 따라서 복잡도를 높이기 위해서 &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 73px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 23.287671232876715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA9klEQVQY021QyYqDUBDM/3+AJyF3QTEuwagHb+KCBESIghAQRC+K4oKg1tAdJsxh6vDorep11+U8T/yHqqowzzPH0zRxTmiaBn3fc/x+v3EcB9Z1/dYu9AzDgHEcUdc1N16vF0zThG3bPOS6Lu73O3zf59hxHARBAF3XEccx0jSFJEkfQUoMw4BlWYiiCEmSMJnqmqZh2zaoqoo8zyEIAp7PJzzPw/V6RVEUPLssC/NZkDaRZZkFaCDLMiYrioIwDFGWJZMejwdvfrvdeDv6mHjUp9NFUfwIkjqdSz78BZ1O/pB/tCXZ8msP5YSu674et22Lfd/xAzbWZmyVUan7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20200721081835369&quot;
-        title=&quot;image-20200721081835369&quot;
-        src=&quot;/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png&quot;
-        srcset=&quot;/static/342cd0d147b9f829aaa817345be1c855/2bc29/image-20200721081835369.png 73w&quot;
-        sizes=&quot;(max-width: 73px) 100vw, 73px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;로 설정했더니 가중치 중에서 7개만 0이 되면서 94개의 특성이 사용되었다. 훈련셋과 테스트셋에서의 점수를 보니 훈련셋에서는 좋은데 테스트셋에서는 많이 떨어졌다. 즉, 과대적합이었다. 따라서 다시 복잡도를 낮추기 위해 &lt;img src=&quot;https://t1.daumcdn.net/cfile/tistory/99E9B0335A0547A912&quot; alt=&quot;img&quot;&gt;을 사용했다. 105개의 가중치 중에서 72개가 0이 되면서 33개의 특성이 사용되었다. 훈련셋에서의 점수와 테스트셋에서의 점수가 모두 괜찮았다. &lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;code-classlanguage-text릿지l2code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%A6%BF%EC%A7%80l2code&quot; aria-label=&quot;code classlanguage text릿지l2code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;릿지(L2)&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
