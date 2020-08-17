@@ -598,7 +598,7 @@
 <li>초기값에 따라 전역이 아닌 지역 최소 값을 찾을 수 있음</li>
 <li>r에 따라 {0,1} 이면 명목형, 확률이면 연속형(GMM 모델)</li>
 </ul>
-<br>
+<p><br><br></p>
 <ul>
 <li>적합한 k 개수를 찾고 검증하는 모델들</li>
 </ul>
@@ -616,7 +616,7 @@
 <li>거리의 합 != 거리가 줄어드는 폭.</li>
 <li>엘보우는 거리가 줄어드는 폭을 봄</li>
 </ul>
- <br>
+<p> <br><br></p>
 <h3 id="실루엣silhouette" style="position:relative;"><a href="#%EC%8B%A4%EB%A3%A8%EC%97%A3silhouette" aria-label="실루엣silhouette permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>실루엣(Silhouette)</h3>
 <ul>
 <li>“군집화가 잘 됐나?” &#x3C;- 약간 검증하는 성격인 듯하다.</li>
@@ -630,7 +630,7 @@
 <li>실루엣 계수는 원형 군집이 아닌 경우 잘 맞지 않음</li>
 <li>0~1값을 가짐</li>
 </ul>
- <br>
+<p> <br><br></p>
 <h2 id="k-means군집clustering" style="position:relative;"><a href="#k-means%EA%B5%B0%EC%A7%91clustering" aria-label="k means군집clustering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>K-Means++군집(clustering)</h2>
 <ul>
 <li>local optimum 해결 위해 초기 중점을 좀 더 합리적으로 설정하는 방법</li>
@@ -680,7 +680,7 @@
 <li>여러 알고리즘을 사용한 후 결과를 종합하여 정확도, 일반화 특성을 증가시킴</li>
 <li>classification_report(~~)</li>
 </ul>
-<br>
+<p><br><br></p>
 <h3 id="배깅bagging-or-bootstrap-aggregation" style="position:relative;"><a href="#%EB%B0%B0%EA%B9%85bagging-or-bootstrap-aggregation" aria-label="배깅bagging or bootstrap aggregation permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>배깅(Bagging or Bootstrap Aggregation)</h3>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">BaggingClassifier<span class="token punctuation">(</span><span class="token operator">~</span><span class="token operator">~</span><span class="token punctuation">)</span>
 <span class="token operator">*</span> Hyper parameter <span class="token punctuation">:</span>
@@ -700,7 +700,7 @@
 </ul>
 </li>
 </ul>
- <br>
+<p> <br><br></p>
 <h3 id="부스팅boosting-증폭-가속" style="position:relative;"><a href="#%EB%B6%80%EC%8A%A4%ED%8C%85boosting-%EC%A6%9D%ED%8F%AD-%EA%B0%80%EC%86%8D" aria-label="부스팅boosting 증폭 가속 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>부스팅(Boosting): 증폭, 가속.</h3>
 <ul>
 <li>
@@ -710,7 +710,7 @@
 <li>처음 샘플링은 가중치를 두어 샘플링함 -> 분류 잘못된 데이터는 가중치 높이고 다시 샘플링. 이때 잘못 분류된 패턴이 선택될 확률이 높음. </li>
 </ol>
 <p> → 분류가 어려운 패턴에 더욱 집중하여 정확도를 높이는 방법</p>
- <br>
+<p> <br><br></p>
 </li>
 </ul>
 <h4 id="adaboostadaptive-boosting" style="position:relative;"><a href="#adaboostadaptive-boosting" aria-label="adaboostadaptive boosting permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AdaBoost(Adaptive Boosting)</h4>
@@ -724,7 +724,7 @@ Hyper parameter<span class="token punctuation">:</span>
   n_estimators<span class="token operator">=</span><span class="token number">100</span> <span class="token comment">#100번 재조합한단 뜻(오분류한 거에 가중치둬서)</span></code></pre></div>
 </li>
 </ul>
-<br>
+<p><br><br></p>
 <h4 id="gradient-boostingfor-regression" style="position:relative;"><a href="#gradient-boostingfor-regression" aria-label="gradient boostingfor regression permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gradient Boosting(for regression)</h4>
 <ul>
 <li>target 데이터의 <strong>잔차</strong>를 줄이도록 학습. 학습할수록 residual(잔차)가 계속 작아짐. 잔차가 더 이상 줄어들지 않을 떄까지 tree 생성하며 학습+추정치 업데이트</li>
@@ -739,7 +739,7 @@ Hyper parameter<span class="token punctuation">:</span>
     Learning_rate <span class="token operator">=</span> <span class="token number">0.1</span>     <span class="token comment"># 알파. 가중치</span>
     n_estimators <span class="token operator">=</span> <span class="token number">100</span>      <span class="token comment"># 잔차(tree) 100개 만들라</span>
     max_depth<span class="token operator">=</span><span class="token number">3</span> 			<span class="token comment"># 얕은 depth</span></code></pre></div>
-<br>
+<p><br><br></p>
 <h4 id="gradient-boostingfor-classification" style="position:relative;"><a href="#gradient-boostingfor-classification" aria-label="gradient boostingfor classification permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gradient Boosting(for classification)</h4>
 <ul>
 <li>Regression과 동일하나, 추정치를 위해 odds, logs(odds), probability 개념 사용</li>
@@ -751,7 +751,7 @@ Hyper parameter<span class="token punctuation">:</span>
     learning_rate <span class="token operator">=</span> <span class="token number">0.1</span><span class="token punctuation">,</span>     <span class="token comment">#학습률, 가중치, 알파값</span>
     n_estimators<span class="token operator">=</span><span class="token number">100</span><span class="token punctuation">,</span>      <span class="token comment">#잔차(tree) 수</span>
     max_depth<span class="token operator">=</span><span class="token number">3</span> </code></pre></div>
-<br>
+<p><br><br></p>
 <h4 id="xgboostextreme-gradient-boostingfor-regression" style="position:relative;"><a href="#xgboostextreme-gradient-boostingfor-regression" aria-label="xgboostextreme gradient boostingfor regression permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XGBoost(Extreme Gradient Boosting)(for regression)</h4>
 <ul>
 <li>
@@ -768,7 +768,7 @@ Hyper parameter<span class="token punctuation">:</span>
 <div class="gatsby-highlight" data-language="py"><pre class="language-py"><code class="language-py">XGBRegressor<span class="token punctuation">(</span><span class="token operator">~</span><span class="token operator">~</span><span class="token punctuation">)</span>
 Hyper parameter<span class="token punctuation">:</span> 
 	Objective <span class="token operator">=</span>’reg<span class="token punctuation">:</span>squarederror’     <span class="token comment">#regression 사용하고 MSE 사용한단 뜻. regression이니 r2 사용</span></code></pre></div>
-<br>
+<p><br><br></p>
 <h4 id="xgboostextreme-gradient-boostingfor-classification" style="position:relative;"><a href="#xgboostextreme-gradient-boostingfor-classification" aria-label="xgboostextreme gradient boostingfor classification permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>XGBoost(Extreme Gradient Boosting)(for classification)</strong></h4>
 <ul>
 <li>잔차 계산 시, output value를 사용한다는 데서 Gradient Boost랑 차이가 있음</li>
@@ -782,7 +782,7 @@ Hyper parameter<span class="token punctuation">:</span>
   ‘max_depth’ <span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span> 
   ‘objective’ <span class="token punctuation">:</span> ‘multi<span class="token punctuation">:</span>softprob’      <span class="token comment">#softmas 사용한단 뜻</span>
   ‘num_class’ <span class="token punctuation">:</span> <span class="token number">3</span> <span class="token punctuation">}</span>            		  <span class="token comment">#클래스 개수</span></code></pre></div>
-<br>
+<p><br><br></p>
 <h3 id="랜덤포레스트random-forest" style="position:relative;"><a href="#%EB%9E%9C%EB%8D%A4%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8random-forest" aria-label="랜덤포레스트random forest permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>랜덤포레스트(Random Forest)</h3>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">RandomForestClassifier<span class="token punctuation">(</span><span class="token operator">~</span><span class="token operator">~</span><span class="token punctuation">)</span>
 Hyper parameter<span class="token punctuation">:</span>
@@ -798,7 +798,7 @@ Hyper parameter<span class="token punctuation">:</span>
 </li>
 <li>샘플링 함</li>
 </ul>
-<br>
+<p><br><br></p>
 <h3 id="다수결-알고리즘majority-voting" style="position:relative;"><a href="#%EB%8B%A4%EC%88%98%EA%B2%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98majority-voting" aria-label="다수결 알고리즘majority voting permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>다수결 알고리즘(Majority Voting)</h3>
 <ul>
 <li>
@@ -808,7 +808,7 @@ Hyper parameter<span class="token punctuation">:</span>
 </ul>
 </li>
 </ul>
-<br>
+<p><br><br></p>
 <h3 id="isolation-forestiforest" style="position:relative;"><a href="#isolation-forestiforest" aria-label="isolation forestiforest permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Isolation Forest(iForest):</h3>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">Model <span class="token operator">=</span> IsolationForest
 Hyper parameter<span class="token punctuation">:</span>

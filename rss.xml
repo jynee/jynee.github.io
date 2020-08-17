@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2020 00:06:05 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2020 00:17:24 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
 EX…]]></description><link>https://jynee.github.io/tags#1st/GAN_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/GAN_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
@@ -1569,15 +1569,15 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;br&gt;
 &lt;h3 id=&quot;lstm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lstm&quot; aria-label=&quot;lstm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LSTM&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;RNN의 vanishing gradient 해결을 위해 고안. C 추가&lt;/li&gt;
+&lt;li&gt;RNN의 vanishing gradient 해결을 위해 고안. C 추가&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;f와 i의 가중평균 형태&lt;/p&gt;
+&lt;p&gt;f와 i의 가중평균 형태&lt;br&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;batch&quot;&gt;&lt;pre class=&quot;language-batch&quot;&gt;&lt;code class=&quot;language-batch&quot;&gt;&lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;f&lt;/span&gt;: forget date. 이전의 C를 얼마나 반영할 것인지 조절&lt;/span&gt;
 &lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;i&lt;/span&gt;: input or ignore. 현재 입력값(x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;과 이전의 출력값&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;를 얼마나 반영할 것인지 조절
 
 * h는 위, 왼쪽 / c는 왼쪽으로 전파. 둘다 처음엔 0으로 시작함&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;GRU: LSTM 구조를 간결하게 만듦. 속도도 더 빠르지만 성능도 안 떨어짐 &lt;/li&gt;
+&lt;li&gt;GRU: LSTM 구조를 간결하게 만듦. 속도도 더 빠르지만 성능도 안 떨어짐 &lt;br&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;학습 유형: 단방향(FNN,BFN) / 양방향(FNN+BFN) 모두 적용 가능.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -1624,7 +1624,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;li&gt;
 &lt;p&gt;단방향은 ‘이후’만 기억, 양방향은 ‘이전’+’이후’ 모두 기억&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;어떻게? 단방향은 FBN만 사용, 양방향은 FBN+BFN 사용하기 떄문.&lt;/li&gt;
+&lt;li&gt;어떻게? 단방향은 FBN만 사용, 양방향은 FBN+BFN 사용하기 떄문.&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1633,7 +1633,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;li&gt;모델(code)에서(RNN층 내) FNN 진행 후 정보량 모아두고, &lt;/li&gt;
 &lt;li&gt;BFN 진행 후 정보량 모아두고,&lt;/li&gt;
 &lt;li&gt;CONCAT(합침)해서 &lt;/li&gt;
-&lt;li&gt;error를 역전파 시킴 &lt;/li&gt;
+&lt;li&gt;error를 역전파 시킴 &lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1665,7 +1665,7 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 → &lt;strong&gt;특성지도&lt;/strong&gt; 출력
 → 서브샘플링(subsampling) 또는 &lt;strong&gt;풀링&lt;/strong&gt;(pooling)
 → 다시 컨볼루션, 활성화, 서브샘플링을 수행
-→ 최종 특성지도는 피드포워드 신경망에 입력되어 분류 작업을 시행&lt;/p&gt;
+→ 최종 특성지도는 피드포워드 신경망에 입력되어 분류 작업을 시행&lt;br&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;batch&quot;&gt;&lt;pre class=&quot;language-batch&quot;&gt;&lt;code class=&quot;language-batch&quot;&gt;컨볼루션: 
 &lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;image&lt;/span&gt; data의 경우&lt;/span&gt;
 → filter&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token command&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;kernel&lt;/span&gt;: image data와의 convolution(cross-correlation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 진행&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
@@ -1704,23 +1704,30 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;li&gt;
 &lt;p&gt;컨볼루션 레이어 단계&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Filters&lt;/code&gt;: 출력 모양의 깊이(depth) 를 결정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Filters&lt;/code&gt;: 출력 모양의 깊이(depth) 를 결정&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;kernel_size&lt;/code&gt;: &lt;/li&gt;
 &lt;li&gt;w(연결선, 가중치)이자, filter의 size.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;연산을 수행할 때 윈도우의 크기&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2D에서 kernel_size=(8,1)이면 8행+1열(이때 1열은 feature)&lt;/li&gt;
-&lt;li&gt;1D에서 kernel_sizw=8이면 자동 8행+전체열(1D에서 필터는 아래 방향으로 밖에 이동 못함)&lt;/li&gt;
+&lt;li&gt;1D에서 kernel_sizw=8이면 자동 8행+전체열(1D에서 필터는 아래 방향으로 밖에 이동 못함)&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;strides&lt;/code&gt;: 필터 적용 시 한 번에 얼마나 움직일지(이동 크기) 이동할 칸 수. 보통 1을 씀. &lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;padding&lt;/code&gt;:
-컨볼루션 레이어(합성곱) 혹은 풀링 연산을 수행하는 레이어에 파라미터로 설정
-convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정이다. 하지만 이러한 과정에서 지나치게 데이터가 축소되어 정보가 소실되는 것을 방지하기 위해 데이터에 0으로 이루어진 패딩을 주는 경우가 있다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;strides&lt;/code&gt;: 필터 적용 시 한 번에 얼마나 움직일지(이동 크기) 이동할 칸 수. 보통 1을 씀. &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;padding&lt;/code&gt;: &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;컨볼루션 레이어(합성곱) 혹은 풀링 연산을 수행하는 레이어에 파라미터로 설정&lt;/p&gt;
+&lt;p&gt;convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정이다. 하지만 이러한 과정에서 지나치게 데이터가 축소되어 정보가 소실되는 것을 방지하기 위해 데이터에 0으로 이루어진 패딩을 주는 경우가 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;‘원본’(사이즈)을 조정. filter를 거치면 이미지 사이즈가 원본과 달리 작아지는데, 이를 피하기 위해 작아지는 사이즈가 원본 사이즈만큼 되도록 원본 사이즈 크기를 늘림. 이때, Zero padding 기법을 사용. 수치(?)가 없는 부분 즉, 가생이(모서리)을 ‘0’으로 채움(가생이 아니고 중간 부분 채워도 zero-padding)&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;padding = &amp;#39;same&amp;#39;&lt;/code&gt;: 원본 사이즈 유지시킴(차원 유지)&lt;/li&gt;
 &lt;li&gt;원리: 필터의 사이즈가 k이면 사방으로 k/2 만큼의 패딩을 준다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;padding = &amp;#39;valid&amp;#39;&lt;/code&gt;: 패딩 사용하지 않음 &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;padding = &amp;#39;valid&amp;#39;&lt;/code&gt;: 패딩 사용하지 않음 &lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;activation: ‘ReLu’&lt;/code&gt;가 default. CNN에선 ReLu 사용을 권장한다고 함 &lt;/li&gt;
 &lt;/ul&gt;
  &lt;br&gt;
@@ -1730,17 +1737,17 @@ convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정�
 &lt;ul&gt;
 &lt;li&gt;원본이미지에서 특징 추출해서 feature map의 크기를 줄여주는 과정. &lt;/li&gt;
 &lt;li&gt;(1) Max pooling, (2) mean pooling이 있음 &lt;/li&gt;
-&lt;li&gt;pool&lt;em&gt;size: strides가 미리 설정되지 않을 경우 pool&lt;/em&gt;size와 동일하게 설정된다. &lt;/li&gt;
+&lt;li&gt;pool&lt;em&gt;size: strides가 미리 설정되지 않을 경우 pool&lt;/em&gt;size와 동일하게 설정된다. &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;strides&lt;/li&gt;
+&lt;li&gt;padding&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;strides&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Flatten&lt;/code&gt; 단계&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;padding:  ‘원본’(사이즈)을 조정. filter를 거치면 이미지 사이즈가 원본과 달리 작아지는데, 이를 피하기 위해 작아지는 사이즈가 원본 사이즈만큼 되도록 원본 사이즈 크기를 늘림. 이때, Zero padding 기법을 사용. 수치(?)가 없는 부분 즉, 가생이(모서리)을 ‘0’으로 채움(가생이 아니고 중간 부분 채워도 zero-padding)&lt;/li&gt;
+&lt;li&gt;Flatten&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fatten&lt;/code&gt; 단계&lt;/li&gt;
-&lt;li&gt;Flatten&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;output&lt;/code&gt; 단계&lt;/p&gt;
 &lt;ul&gt;
@@ -1760,6 +1767,7 @@ convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정�
  &lt;br&gt;
 &lt;br&gt;
  &lt;br&gt;
+&lt;br&gt;
 &lt;blockquote&gt;
 &lt;p&gt;참고: &lt;/p&gt;
 &lt;ul&gt;
@@ -1773,6 +1781,8 @@ convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정�
 &lt;li&gt;optimaizer&lt;/li&gt;
 &lt;li&gt;kerass&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;h2 id=&quot;optimizers&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optimizers&quot; aria-label=&quot;optimizers permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;optimizers&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1784,6 +1794,9 @@ convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정�
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;NAG&lt;/code&gt;: 관성 방향으로 이동 후 그 지점에서 GD 방향으로 움직임 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;가중치(알파 or lr) 조정 알고리즘&lt;/p&gt;
 &lt;ol&gt;
@@ -1794,6 +1807,8 @@ convolution과 pooling 연산은 파라미터의 수를 줄여나가는 과정�
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+ &lt;br&gt;
+&lt;br&gt;
 &lt;h2 id=&quot;keras&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#keras&quot; aria-label=&quot;keras permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Keras&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1804,6 +1819,7 @@ Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Sequential&lt;
 Model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Dense&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; input_dim &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#layer(dense), 노드 1개, 그 노드에 2개가 들어온다고 알려줌&lt;/span&gt;
 Model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;complile&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;’mse’&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; optimizer&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;optimizers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Adam&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.05&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 Model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dataX&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; epochs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#학습&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;더 간단한 모델: &lt;/p&gt;
@@ -1815,6 +1831,9 @@ model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Model&lt;span 
 model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;complie&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;loss&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;’mse’&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; optimizer&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;optimizers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Adam&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lr&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.05&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dataX&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;epochs&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#학습&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;잔차 계산 방법들:&lt;/p&gt;
 &lt;ol&gt;
@@ -1822,6 +1841,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;Batch update: 한꺼번에 error 계산하고 a, b , c 업뎃&lt;/li&gt;
 &lt;li&gt;Mini-batch update: 일부 error 계산하고 그때마다 a, b, c 를 업데이트. Stochastic GD update, Batch update의 중간 특성&lt;/li&gt;
 &lt;/ol&gt;
+&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Model 의 기본적인 code:&lt;/p&gt;
@@ -1830,7 +1850,11 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;.predict&lt;/code&gt;: test data를 만들어둔 model로 궁예해봄&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[머신러닝 분석 방법들, 두 번째]]></title><description><![CDATA[머신러닝(ML) K-Means 클러스터링 H-clustering DBSAN 앙상블 연관규칙 분석 k-means 클러스터링 비지도학습 비계층적 군집분석 k-means 클러스터링은 데이터를 k개의 클러스터(cluster…]]></description><link>https://jynee.github.io/tags#1st/머신러닝_2/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/머신러닝_2/</guid><pubDate>Tue, 30 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;머신러닝ml&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9Dml&quot; aria-label=&quot;머신러닝ml permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;머신러닝(ML)&lt;/h1&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;</content:encoded></item><item><title><![CDATA[머신러닝 분석 방법들, 두 번째]]></title><description><![CDATA[머신러닝(ML) K-Means 클러스터링 H-clustering DBSAN 앙상블 연관규칙 분석 k-means 클러스터링 비지도학습 비계층적 군집분석 k-means 클러스터링은 데이터를 k개의 클러스터(cluster…]]></description><link>https://jynee.github.io/tags#1st/머신러닝_2/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/머신러닝_2/</guid><pubDate>Tue, 30 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;머신러닝ml&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9Dml&quot; aria-label=&quot;머신러닝ml permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;머신러닝(ML)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;K-Means 클러스터링&lt;/li&gt;
 &lt;li&gt;H-clustering&lt;/li&gt;
@@ -1873,7 +1897,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;초기값에 따라 전역이 아닌 지역 최소 값을 찾을 수 있음&lt;/li&gt;
 &lt;li&gt;r에 따라 {0,1} 이면 명목형, 확률이면 연속형(GMM 모델)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;적합한 k 개수를 찾고 검증하는 모델들&lt;/li&gt;
 &lt;/ul&gt;
@@ -1891,7 +1915,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;거리의 합 != 거리가 줄어드는 폭.&lt;/li&gt;
 &lt;li&gt;엘보우는 거리가 줄어드는 폭을 봄&lt;/li&gt;
 &lt;/ul&gt;
- &lt;br&gt;
+&lt;p&gt; &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;실루엣silhouette&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EB%A3%A8%EC%97%A3silhouette&quot; aria-label=&quot;실루엣silhouette permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실루엣(Silhouette)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;“군집화가 잘 됐나?” &amp;#x3C;- 약간 검증하는 성격인 듯하다.&lt;/li&gt;
@@ -1905,7 +1929,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;실루엣 계수는 원형 군집이 아닌 경우 잘 맞지 않음&lt;/li&gt;
 &lt;li&gt;0~1값을 가짐&lt;/li&gt;
 &lt;/ul&gt;
- &lt;br&gt;
+&lt;p&gt; &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&quot;k-means군집clustering&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#k-means%EA%B5%B0%EC%A7%91clustering&quot; aria-label=&quot;k means군집clustering permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;K-Means++군집(clustering)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;local optimum 해결 위해 초기 중점을 좀 더 합리적으로 설정하는 방법&lt;/li&gt;
@@ -1955,7 +1979,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;여러 알고리즘을 사용한 후 결과를 종합하여 정확도, 일반화 특성을 증가시킴&lt;/li&gt;
 &lt;li&gt;classification_report(~~)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;배깅bagging-or-bootstrap-aggregation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%B0%EA%B9%85bagging-or-bootstrap-aggregation&quot; aria-label=&quot;배깅bagging or bootstrap aggregation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;배깅(Bagging or Bootstrap Aggregation)&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;BaggingClassifier&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; Hyper parameter &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -1975,7 +1999,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
- &lt;br&gt;
+&lt;p&gt; &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;부스팅boosting-증폭-가속&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B6%80%EC%8A%A4%ED%8C%85boosting-%EC%A6%9D%ED%8F%AD-%EA%B0%80%EC%86%8D&quot; aria-label=&quot;부스팅boosting 증폭 가속 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;부스팅(Boosting): 증폭, 가속.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1985,7 +2009,7 @@ model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span c
 &lt;li&gt;처음 샘플링은 가중치를 두어 샘플링함 -&gt; 분류 잘못된 데이터는 가중치 높이고 다시 샘플링. 이때 잘못 분류된 패턴이 선택될 확률이 높음. &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt; → 분류가 어려운 패턴에 더욱 집중하여 정확도를 높이는 방법&lt;/p&gt;
- &lt;br&gt;
+&lt;p&gt; &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;adaboostadaptive-boosting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#adaboostadaptive-boosting&quot; aria-label=&quot;adaboostadaptive boosting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AdaBoost(Adaptive Boosting)&lt;/h4&gt;
@@ -1999,7 +2023,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
   n_estimators&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#100번 재조합한단 뜻(오분류한 거에 가중치둬서)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4 id=&quot;gradient-boostingfor-regression&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gradient-boostingfor-regression&quot; aria-label=&quot;gradient boostingfor regression permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gradient Boosting(for regression)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;target 데이터의 &lt;strong&gt;잔차&lt;/strong&gt;를 줄이도록 학습. 학습할수록 residual(잔차)가 계속 작아짐. 잔차가 더 이상 줄어들지 않을 떄까지 tree 생성하며 학습+추정치 업데이트&lt;/li&gt;
@@ -2014,7 +2038,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     Learning_rate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;# 알파. 가중치&lt;/span&gt;
     n_estimators &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;# 잔차(tree) 100개 만들라&lt;/span&gt;
     max_depth&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; 			&lt;span class=&quot;token comment&quot;&gt;# 얕은 depth&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4 id=&quot;gradient-boostingfor-classification&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gradient-boostingfor-classification&quot; aria-label=&quot;gradient boostingfor classification permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gradient Boosting(for classification)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Regression과 동일하나, 추정치를 위해 odds, logs(odds), probability 개념 사용&lt;/li&gt;
@@ -2026,7 +2050,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     learning_rate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;#학습률, 가중치, 알파값&lt;/span&gt;
     n_estimators&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;#잔차(tree) 수&lt;/span&gt;
     max_depth&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4 id=&quot;xgboostextreme-gradient-boostingfor-regression&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#xgboostextreme-gradient-boostingfor-regression&quot; aria-label=&quot;xgboostextreme gradient boostingfor regression permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;XGBoost(Extreme Gradient Boosting)(for regression)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2043,7 +2067,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;XGBRegressor&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
 	Objective &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;’reg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;squarederror’     &lt;span class=&quot;token comment&quot;&gt;#regression 사용하고 MSE 사용한단 뜻. regression이니 r2 사용&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4 id=&quot;xgboostextreme-gradient-boostingfor-classification&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#xgboostextreme-gradient-boostingfor-classification&quot; aria-label=&quot;xgboostextreme gradient boostingfor classification permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;XGBoost(Extreme Gradient Boosting)(for classification)&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;잔차 계산 시, output value를 사용한다는 데서 Gradient Boost랑 차이가 있음&lt;/li&gt;
@@ -2057,7 +2081,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
   ‘max_depth’ &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
   ‘objective’ &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ‘multi&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;softprob’      &lt;span class=&quot;token comment&quot;&gt;#softmas 사용한단 뜻&lt;/span&gt;
   ‘num_class’ &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;            		  &lt;span class=&quot;token comment&quot;&gt;#클래스 개수&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;랜덤포레스트random-forest&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%9E%9C%EB%8D%A4%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8random-forest&quot; aria-label=&quot;랜덤포레스트random forest permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;랜덤포레스트(Random Forest)&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;RandomForestClassifier&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -2073,7 +2097,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;샘플링 함&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;다수결-알고리즘majority-voting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A4%EC%88%98%EA%B2%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98majority-voting&quot; aria-label=&quot;다수결 알고리즘majority voting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;다수결 알고리즘(Majority Voting)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2083,7 +2107,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;isolation-forestiforest&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#isolation-forestiforest&quot; aria-label=&quot;isolation forestiforest permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Isolation Forest(iForest):&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; IsolationForest
 Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -2267,7 +2291,7 @@ Grid search&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;중요한 Feature 확인 가능&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;중요도 분석&lt;/li&gt;
+&lt;li&gt;중요도 분석&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
