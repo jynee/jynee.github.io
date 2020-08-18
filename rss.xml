@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2020 00:17:24 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Aug 2020 16:44:44 GMT</lastBuildDate><item><title><![CDATA[GAN 이론]]></title><description><![CDATA[GAN 비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 생성(모방)하는 알고리즘 비모수적방법으로도 비교적 정확한 sampling이 가능함  위조 데이터 생성 및 판별에 사용 
 EX…]]></description><link>https://jynee.github.io/tags#1st/GAN_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/GAN_1/</guid><pubDate>Sat, 08 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;비지도학습(UL) 방식의 이미지, 문서, 음성 등의 데이터를 &lt;strong&gt;생성(모방)하는 알고리즘&lt;/strong&gt;&lt;/li&gt;
@@ -1550,6 +1550,1246 @@ embedding_layer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embe
 &lt;p&gt;SOTA site&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://paperswithcode.com/sota&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://paperswithcode.com/sota&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(NLP 기초) 문장 구조 분석]]></title><description><![CDATA[NLP 형식언어 이론 Context-free Grammar Context-sensitive Grammar Natural Language 문장 구조 분석 Word-salad…]]></description><link>https://jynee.github.io/tags#1st/NLP기초_4/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/NLP기초_4/</guid><pubDate>Fri, 17 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nlp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp&quot; aria-label=&quot;nlp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;형식언어 이론&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Context-free Grammar&lt;/li&gt;
+&lt;li&gt;Context-sensitive Grammar&lt;/li&gt;
+&lt;li&gt;Natural Language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;문장-구조-분석&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%9E%A5-%EA%B5%AC%EC%A1%B0-%EB%B6%84%EC%84%9D&quot; aria-label=&quot;문장 구조 분석 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문장 구조 분석&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Word-salad(말비빔): 문법적으로는 완벽히 맞지만 의미가 없는 문장&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;형식언어-이론--formal-language-theory&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%98%95%EC%8B%9D%EC%96%B8%EC%96%B4-%EC%9D%B4%EB%A1%A0--formal-language-theory&quot; aria-label=&quot;형식언어 이론  formal language theory permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;형식언어 이론 : Formal Language Theory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;언어란?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(형식적 측면) 유한개의 철자로 무한개의 단어와 문장을 조합한 것&lt;/li&gt;
+&lt;li&gt;(의미적 측면) 무한한 의미를 생성할 수 있는 것 &lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;촘스키의 계층 구조 (Chomsky Hierarchy)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;==의미 없이 문장이 형성되는 과정을 형식으로 설명 : &lt;code class=&quot;language-text&quot;&gt;형식언어(formal language theory)&lt;/code&gt;==&lt;/li&gt;
+&lt;li&gt;groucho_grammar = &lt;code class=&quot;language-text&quot;&gt;nltk.CFG.fromstring(&amp;quot;&amp;quot;&amp;quot; V와 T로 문법 정의 &amp;quot;&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;V : &lt;code class=&quot;language-text&quot;&gt;Variable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;T : &lt;code class=&quot;language-text&quot;&gt;erminal&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8b4ae6878c54bf9a99808b8ed1d87ec0/c211c/image-20200717161151561.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABY0lEQVQozzVQTU/DMBTb/z/tAEgTvwQu2yQ2ceKE4MDQoF3XZk3SJG3TjzU172UikuWmyXNsL6pKozIa47XHPAfMuGEKU9wH4jDP4HW9XmGMgXMO1lrUdR3P+HRmJizWeom1uMNTusS+XmEj77ElvPpH7OwKu/oBcvyOgt63EELgfD7jUhTQZQmjNRT944f6vsfiy73gvVjjLXnGwe1vsDf+kBt86i2EyVFpi5YEeTkaZsG2bTF5j6GqEKYJ/TBg0TcTatNFeDeitT0ahunxc0ghMgVrBjRNEx262kFJCUWClyxDScxVcNyBBeuGLigZwV0qraArFb+T9BeFyCmOR0nxWLTruuhQ0T4nwYa6NEphJodRkLPz5TzPY8maOmHw8Ol0QklupLQ4Ho/EEhMNeop6od46EguEgWKHENBxh/yiEAXSNI3CSZIgy86EDAXF8b4jV0McGMcxgmfYDYtz3H9m/AH4sxFfc3H05QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717161151561&quot;
+        title=&quot;image-20200717161151561&quot;
+        src=&quot;/static/8b4ae6878c54bf9a99808b8ed1d87ec0/fcda8/image-20200717161151561.png&quot;
+        srcset=&quot;/static/8b4ae6878c54bf9a99808b8ed1d87ec0/12f09/image-20200717161151561.png 148w,
+/static/8b4ae6878c54bf9a99808b8ed1d87ec0/e4a3f/image-20200717161151561.png 295w,
+/static/8b4ae6878c54bf9a99808b8ed1d87ec0/fcda8/image-20200717161151561.png 590w,
+/static/8b4ae6878c54bf9a99808b8ed1d87ec0/efc66/image-20200717161151561.png 885w,
+/static/8b4ae6878c54bf9a99808b8ed1d87ec0/c83ae/image-20200717161151561.png 1180w,
+/static/8b4ae6878c54bf9a99808b8ed1d87ec0/c211c/image-20200717161151561.png 1502w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Context-free grammar에서, 우변 -&gt; 좌변(Variable, Terminal)일 때 &apos;-&gt;&apos;하는 과정 : &lt;code class=&quot;language-text&quot;&gt;derivation&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Unrestricted: 자연어(사람 말)&lt;/li&gt;
+&lt;li&gt;Context-sensitive부터 Regualr까지 오토마타(Automata)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;code-classlanguage-text오토마타automatacode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%98%A4%ED%86%A0%EB%A7%88%ED%83%80automatacode&quot; aria-label=&quot;code classlanguage text오토마타automatacode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;오토마타(Automata)&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;어떤 Language가 어떤 Grammar에 따르는지 그래서 Accept할지, Reject할지 Check하는 추상적인 기계(장치)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2155c3d58976ed6f8c483ba96855fe24/6a6e9/image-20200717161524521.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABZ0lEQVQoz41T2XKDMAzM//9hAy2Z5CEdDnPZxoBB3ZVLpnlJ4xmNbElerdZwEqxpmqTvO3HOibWjjOMgXdfBjxobhh75ZHVdo8ZKj3zfD3p333fCqD8dh2Mti8i2PYVknuXlIsZhT4Ax7mLMJE0T/oBtUpYjWEZ5Z53SyF7CvGC8CMAWgByV5xlAQaqqlrb1YL+oDDTvPXJJGsrC2IbRFHBEwtoJfgVYo4XeR9iGBg4MS+ydgjBPHalnWVbyfb+jWauxNcYE+N9a1/fG1ZHnEB4v2DQG3Yyy4Jjsytgx6sGee770jNcacI8MWfMAtNCAgNSDSZoxJu0Ri+uqADyrXipRAuQ91j4AVUN0ZJKeCRbTnPPirNNGjPObY+zlyOz+9fklt9tNLkWhPs9zybJMiuIi1+tVzucP9VmWa45Mq6pSZumRKj0zrt8h2QWMvgI8BOx/zzQyoyc7Gl+a7A8drf5NFvFJ634AhzBU95kCaCYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717161524521&quot;
+        title=&quot;image-20200717161524521&quot;
+        src=&quot;/static/2155c3d58976ed6f8c483ba96855fe24/fcda8/image-20200717161524521.png&quot;
+        srcset=&quot;/static/2155c3d58976ed6f8c483ba96855fe24/12f09/image-20200717161524521.png 148w,
+/static/2155c3d58976ed6f8c483ba96855fe24/e4a3f/image-20200717161524521.png 295w,
+/static/2155c3d58976ed6f8c483ba96855fe24/fcda8/image-20200717161524521.png 590w,
+/static/2155c3d58976ed6f8c483ba96855fe24/6a6e9/image-20200717161524521.png 826w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Unrestricted(Natural Language)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type-0 : Recognized by Turing Machine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Context-sensitive&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Type-1 : Accepted by Linear Bound Automata&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Context-free&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Type-2 : Accepted by Push Down Automata (PDA)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Regular&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Type-3 : Accepted by Finite State Automata (FSA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;regular-grammar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#regular-grammar&quot; aria-label=&quot;regular grammar permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Regular Grammar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;결정적 유한 오토마타(Deterministic finite automaton, DFA)&lt;/li&gt;
+&lt;li&gt;Regular 언어에서 오토마타는, 어떤 게 어디 속하는지에 관한 문제인 membership porblem 판별장치&lt;/li&gt;
+&lt;li&gt;print(FSA(&apos;aabbb&apos;)):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;derivation&lt;/th&gt;
+&lt;th&gt;a*b+&lt;/th&gt;
+&lt;th&gt;Automata&lt;/th&gt;
+&lt;th&gt;Grammar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;strong&gt;s&lt;/strong&gt; -&gt; &lt;br /&gt;aa&lt;strong&gt;s&lt;/strong&gt; -&gt; &lt;br /&gt;aaa&lt;strong&gt;s&lt;/strong&gt; -&gt; &lt;br /&gt;aaaa&lt;strong&gt;A&lt;/strong&gt; -&gt; &lt;br /&gt;aaaab&lt;strong&gt;B&lt;/strong&gt; -&gt; &lt;br /&gt;aaaabb&lt;strong&gt;B&lt;/strong&gt; -&gt; &lt;br /&gt;aaaabbb&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;S -&gt; aS&lt;br /&gt;S -&gt; aA&lt;br /&gt;A -&gt; bB&lt;br /&gt;B -&gt; b&lt;br /&gt;&lt;br /&gt;-S -&gt; as | aA&lt;br /&gt;A -&gt; bB | b&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt; Chomsky Hierarchy 中 &lt;strong&gt;Regular&lt;/strong&gt; Grammar&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/78f4386870e42543747b38f523244fb1/0ad97/image-20200718020646135.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 8.783783783783782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbUlEQVQI102M2wrDIBBE8/9faPLQFkxafNK1KhtvU91A6MCyzBk4CzMjhIAZ5whEhBijdO89SinIOcNaJ1vvTf5MaxX7rscdY7fCln+h1hpKKRhjbmGtFV9PON4fbOsK5lP4JWwifDxfSCkJ+wHT15mzV85PoAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200718020646135&quot;
+        title=&quot;image-20200718020646135&quot;
+        src=&quot;/static/78f4386870e42543747b38f523244fb1/fcda8/image-20200718020646135.png&quot;
+        srcset=&quot;/static/78f4386870e42543747b38f523244fb1/12f09/image-20200718020646135.png 148w,
+/static/78f4386870e42543747b38f523244fb1/e4a3f/image-20200718020646135.png 295w,
+/static/78f4386870e42543747b38f523244fb1/fcda8/image-20200718020646135.png 590w,
+/static/78f4386870e42543747b38f523244fb1/0ad97/image-20200718020646135.png 717w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;정규언어 (Regular language) 와 유한상태 인식기 (Accepted by Finite state acceptor : &lt;strong&gt;FSA&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;init_state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+final_state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+trap_state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+delta &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+     &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;
+{현재상태 0 {&apos;a&apos; 들어가면: 다음 상태는 0, &apos;b&apos; 들어가면: 다음 상태는 1}}
+{현재상태 1 {&apos;a&apos; 들어가면: 다음 상태는 2, &apos;b&apos; 들어가면: 다음 상태는 1}}
+&quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;FSA&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;string&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; init_state  &lt;span class=&quot;token comment&quot;&gt;# 초기상태 = 0&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; s &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 	&lt;span class=&quot;token comment&quot;&gt;# &apos;a&apos; 들어가고 &apos;a&apos; 들어가고 &apos;b&apos; 들어가는 등 하나씩 for문에 입력됨! &lt;/span&gt;
+      state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; delta&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; trap_state&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# state가 2가 되면 멈춤. 즉, 1상태에서 &apos;a&apos;가 들어오면 멈춤&lt;/span&gt;
+          					&lt;span class=&quot;token comment&quot;&gt;# 즉, 문자열을 읽어가다가 trap state에 빠지면 reject 됨 &lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; state &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; final_state &lt;span class=&quot;token comment&quot;&gt;# state값이 final_state에 있으면 True, 없으면 False&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FSA&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;aabbb&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# True&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FSA&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;aabba&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# False&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FSA&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;aabbc&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# error&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FSA&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;# False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;context-free-grammar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#context-free-grammar&quot; aria-label=&quot;context free grammar permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Context-free Grammar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Accepted by Push Down Automata, PDA&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;{a의 n승 b의 n승, n&gt;=1}가 aaaabbbb라는 오토마타 형태(뭐다음 뭐 나와야 하고, 뭐 다음 뭐 나와야 하는 것)을
+기계는 기억하지 못함.
+ex: N의 n승 N의 n승 -&gt; the cat(N) the dog(N) chased(V) run(V)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이때, 과거 데이터를 기억하는 오토마타의 장치: Stack&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Chomsky Hierarchy 中 &lt;strong&gt;Context-free&lt;/strong&gt; Grammar&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ab1151ec3b9f194878813b6a6e89e89/d6331/image-20200718021947962.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 8.108108108108107%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAc0lEQVQI1zWM4QrDIAyE+/6vuP6wDnFVWxRRI53eTGCBkNzl8m05Z/ROCCHAOYf7utb0eJ4vYoyYc657RykFtVbR/52LtdYa1trlNWwMpNbEOA6F8/yswBtEHSkleSAigXOPMQTIHlGDMQavfUfwHkop/ACZqZj7NPEGngAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200718021947962&quot;
+        title=&quot;image-20200718021947962&quot;
+        src=&quot;/static/6ab1151ec3b9f194878813b6a6e89e89/fcda8/image-20200718021947962.png&quot;
+        srcset=&quot;/static/6ab1151ec3b9f194878813b6a6e89e89/12f09/image-20200718021947962.png 148w,
+/static/6ab1151ec3b9f194878813b6a6e89e89/e4a3f/image-20200718021947962.png 295w,
+/static/6ab1151ec3b9f194878813b6a6e89e89/fcda8/image-20200718021947962.png 590w,
+/static/6ab1151ec3b9f194878813b6a6e89e89/d6331/image-20200718021947962.png 702w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;context-sensitive-grammar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#context-sensitive-grammar&quot; aria-label=&quot;context sensitive grammar permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Context-sensitive Grammar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;좌우 문맥에 따라 달라지는 경우&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S -&gt; NP VP&lt;/li&gt;
+&lt;li&gt;aSb -&gt; NP VP&lt;/li&gt;
+&lt;li&gt;cSd -&gt; NP PP&lt;/li&gt;
+&lt;li&gt;aSb -&gt; aS by&lt;/li&gt;
+&lt;li&gt;bSa -&gt; aA bb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Accepted by Linear Bound Automata&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&apos;한글모아쓰기&apos;에 활용되기도 함&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Chomsky Hierarchy 中 &lt;strong&gt;Context-sensitive&lt;/strong&gt; Grammar&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/004fde0e19268798eb56e4b9ef291c8e/d2cbc/image-20200718022925812.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 10.81081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAcUlEQVQI1z1M2w7CIBTb/38hD55kM8jCJdEBB8IEqhDdS9v0tvTekXNGCAEpJcQYL47M03+fJ5gjrLUopXw1o9YK5xyIbhBCQGuN8bUM+B9Ya7Btd+y7gpQSD6XgvZ/l4Rsz8hXP1zE3RPTL1tlvreEDabyXsnuJGEgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200718022925812&quot;
+        title=&quot;image-20200718022925812&quot;
+        src=&quot;/static/004fde0e19268798eb56e4b9ef291c8e/fcda8/image-20200718022925812.png&quot;
+        srcset=&quot;/static/004fde0e19268798eb56e4b9ef291c8e/12f09/image-20200718022925812.png 148w,
+/static/004fde0e19268798eb56e4b9ef291c8e/e4a3f/image-20200718022925812.png 295w,
+/static/004fde0e19268798eb56e4b9ef291c8e/fcda8/image-20200718022925812.png 590w,
+/static/004fde0e19268798eb56e4b9ef291c8e/d2cbc/image-20200718022925812.png 705w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;unrestricted-grammar-natural-language&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#unrestricted-grammar-natural-language&quot; aria-label=&quot;unrestricted grammar natural language permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Unrestricted Grammar (Natural Language)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Recognized by Turing Machine&lt;/li&gt;
+&lt;li&gt;의미는 틀려도 되고, 아무 단어나 막 조합해도 되는 것&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;참고: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;아마추어 퀀트, blog.naver.com/chunjein&lt;/li&gt;
+&lt;li&gt;코드 출처: 크리슈나 바브사 외. 2019.01.31. 자연어 처리 쿡북 with 파이썬 [파이썬으로 NLP를 구현하는 60여 가지 레시피]. 에이콘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(NLP 기초) 문서 정보 추출]]></title><description><![CDATA[NLP 정규표현식 청킹 칭킹  문서 정보 추출  정해진 패턴을 사용해서 패턴에 일치하는 데이터 검색을 지원하는 표현식 정규표현식에 쓰이는 특수문자  : 아무 문자나 여러 개   : } { 안의 내용 제외     =  읽어보기 DEVHolic…]]></description><link>https://jynee.github.io/tags#1st/NLP기초_3/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/NLP기초_3/</guid><pubDate>Fri, 17 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nlp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp&quot; aria-label=&quot;nlp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;정규표현식&lt;/li&gt;
+&lt;li&gt;청킹&lt;/li&gt;
+&lt;li&gt;칭킹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;문서-정보-추출&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%84%9C-%EC%A0%95%EB%B3%B4-%EC%B6%94%EC%B6%9C&quot; aria-label=&quot;문서 정보 추출 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문서 정보 추출&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;code-classlanguage-text정규표현식code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9Dcode&quot; aria-label=&quot;code classlanguage text정규표현식code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;정규표현식&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;정해진 패턴을 사용해서 패턴에 일치하는 데이터 검색을 지원하는 표현식&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;정규표현식에 쓰이는 특수문자&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;.*&amp;gt;+&lt;/code&gt; : 아무 문자나 여러 개 &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;} {&lt;/code&gt; : } { 안의 내용 제외   &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;\\n&amp;quot;&lt;/code&gt; = &lt;code class=&quot;language-text&quot;&gt;r&amp;quot;\n&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;읽어보기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.devholic.net/1000238351600&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;DEVHolic. &quot;정규표현식에 쓰이는 특수문자&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jungwoon.github.io/python/2018/03/15/Data-Analysis-With-Python-2/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jungwoon. &quot;파이썬으로 데이터 분석하기 #2&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;re-모듈-함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#re-%EB%AA%A8%EB%93%88-%ED%95%A8%EC%88%98&quot; aria-label=&quot;re 모듈 함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;re 모듈 함수&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;읽어보기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://devanix.tistory.com/296&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;devanix. &quot;파이썬 – 정규식표현식(Regular Expression) 모듈&quot;&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;code-classlanguage-text청킹chunkingcode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%B2%AD%ED%82%B9chunkingcode&quot; aria-label=&quot;code classlanguage text청킹chunkingcode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;청킹(Chunking)&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;여러 개의 품사로 &lt;strong&gt;구(pharase)를 만드는 것을 Chunking&lt;/strong&gt;이라 하고, 이 &lt;strong&gt;구(pharase)를 chunk&lt;/strong&gt;라 한다.&lt;/li&gt;
+&lt;li&gt;문장을 각 품사로 구분하고, Chunking에 의해 구로 구분하면 문장의 의미를 파악하기 용이해 진다.&lt;/li&gt;
+&lt;li&gt;문장에서 (DT + JJ + NN), (DT + JJ + JJ + NN), (JJ + NN), 등의 시퀀스는 모두 명사구 (NP : Noun phrase)로 판단한다&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If a tag pattern matches at overlapping locations, the leftmost match takes precedence&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91725a6b5ce90c6adcd2f98f8c1b0f13/d5bfb/image-20200816015803693.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.405405405405407%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAA70lEQVQY01VQya6DMBDL/39ay6mtEALKvu8gtgN0ii1FfS+SFU/i8SyqaRqJ41iSJJGqqmTbNlnXlTGQ57mkaUpkWfaPA1qDG17K930xTVNs25bn40FTJNzud4miiMWCICB0clmW5Mh9v10au67LWEEAopM9z6PYcRzp+17qupZhGMjP85R5nmWaJjmOg+9AGIb8zy4v1batGIYhlmWxZYwLwLzrOgq1Icxezxe14Nqw63pqi6IQhWSMgAd0oM++70zSBQDsF7pxHMmXZSF01+BK/hyMCnOsAbtEV9UV4w3Vy7LiCvAH1NdE0Hw+P48v0RTBy1N5gb0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200816015803693&quot;
+        title=&quot;image-20200816015803693&quot;
+        src=&quot;/static/91725a6b5ce90c6adcd2f98f8c1b0f13/fcda8/image-20200816015803693.png&quot;
+        srcset=&quot;/static/91725a6b5ce90c6adcd2f98f8c1b0f13/12f09/image-20200816015803693.png 148w,
+/static/91725a6b5ce90c6adcd2f98f8c1b0f13/e4a3f/image-20200816015803693.png 295w,
+/static/91725a6b5ce90c6adcd2f98f8c1b0f13/fcda8/image-20200816015803693.png 590w,
+/static/91725a6b5ce90c6adcd2f98f8c1b0f13/efc66/image-20200816015803693.png 885w,
+/static/91725a6b5ce90c6adcd2f98f8c1b0f13/d5bfb/image-20200816015803693.png 1072w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;순서&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;grammar 정의&lt;/li&gt;
+&lt;li&gt;딕셔너리 정의:
+cp = nltk.RegexpParser(grammar)&lt;/li&gt;
+&lt;li&gt;sentence data 불러오기(혹은 테스트를 위해서라면 만들기)&lt;/li&gt;
+&lt;li&gt;딕셔너리에 따라 sentence 분석:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; cp.parse(sentence)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Base code&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; nltk
+grammar &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 
+&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;
+NP: {&amp;lt;DT|PP\$&gt;?&amp;lt;JJ&gt;*&amp;lt;NN&gt;}	  # rule 1
+  {&amp;lt;NNP&gt;+}                  # rule 2
+&quot;&quot;&quot;&lt;/span&gt;
+
+cp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RegexpParser&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grammar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+
+sentence &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rapunzel&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NNP&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;let&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VBD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;down&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&quot;RP&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;her&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;PP$&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;long&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JJ&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;golden&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JJ&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hair&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+cp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;parse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sentence&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(S
+(NP Rapunzel/NNP)
+let/VBD
+down/RP
+(NP her/PP$ long/JJ golden/JJ hair/NN))&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;draw&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/37b649a5ebb98901961a3a423f912dca/ea7fb/image-20200816015725145.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABeElEQVQoz2WQi26rMAyGef8X2gtMm7TpaOvZKF1ZoZBASLkTLhkr+Y+Duuux9Ml2bP+x7EgpURQFhMgwzzOsGWM++bCPcDkbSDkjSWeU5TuWxfyoO/OscT6/wXpjli8hY/4Tt1gB1b1D1Rp9v1wEv+pOUShw3uGU92gaRU0K4zCgaTtkeYVh6OntG5SPfYcxS9GPA5RSP3A4y+G7KbxtgohJiCzDkTG4+1f89XwkQoAlCWLCxjLPcaLztFGEpqpQEXVdf3qno4abxxcIzug2Ag+hh+vdA/Y8xK3/iM1xh6Is0TYtShrK6OYsPOLqZgPJU6imQdu26AjrHZEJBGEInjLkZYGiKlfKusKJciti40hw+PERUcLh+Xs8b7fYeC4CHhMMYcKoP4dz9/pEW3i4PzwjSGP6qVtXtzR1s24WZZw232LHDnAjEot9RJLh7vC0vh1o7k/g4oUHcKZxxDRNeJs0NPmR8t9MI9W1XrG906VPX2KLXuc1/gEar1yjr1coqAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200816015725145&quot;
+        title=&quot;image-20200816015725145&quot;
+        src=&quot;/static/37b649a5ebb98901961a3a423f912dca/fcda8/image-20200816015725145.png&quot;
+        srcset=&quot;/static/37b649a5ebb98901961a3a423f912dca/12f09/image-20200816015725145.png 148w,
+/static/37b649a5ebb98901961a3a423f912dca/e4a3f/image-20200816015725145.png 295w,
+/static/37b649a5ebb98901961a3a423f912dca/fcda8/image-20200816015725145.png 590w,
+/static/37b649a5ebb98901961a3a423f912dca/ea7fb/image-20200816015725145.png 788w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;code-classlanguage-text칭킹chinkingcode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%B9%AD%ED%82%B9chinkingcode&quot; aria-label=&quot;code classlanguage text칭킹chinkingcode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;칭킹(Chinking)&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 부분을 chunk 밖으로 빼내는 것을 chinking이라 한다.
+Chink는 문장에서 chunk를 제외한 나머지 부분을 의미한다&lt;/li&gt;
+&lt;li&gt;문장 전체를 chunk로 정의하고, 특정 부분을 chinking하면 나머지 부분이 chunk가 된다.
+Chinking을 이용해서 chunking을 할 수도 있다&lt;/li&gt;
+&lt;li&gt;code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;grammar &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 
+ &lt;span class=&quot;token triple-quoted-string string&quot;&gt;r&quot;&quot;&quot;
+NP:
+{&amp;lt;.*&gt;+}              # Chunk everything
+}&amp;lt;VBD|IN&gt;+{          # Chink sequences of VBD and IN(빼내는 부분)
+&quot;&quot;&quot;&lt;/span&gt;
+
+sentence &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;the&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;DT&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;little&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JJ&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;yellow&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JJ&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dog&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;barked&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VBD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;at&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;IN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;the&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;DT&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;cat&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+cp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RegexpParser&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grammar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+cp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;parse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sentence&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 509px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ae605cdbfc74eca908f77aacdbe33727/71554/image-20200717135504838.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.108108108108105%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABMElEQVQoz5WR2W6DQAxF+f8/6w9ELQ2QhIQdhhAgswCnBqS0D3mpJcvj7c617Snl+J8s76PLHvfK0rFq2zqq2tE0jmGYyDMjcUsl2j2mLb/WqQ5UO6OkLs8tt5uhrt0L1MtSSxBoUrGHw0gcGx79TFbOXJKJopjoB6TRcY01548TKh/Iq4VPX/yzlY+mX8CVRRBqTpHmGBgOvoW6gksEnWIcH8Iyxzm9z+aecFfQ1uJYrPjGjJLfWXor3Sh8EgsbugaaQoqloS43v+9a/DCUEVvpd8xCd2kkn6RosccwIjgGsqZhB0wSg+8/JW85BwNpPPIY4ZrNfH0bGV2qamHTNCxKgPpeWLq3p9lGvt/Xhcue+oksd3KAmUHehSw8Sw2FHGLWmmWaXjde9u4N4K+u8gPyqRyDaGVTjQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717135504838&quot;
+        title=&quot;image-20200717135504838&quot;
+        src=&quot;/static/ae605cdbfc74eca908f77aacdbe33727/71554/image-20200717135504838.png&quot;
+        srcset=&quot;/static/ae605cdbfc74eca908f77aacdbe33727/12f09/image-20200717135504838.png 148w,
+/static/ae605cdbfc74eca908f77aacdbe33727/e4a3f/image-20200717135504838.png 295w,
+/static/ae605cdbfc74eca908f77aacdbe33727/71554/image-20200717135504838.png 509w&quot;
+        sizes=&quot;(max-width: 509px) 100vw, 509px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;chunk의-구조---code-classlanguage-textiob-tagscode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#chunk%EC%9D%98-%EA%B5%AC%EC%A1%B0---code-classlanguage-textiob-tagscode&quot; aria-label=&quot;chunk의 구조   code classlanguage textiob tagscode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Chunk의 구조 - &lt;code class=&quot;language-text&quot;&gt;IOB tags&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chunk내의 각 품사의 위치에 따라 B (Begin), I (Inside), O (Outside)를 붙인다 (chunk tag). &lt;/li&gt;
+&lt;li&gt;B-NP는 NP chunk의 시작 부분을 의미하고, I-NP는 NP chunk의 내부 부분을 의미한다. &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chunk 구조는 IOB tags로 표현할 수도 있고, 트리 구조로 표현할 수도 있다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NLTK에서는 트리 구조를 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1a4c6d3cae131a3c34596f46edaa2150/16068/image-20200717142504374.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.189189189189186%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABAklEQVQoz4WRB46FMAxEuf8lAdF778U/z6sg/mqltTQEJ/FkxnbWdZVhGGQcR8nSVKIokizLJEkSSU3etu3P+TTKsixC3Pf9BbtHOBC4rqsEFhBCUtWVNG0jZVmK7/tS1/WfhG84XIrjWJUAyFA2z7MSWYV5nss0TfJfOHwo7rpO19nYotASsV9Vle5t26b/iOC8aRoFbTuOQ+FY7wSHe99/vUhvPc+TMAx1BUEQaI4b64iW4PQhhN0zvZzMplzX02QGgXXUF0WheW8eBdYB6lFO/hCe5ymZ6dNeFiRidV+GnGJW7rwnDRmuvnr4HjsvnRQwsV/T3PddgQr6xz+ubNh7H9Bgaq9Q77OBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717142504374&quot;
+        title=&quot;image-20200717142504374&quot;
+        src=&quot;/static/1a4c6d3cae131a3c34596f46edaa2150/fcda8/image-20200717142504374.png&quot;
+        srcset=&quot;/static/1a4c6d3cae131a3c34596f46edaa2150/12f09/image-20200717142504374.png 148w,
+/static/1a4c6d3cae131a3c34596f46edaa2150/e4a3f/image-20200717142504374.png 295w,
+/static/1a4c6d3cae131a3c34596f46edaa2150/fcda8/image-20200717142504374.png 590w,
+/static/1a4c6d3cae131a3c34596f46edaa2150/efc66/image-20200717142504374.png 885w,
+/static/1a4c6d3cae131a3c34596f46edaa2150/c83ae/image-20200717142504374.png 1180w,
+/static/1a4c6d3cae131a3c34596f46edaa2150/16068/image-20200717142504374.png 1451w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;code&lt;/em&gt; &gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;conll2000&lt;strong&gt;.iob_sents&lt;/strong&gt;(&apos;train.txt&apos;)[99]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[(&apos;Over&apos;, &apos;IN&apos;, &apos;B-PP&apos;), (&apos;a&apos;, &apos;DT&apos;, &apos;B-NP&apos;), (&apos;cup&apos;, &apos;NN&apos;, &apos;I-NP&apos;), (&apos;of&apos;, &apos;IN&apos;, &apos;B-PP&apos;), (&apos;coffee&apos;, &apos;NN&apos;, &apos;B-NP&apos;), (&apos;,&apos;, &apos;,&apos;, &apos;O&apos;), (&apos;Mr.&apos;, &apos;NNP&apos;, &apos;B-NP&apos;), (&apos;Stone&apos;, &apos;NNP&apos;, &apos;I-NP&apos;), (&apos;told&apos;, &apos;VBD&apos;, &apos;B-VP&apos;), (&apos;his&apos;, &apos;PRP$&apos;, &apos;B-NP&apos;), (&apos;story&apos;, &apos;NN&apos;, &apos;I-NP&apos;), (&apos;.&apos;, &apos;.&apos;, &apos;O&apos;)]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;절(Clause)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문법에 clause (절)를 정의하면 문장을 아래와 같이 분석 (chunking) 할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursion in Linguistic Structure&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;grammar &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token triple-quoted-string string&quot;&gt;r&quot;&quot;&quot;
+NP: {&amp;lt;DT|JJ|NN.*&gt;+} # Chunk sequences of DT, JJ, NN
+PP: {&amp;lt;IN&gt;&amp;lt;NP&gt;} # Chunk prepositions followed by NP
+VP: {&amp;lt;VB.*&gt;&amp;lt;NP|PP|CLAUSE&gt;+$} # Chunk verbs and their arguments
+CLAUSE: {&amp;lt;NP&gt;&amp;lt;VP&gt;} # Chunk NP, VP
+&quot;&quot;&quot;&lt;/span&gt;
+cp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RegexpParser&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grammar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+sentence &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Mary&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;saw&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VBD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;the&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;DT&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;cat&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sit&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VB&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;on&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;IN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;the&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;DT&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;mat&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NN&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;parse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sentence&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(S
+(NP Mary/NN)
+saw/VBD
+(CLAUSE
+(NP the/DT cat/NN)
+(VP sit/VB (PP on/IN (NP the/DT mat/NN)))))&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3a7b4110bece42fe0ededfeba5b0cd1c/18872/image-20200717162332408.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.16216216216216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABjUlEQVQoz2VT7ZKDIAz0/d/v7s/ddK49r1VbP6AogsBeEktrW2YykEQ2myUWoJVSwvMesSwLtotzd9vEXlfxDgZcrw5aj5imBOfi28Wt/5ortsEQEoEFWBvJVjbjGMjYtzidjmia5o3xFuPOkDvUOkhiWRKxi0+VlbJkA+p6INbpTYp8FoZceVATMntmxGx5zfOMw6Ek/wFuzEzAtRR+bV0AtZ4RY9xcCHdA5wLadpJzjFmaSGxn0dgYi77vnhlygvFylS2g9wmXS3hiYUxEHoJp8gRot4Cr8Lk6Bxkw+5xjP7fnfRQ/fzsR+bpq7ywLFm62uZ0kWpFsN2EAS+y9f8TYz+Ac8y4JS61XygUrd2xa0UX0NCMq8kU/H9ArgyvFukETkJd91TPg0lGMGHRqxKnpYZ0jQKVw/v5CvD2jOZ/Rlr/rKBmDkeZu0gpDVREbB0UTsQJG6IZemnoe6wrd/gd2GKjlvxL4+JRBlEaqE81RtZ470qUseQxIqJqel9o6Hh9/BxWR3GEP7HZy7x/3Cay49ayrUgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717162332408&quot;
+        title=&quot;image-20200717162332408&quot;
+        src=&quot;/static/3a7b4110bece42fe0ededfeba5b0cd1c/fcda8/image-20200717162332408.png&quot;
+        srcset=&quot;/static/3a7b4110bece42fe0ededfeba5b0cd1c/12f09/image-20200717162332408.png 148w,
+/static/3a7b4110bece42fe0ededfeba5b0cd1c/e4a3f/image-20200717162332408.png 295w,
+/static/3a7b4110bece42fe0ededfeba5b0cd1c/fcda8/image-20200717162332408.png 590w,
+/static/3a7b4110bece42fe0ededfeba5b0cd1c/18872/image-20200717162332408.png 608w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;.RegexpParser()&lt;/code&gt;에 &lt;strong&gt;loop = 2&lt;/strong&gt;를 지정하면 아래와 같이 clause 안에 또 다른 clause를 재귀적(recursion)으로 분석한다.
+이와 같이 문장에 맞게 트리를 깊게 구성하는 것을 &lt;code class=&quot;language-text&quot;&gt;cascaded chunking (계단식 chunk)&lt;/code&gt; 이라 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;cp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RegexpParser&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grammar&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; loop&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;parse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sentence&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;loop 걸어주면 절 속의 절이 들어가는 형태로 구분해준다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(S
+(NP John/NNP)
+thinks/VBZ
+(CLAUSE
+(NP Mary/NN)
+(VP
+saw/VBD
+(CLAUSE
+(NP the/DT cat/NN)
+(VP sit/VB (PP on/IN (NP the/DT
+mat/NN)))))))&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3cd8a0b8ad7f7393b9784a480984c6be/c1c45/image-20200717162643660.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQoz21T7XLDIAzj/R+yP9Zes16bNITPQECzccjardxxMY6RJQGq1goe/RtCxLYV/B38/2/tp6FeC9a1QutEoKXNlDY45ygOb8Cf4gOwJ0upMGZroLIGYtxwv094zobyhZinN7afGO+AdWdUCaTLlbjsyxgTxtEQaP1nxWsTJVJBYAKYcy9Aa8LAPDkvdcD4mDAM34fXr2xVSpmkxrbwvjTpPKwNzcPOlsFLYU8DAbM1meJENemNreJT1YvdT/gXcJoWYpVbzDJjrPTN5Kk+ALxfMc+e9mVqIKQUe8RSGEgkdv9EdveSQVm2MWIBswmhX7VMBCzligA21lWAxTM0wM42SvNW55zkmHw/wET7nk+HlexTMTJtA+d980ckbu2q8HDOY1lcY8S+LmRPXBPF/ngIITCGxawt1BoDzKLhjEHwTgCJitHiVWiNBDBybG07CO/s/hgizZX2L9TE0LXhjcMAnM/A9SqCOXc6SUyN8Bjlpt9ufFpMG0QJlXPUhGNcLsDXGT8IxK97fx2OOwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200717162643660&quot;
+        title=&quot;image-20200717162643660&quot;
+        src=&quot;/static/3cd8a0b8ad7f7393b9784a480984c6be/fcda8/image-20200717162643660.png&quot;
+        srcset=&quot;/static/3cd8a0b8ad7f7393b9784a480984c6be/12f09/image-20200717162643660.png 148w,
+/static/3cd8a0b8ad7f7393b9784a480984c6be/e4a3f/image-20200717162643660.png 295w,
+/static/3cd8a0b8ad7f7393b9784a480984c6be/fcda8/image-20200717162643660.png 590w,
+/static/3cd8a0b8ad7f7393b9784a480984c6be/c1c45/image-20200717162643660.png 824w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;named-entity-recognition-code-classlanguage-textnercode---개체명-인식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#named-entity-recognition-code-classlanguage-textnercode---%EA%B0%9C%EC%B2%B4%EB%AA%85-%EC%9D%B8%EC%8B%9D&quot; aria-label=&quot;named entity recognition code classlanguage textnercode   개체명 인식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Named Entity Recognition (&lt;code class=&quot;language-text&quot;&gt;NER&lt;/code&gt;) - 개체명 인식&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NER 붙여놓으면 Q&amp;#x26;A 가능하다(답을 찾아 제시해주는 챗봇 같은 거 만들 수 있음)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;sent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;corpus&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;treebank&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tagged_sents&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ne_chunk&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; binary&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(S
+The/DT
+(&lt;strong&gt;NE&lt;/strong&gt; U.S./NNP)
+is/VBZ
+one/CD
+of/IN
+...
+according/VBG
+to/TO
+(&lt;strong&gt;NE&lt;/strong&gt; Brooke/NNP)
+T./NNP
+...
+the/DT
+(&lt;strong&gt;NE&lt;/strong&gt; University/NNP)
+of/IN
+(&lt;strong&gt;NE&lt;/strong&gt; Vermont/NNP College/NNP)
+of/IN
+(&lt;strong&gt;NE&lt;/strong&gt; Medicine/NNP)
+./.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;binary=True&lt;/code&gt; 안 쓰고 그냥하면 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ne_chunk&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(S
+The/DT
+(&lt;strong&gt;GPE&lt;/strong&gt; U.S./NNP)
+is/VBZ
+one/CD
+of/IN
+...
+according/VBG
+to/TO
+(&lt;strong&gt;PERSON&lt;/strong&gt; Brooke/NNP T./NNP Mossman/NNP)
+...
+the/DT
+(&lt;strong&gt;ORGANIZATION&lt;/strong&gt; University/NNP)
+of/IN
+(&lt;strong&gt;PERSON&lt;/strong&gt; Vermont/NNP College/NNP)
+of/IN
+(&lt;strong&gt;GPE&lt;/strong&gt; Medicine/NNP)
+./.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;reference: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;아마추어 퀀트, blog.naver.com/chunjein&lt;/li&gt;
+&lt;li&gt;코드 출처: 크리슈나 바브사 외. 2019.01.31. 자연어 처리 쿡북 with 파이썬 [파이썬으로 NLP를 구현하는 60여 가지 레시피]. 에이콘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(NLP 기초) 품사 태깅]]></title><description><![CDATA[NLP 품사 태깅 원리 HMM 품사 태깅 : 문장의 N, V, ad, av 판별 문장만 보고 품사를 붙여주는 기계:   문맥 = '문장 내' 주변 단어 =  현재 NLP 상에선 문장 간, 절 간 Context는 불가 "NLP…]]></description><link>https://jynee.github.io/tags#1st/NLP기초_2/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/NLP기초_2/</guid><pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nlp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp&quot; aria-label=&quot;nlp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;품사 태깅 원리&lt;/li&gt;
+&lt;li&gt;HMM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;품사-태깅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%92%88%EC%82%AC-%ED%83%9C%EA%B9%85&quot; aria-label=&quot;품사 태깅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;품사 태깅&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;품사 태깅&lt;/code&gt;&lt;/strong&gt;: 문장의 N, V, ad, av 판별&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문장만 보고 품사를 붙여주는 기계:  &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;pos tagger&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;문맥 = &apos;문장 내&apos; 주변 단어 = &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Context&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;현재 NLP 상에선 문장 간, 절 간 Context는 불가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&quot;NLP 분석 시, 몇 개의 Context를 창조할 것인가?&quot;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;n-gram&lt;/code&gt;&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;1개: &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;unigram&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2개: **&lt;code class=&quot;language-text&quot;&gt;Bigram&lt;/code&gt; **&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ex: (I love) , (love you)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3개: &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Trigram&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;4개: ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;분석할 문장의 올바른 품사를 결정하기 위해선(올바른 tagger 기계를 만들기 위해선) 사전에 올바른 품사가 정의된 문서 코퍼스(말뭉치)가 있어야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;nltk: 영어용&lt;/li&gt;
+&lt;li&gt;konlpy: 한글용 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;tagging-거치는-원리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tagging-%EA%B1%B0%EC%B9%98%EB%8A%94-%EC%9B%90%EB%A6%AC&quot; aria-label=&quot;tagging 거치는 원리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tagging 거치는 원리&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;사람이 학습 문서에 품사를 태깅해 놓았음: Tagged Corpora  &lt;code class=&quot;language-text&quot;&gt;trainX&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;학습  &lt;code class=&quot;language-text&quot;&gt;model.fit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;모델 파라미터  &lt;code class=&quot;language-text&quot;&gt;machine&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;POS Tagger 완성 &lt;/li&gt;
+&lt;li&gt;추후 input text 입력 시  &lt;code class=&quot;language-text&quot;&gt;test X&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;POS Tagger 거치면 &lt;code class=&quot;language-text&quot;&gt;model.predict(testX)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Tagging 돼서 출력됨 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;hmm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hmm&quot; aria-label=&quot;hmm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HMM&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;히든 마코프 모델(HMM): sequence를 분석&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1차 Markov Chain:&lt;/p&gt;
+&lt;p&gt;: 현재 상태는 직전 상태에만 의존한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2차 Markov Chain:&lt;/p&gt;
+&lt;p&gt;: 현재 상태는 전전 상태에만 의존한다&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Hidden Markov Model(HMM)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;관측데이터(주가, 수익률, 거래량 ,변동성, 등...)에 직접 나타나지 않는 히든 상태(Hidden State)가 있다&lt;/li&gt;
+&lt;li&gt;이때, &lt;strong&gt;HMM은 관찰 데이터를 가지고 Hidden 상태를 추론하는 것&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;MLE 개념 사용&lt;/li&gt;
+&lt;li&gt;용어 정리: &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;초기상태&lt;/code&gt; = &lt;code class=&quot;language-text&quot;&gt;초기확률&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hidden State에서 행동 변화가 일어날 확률 &lt;code class=&quot;language-text&quot;&gt;천이확률&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;상태 변화가 일어나는 확률: &lt;code class=&quot;language-text&quot;&gt;출력확률&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;알고리즘 정리:&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt;: X가 나올 확률 계산&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Viterbi decoding 알고리즘&lt;/code&gt;: Z 추정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt;은 &apos;확률&apos; 계산이고, &lt;code class=&quot;language-text&quot;&gt;Viterbi decoding 알고리즘&lt;/code&gt;은 &apos;시퀀스&apos; 추정임&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt;: Z 추정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Viterbi 알고리즘&lt;/code&gt; 과의 차이점: &lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt;는 사전에 주어진 게 X 밖에 없음&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;code-classlanguage-textforward-알고리즘code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textforward-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98code&quot; aria-label=&quot;code classlanguage textforward 알고리즘code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Evaluation Question 문제에서 활용&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;초기 확률(초기 상태)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Transition 확률(천이확률)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Emission 확률(출력확률)&lt;/code&gt;이 주어졌을 때, &lt;/li&gt;
+&lt;li&gt;관측 데이터가 발생할 &lt;strong&gt;확률&lt;/strong&gt;을 &lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt;으로 계산(추정)한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forward알고리즘은 &apos;확률&apos; 계산이고, Viterbi decoding 알고리즘은 &apos;시퀀스&apos; 추정임&lt;/strong&gt;	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; hmmlearn &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; hmm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;히든 상태 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;states &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rainy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sunny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+nState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;states&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;관측 데이터 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;observations &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Walk&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Shop&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Clean&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# nObervation = len(observations)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;HMM 모델 빌드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hmm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;MultinomialHMM&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n_components&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# n_components = 2개 &lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;startprob_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 초기확률(상태)&lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;transmat_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 천이확률 Transition &lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;emissionprob_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 출력확률 Emission&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt; Multinomial(다항분포): 여러 개의 값을 가질 수 있는 독립 확률변수들에 대한 확률분포&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt;: 관측 데이터 시퀀스(Observations Sequence) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&apos;&apos;이렇게 X가 나오도록 Z 값&apos;&apos; 계산하라 中 &apos;&apos;이렇게 X가 나오도록&apos;&apos; 담당 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;T  &lt;span class=&quot;token comment&quot;&gt;# Walk(0) -&gt; Clean(2) -&gt; Shop(1)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&amp;#39;.score()&amp;#39;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;x가 관측될 likely probability(가능성, 확률) 계산&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;logL &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;score&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Forward 알고리즘. sequnce 값이 커지면 확률값이 굉장히 작아져 &apos;0.00..&apos; 등으로 나오니까 defaulf로 log 함수를 취해줌 &lt;/span&gt;
+p &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exp&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;logL&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#log를 exp 씌워주면 일반 확률로 변환됨 &lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\nProbability of [Walk, Clean, Shop] = %.4f%s&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Probability of [Walk, Clean, Shop] = 3.1038%&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;code-classlanguage-textviterbi-알고리즘code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textviterbi-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98code&quot; aria-label=&quot;code classlanguage textviterbi 알고리즘code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;Viterbi 알고리즘&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Decoding Question 에서 활용&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;초기 확률(초기 상태)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Transition 확률(천이확률)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Emission 확률(출력확률)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;관측 데이터 시퀀스(X)&lt;/code&gt;가 주어졌을 때, &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;히든 상태의 시퀀스(Z)&lt;/code&gt;&lt;/strong&gt; 을    &lt;code class=&quot;language-text&quot;&gt;Viterbi decoding 알고리즘&lt;/code&gt;으로 계산(추정)한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forward알고리즘은 &apos;확률&apos; 계산이고, Viterbi decoding 알고리즘은 &apos;시퀀스&apos; 추정임&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; hmmlearn &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; hmm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;히든 상태 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;states &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rainy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sunny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+nState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;states&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;관측 데이터 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;observations &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Walk&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Shop&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Clean&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# nObervation = len(observations)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;HMM 모델 빌드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hmm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;MultinomialHMM&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n_components&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# n_components = 2개 &lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;startprob_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 초기확률(상태)&lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;transmat_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 천이확률 Transition &lt;/span&gt;
+model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;emissionprob_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 출력확률 Emission&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt; Multinomial(다항분포): 여러 개의 값을 가질 수 있는 독립 확률변수들에 대한 확률분포&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt;: 관측 데이터 시퀀스(Observations Sequence) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&apos;&apos;이렇게 X가 나오도록 Z 값&apos;&apos; 계산하라 中 &lt;code class=&quot;language-text&quot;&gt;이렇게 X가 나오도록&lt;/code&gt; 담당 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;T &lt;span class=&quot;token comment&quot;&gt;# walk -&gt; clean -&gt; shop -&gt; walk&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Viterbi 알고리즘&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&amp;#39;.decode( , algorithm=&amp;quot;viterbi&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Z가 관측될 likely probability(가능성, 확률) 계산&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;logprob&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;decode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; algorithm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;viterbi&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 여기서 Z는 Z가 될 확률값&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;결과 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\n  Obervation Sequence :&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;, &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; observations&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hidden State Sequence :&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;, &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; states&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Probability = %.6f&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exp&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;logprob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Obervation Sequence : Walk, Walk, Shop, Shop, Walk, Walk, Walk, Walk, Walk, Walk, Walk, Clean, Walk, ...&lt;/p&gt;
+&lt;p&gt;Hidden State Sequence : Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Sunny, Rainy, ...&lt;/p&gt;
+&lt;p&gt;Probability = 0.000000&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;code-classlanguage-textbaum-welch-알고리즘code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textbaum-welch-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98code&quot; aria-label=&quot;code classlanguage textbaum welch 알고리즘code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;X만 주어진 경우: &lt;code class=&quot;language-text&quot;&gt;Learning Question&lt;/code&gt; 문제&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;초기 확률(초기 상태)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Transition 확률(천이확률)&lt;/code&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Emission 확률(출력확률)&lt;/code&gt;을 추정,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; 1-3 까지 &lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;히든 데이터 시퀀스(Z)&lt;/code&gt;까지 찾아낸다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; 4는 &lt;code class=&quot;language-text&quot;&gt;Viterbi 알고리즘&lt;/code&gt;까지 쓴다면&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;활용: 어떤 사람의 행위를 통해 초기 상태와 천이 확률, 그리고 출력 확률을 먼저 추정한 후 Z를 추정한다 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;관찰만으로 전부 추정하는 알고리즘 &lt;/li&gt;
+&lt;li&gt;아래 code 내에선 정확도도 꽤 괜찮은 편&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; hmmlearn &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; hmm
+np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;set_printoptions&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;precision&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# np.set_printoptions: numpy float 출력옵션 변경. 소수점 몇자리까지만 보고 싶은 경우&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;나무랑 w(가중치) 세팅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;nState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+pStart &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+pTran &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+pEmit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;해당 code는 추후 &lt;code class=&quot;language-text&quot;&gt;Baum Welch&lt;/code&gt;을 통해 나온 결과값과의 정확도를 보기 위한 것으로, Data를 임의로 설정해주는 부분임에 유의&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;걍 가짜로 X data, Z data 만들어내는 부분&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;주어진 확률 분포대로 관측 데이터 시퀀스를 생성한다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 히든 상태 선택. 확률 = [0.6, 0.4]&lt;/span&gt;
+s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;argmax&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;multinomial&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pStart&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# {1, pStart=[0.6, 0.4]} 3개 중 가장 큰 수(np.argmax) 따라서 s = 1&lt;/span&gt;
+X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;# Obervation 시퀀스&lt;/span&gt;
+Z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;# 히든 상태 시퀀스&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# Walk, Shop, Clean ?&lt;/span&gt;
+    a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;argmax&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;multinomial&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pEmit&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# pEmit[s] = [0.6, 0.3, 0.1]&lt;/span&gt;
+    X&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Z&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# 히든 상태 천이&lt;/span&gt;
+    s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;argmax&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;multinomial&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pTran&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;따라서 현재는 X만 아는 상태 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q. Z는 왜 만드는 것?? 바움 알고리즘은 X만 가지고 예측하는 건데???
+A: 지금 있는 기본 data x랑 나중에 model 만든 거를 합치면 predict z가 나오는데(yHat) 그거랑 찐 z랑 비교하려고&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt; -&gt; &lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt; 사용&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 1) &lt;code class=&quot;language-text&quot;&gt;Forward 알고리즘&lt;/code&gt; 활용: Observation 시퀀스만을 이용하여, 초기 확률, Transition, Emmision 확률을 추정한다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;zHat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+minprob &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;999999999&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#3의 큰 수로 줘버림&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; k &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hmm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;MultinomialHMM&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n_components&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tol&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.0001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n_iter&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 가짜 data인 x로 학습(fit)&lt;/span&gt;
+  predZ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;predict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  logprob &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;score&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# forword 알고리즘 # 원래 값이 음수가 나와서 앞에 &apos;-&apos; 붙여줌으로서 양수로 변환&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;logprob = -6349.458034174618&lt;/p&gt;
+&lt;p&gt;**EM 알고리즘은 local optimum에 빠질 수 있으므로, 5번 반복하여 로그 우도값이 가장 작은 결과를 채택한다.
+(그게 가장 큰 결과가 되니까 작은 결과 채택).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 2) &lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt; 활용 : Z를 추정&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Viterbi 알고리즘&lt;/code&gt; 과의 차이점: &lt;code class=&quot;language-text&quot;&gt;Baum Welch 알고리즘&lt;/code&gt;는 사전에 주어진 게 X 밖에 없음&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; logprob &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; minprob&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      zHat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; predZ
+      T &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;transmat_
+      E &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;emissionprob_
+      minprob &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; logprob
+  &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;k = %d, logprob = %.2f&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; logprob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;k = 4, logprob = -6349.46&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;찐 Data 세팅 단계&lt;/code&gt;에서 생성한 &lt;code class=&quot;language-text&quot;&gt;Z&lt;/code&gt;와 위 알고리즘들을 통해 추정한 &lt;code class=&quot;language-text&quot;&gt;zHat&lt;/code&gt;의 &lt;strong&gt;정확도를 측정&lt;/strong&gt;한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;accuracy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; zHat&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; accuracy &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 정확도가 0.5보다 작다면 순서를 바꿔주는 부분 &lt;/span&gt;
+    T &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fliplr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;flipud&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;T&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# np.fliplr: 좌우 순서 변경&lt;/span&gt;
+    E &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;flipud&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# np.flipud: 상하 순서 변경&lt;/span&gt;
+    zHat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; zHat
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;flipped&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+accuracy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; zHat&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\naccuracy = %.2f %s&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;accuracy &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;accuracy = 76.78 %&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;추정 결과를 출력한다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\nlog prob = %.2f&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; minprob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\nstart prob :\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;startprob_&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\ntrans prob :\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;T&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\nemiss prob :\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; E&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\niteration = &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;monitor_&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;iter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;log prob = 5339.32&lt;/li&gt;
+&lt;li&gt;start prob :
+[6.93e-72 1.00e+00]&lt;/li&gt;
+&lt;li&gt;trans prob :
+[[0.74 0.26]
+[0.15 0.85]]&lt;/li&gt;
+&lt;li&gt;emiss prob :
+[[0.11 0.41 0.48]
+[0.58 0.3  0.12]]&lt;/li&gt;
+&lt;li&gt;iteration =  246&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;model.monitor&lt;em&gt;.iter: for문 몇 번 돌렸단 뜻. 여기서 위에 &quot;model = hmm.MultinomialHMM(n&lt;/em&gt;components=nState, tol=0.0001, &lt;strong&gt;n_iter=10000&lt;/strong&gt;)&quot; 라 설정했는데 model.monitor.iter가 10000이라 뜨면 값을 못 찾았다는 거라 20000정도로도 늘려보아야 함 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;hmm-참고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hmm-%EC%B0%B8%EA%B3%A0&quot; aria-label=&quot;hmm 참고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HMM 참고&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bigram POS tagging과 시험 데이터를 이용한 평가.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;trade-off between accuracy and coverage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Bigram에서는 만약 NNS VBG 시퀀스가 학습 데이터에 없다면,&lt;/li&gt;
+&lt;li&gt;P(VBG|NNS)=0, &lt;code class=&quot;language-text&quot;&gt;*해석: VBG 안에 NNS가 없음&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;sparse problem 이므로&lt;/li&gt;
+&lt;li&gt;그 이후의 모든 시퀀스에 악영향을 미쳐 평가 결과가 낮다.&lt;/li&gt;
+&lt;li&gt;N-gram의 N이 클수록 accuracy는 낮지만 문맥의 coverage는 좋다.  따라서 학습용 데이터를 늘리면 약간 개선되기는 함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;N-Gram tagging - Combining Tagger (Backoff Tagger)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bigram tagging을 시도하고 P(tag2 | tag1) = 0 (tag1 tag2 시퀀스가 없으면)이면, Unigram을 적용한다 P(tag2).&lt;/li&gt;
+&lt;li&gt;만약 이것도 없으면 default tag를 적용한다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;t0 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DefaultTagger&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;NN&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+t1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;UnigramTagger&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;train_sents&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; backoff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; t0&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+t2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;BigramTagger&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;train_sents&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; backoff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; t1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+t2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;evaluate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;test_sents&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;참고 : &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;nltk.pos_tag()&lt;/code&gt;&lt;/strong&gt;는 PerceptronTagger로 Penn Treebank (Wall Street Journal) &lt;strong&gt;데이터를 사전에 학습&lt;/strong&gt;해 놓은 것을 사용한다. &lt;/p&gt;
+&lt;p&gt;반면에 UngramTagger나 BigramTagger는 사전에 학습해 놓은 것을 사용하는 것이 아니라 직접 학습해서 사용하는 것이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;품사 태깅 : N-Gram tagging - Unknown word&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tagger가 학습 데이터에서 경험하지 못한 단어를 보면 어떻게 태깅해야 하나?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;I go to school in the klaldkf&quot;&lt;/span&gt; 
+token &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; text&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;unigram_tagger&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;token&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[(&apos;I&apos;, &apos;PPSS&apos;), (&apos;go&apos;, &apos;VB&apos;), (&apos;to&apos;, &apos;TO&apos;), (&apos;school&apos;, &apos;NN&apos;), (&apos;in&apos;, &apos;IN&apos;), (&apos;the&apos;, &apos;AT&apos;), (&apos;klaldkf&apos;, None)]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bigram_tagger&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;token&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[(&apos;I&apos;, &apos;PPSS&apos;), (&apos;go&apos;, &apos;VB&apos;), (&apos;to&apos;, &apos;TO&apos;), &lt;strong&gt;(&apos;school&apos;, None), (&apos;in&apos;, None), (&apos;the&apos;, None), (&apos;klaldkf&apos;, None)&lt;/strong&gt;]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pos_tag&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;token&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[(&apos;I&apos;, &apos;PRP&apos;), (&apos;go&apos;, &apos;VBP&apos;), (&apos;to&apos;, &apos;TO&apos;), (&apos;school&apos;, &apos;NN&apos;), (&apos;in&apos;, &apos;IN&apos;), (&apos;the&apos;, &apos;DT&apos;), (&apos;klaldkf&apos;, &apos;NN&apos;)]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Unigram Tagger&lt;/code&gt;는 unknown word에만 영향을 미침. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Bigram Tagger&lt;/code&gt;&lt;/strong&gt;는 unknown word가 다른 단어에도 영향을 미침.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;nltk.pos_tag()&lt;/code&gt;는 unknown word를 명사로 태깅하고 있음.&lt;/li&gt;
+&lt;li&gt;단, &lt;code class=&quot;language-text&quot;&gt;Unigram과 Bigram&lt;/code&gt;은 충분한 데이터로 학습한 결과가 아니며, &lt;code class=&quot;language-text&quot;&gt;nltk.pos_tag()&lt;/code&gt;은 충분한 데이터로 사전에 학습된 것임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;시험 데이터로 태깅 성능을 측정할 때는 &lt;code class=&quot;language-text&quot;&gt;nltk.ConfusionMatrix&lt;/code&gt;를 이용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Confusion Matrix &lt;/span&gt;
+test_tags &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;tag &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; sent &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; brown&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sents&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;categories&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;editorial&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;word&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; t2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; 
+gold_tags &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;tag &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;word&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; brown&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tagged_words&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;categories&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;editorial&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; 
+cm &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nltk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ConfusionMatrix&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;gold_tags&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; test_tags&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+cm&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;NN&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;NN&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pretty_format&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;truncate&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sort_by_count&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;참고: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;아마추어 퀀트, blog.naver.com/chunjein&lt;/li&gt;
+&lt;li&gt;코드 출처: 크리슈나 바브사 외. 2019.01.31. 자연어 처리 쿡북 with 파이썬 [파이썬으로 NLP를 구현하는 60여 가지 레시피]. 에이콘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[딥러닝 LSTM&CNN]]></title><description><![CDATA[딥러닝 DL RNN CNN 순환 신경망(RNN) hidden 층에서 서로 값을 기억해 순환한다. 지금까진 FNN(feed forward neword) + 순서가 필요 없는 data를 써서 모델이 기억할 필요가 없었지만, 문장 같은 data…]]></description><link>https://jynee.github.io/tags#1st/딥러닝_2/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/딥러닝_2/</guid><pubDate>Tue, 14 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;딥러닝-dl&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%94%A5%EB%9F%AC%EB%8B%9D-dl&quot; aria-label=&quot;딥러닝 dl permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;딥러닝 DL&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;RNN&lt;/li&gt;
@@ -2114,7 +3354,7 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     n_estimators &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;#100개의 트리&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;이상데이터 검출하는 알고리즘 (ex: 카드 불법 사용에 사용)&lt;/li&gt;
+&lt;li&gt;이상데이터 검출하는 알고리즘 (ex: 카드 불법 사용 색출에 활용)&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Keyword: &lt;/p&gt;
 &lt;ul&gt;
@@ -2163,444 +3403,4 @@ Hyper parameter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 &lt;br&gt;
 &lt;blockquote&gt;
 &lt;p&gt;참고: 심교훈. 2019. 10. 9. “가장 간단한 군집 알고리즘, k-means 클러스터링&quot;. &lt;a href=&quot;https://bskyvision.com/564&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/564&lt;/a&gt;. b스카이비전&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[머신러닝 분석 방법들, 첫 번째]]></title><description><![CDATA[머신러닝(ML) KNN Decision Tree SVM 선형회귀분석 로지스틱회귀분석 나이브베이지안  차원(feature…]]></description><link>https://jynee.github.io/tags#1st/머신러닝_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/머신러닝_1/</guid><pubDate>Tue, 23 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;머신러닝ml&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9Dml&quot; aria-label=&quot;머신러닝ml permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;머신러닝(ML)&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;KNN&lt;/li&gt;
-&lt;li&gt;Decision Tree&lt;/li&gt;
-&lt;li&gt;SVM&lt;/li&gt;
-&lt;li&gt;선형회귀분석&lt;/li&gt;
-&lt;li&gt;로지스틱회귀분석&lt;/li&gt;
-&lt;li&gt;나이브베이지안&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-text차원의-저주code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%B0%A8%EC%9B%90%EC%9D%98-%EC%A0%80%EC%A3%BCcode&quot; aria-label=&quot;code classlanguage text차원의 저주code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;차원의 저주&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;차원(feature)이 증가하면 성능이 저하된다&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;차원이 증가할수록 말 그대로 ‘근접 이웃’에 한정하기 어려워 멀리 떨어진 데이터를 참조한다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;→ 따라서 데이터 양에 비해 feature의 수가 많으면 차원의 저주 문제를 생각해봐야 한다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;차원의 저주를 벗어날 수 있는 방법:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;차원 축소(feature 축소)&lt;/li&gt;
-&lt;li&gt;데이터 양을 늘림&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;차원의 저주를 벗어날 수 있는 모델&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;중요도 분석&lt;/code&gt;(의사결정나무 – 사전 가지치기)&lt;/li&gt;
-&lt;li&gt;PCA 주성분 분석&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-textknnk-nearest-neighborcode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textknnk-nearest-neighborcode&quot; aria-label=&quot;code classlanguage textknnk nearest neighborcode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;kNN(k-Nearest Neighbor)&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; `KNeighborsClassifier&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;`
-Grid search&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    n_neighbors&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
-    p&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
-    meric &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ‘minkowski’&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;지도학습&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;테스트 데이터에서 k개의 가장 가까운 이웃을 찾고, 그 이웃들 중 다수가 속한 클래스가 테스트 데이터의 클래스가 되게 한다&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;iris 패키지: “새로운 꽃이 발견됐을 때, 어느 종류(클래스)에 넣는 것이 좋을까?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;레이지 러닝(lazy learning)&lt;/code&gt;: 미리 학습해 두는 방식이 아니라, test data 추정할 때마다 학습하기 때문에 시간이 오래 걸림&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt; &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ff8f151393663889633470d0077aac0f/32056/image-20200721074726342.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 33.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABaUlEQVQoz12RWW+cQBCE+f//ycpLFMkvibw2dizYBZZz1zBcM9zwpZfN3VJLoyl1VVeXZcqSqWn4u9Z1o7r9ty3LMPyDDeNIU1XMMrN2HUzTbWDHtm3D0qpAfX9jiCPmYSS4NJh+oiwVOolR9gtbU6PbjiTXdH1PqRT12yu15wnZwse14lq0O6ll4oypqFh9j9fDiW/HDxluiJOU/hyzXHOM5/P4FBBdG/IiJ49ThnPCJpte3IDPh4imNnfCMDkQ5geWWeMnNZUZdyAIXeL0WZTfGVuD7aRMy0ZnOvyzTRx9pdUJqux5d9Ob4TuhF9k8OQ+i7gjpitYtXdeTZCHB9Rnb+8Q4mZ+3XekFi7ITx/gR1/8C88wqd1yWZW+rl42MqHr+iaJQ8jbUdS3d0OmB7JJwOh2pxF4pQd26qTVG9+LCI4zErgSk5K6thGj9Si/LLqRpwv819AOu6+6Ef+puT6kSx3Ek6Ok38gNsshT7lN4ElQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20200721074726342&quot;
-        title=&quot;image-20200721074726342&quot;
-        src=&quot;/static/ff8f151393663889633470d0077aac0f/fcda8/image-20200721074726342.png&quot;
-        srcset=&quot;/static/ff8f151393663889633470d0077aac0f/12f09/image-20200721074726342.png 148w,
-/static/ff8f151393663889633470d0077aac0f/e4a3f/image-20200721074726342.png 295w,
-/static/ff8f151393663889633470d0077aac0f/fcda8/image-20200721074726342.png 590w,
-/static/ff8f151393663889633470d0077aac0f/32056/image-20200721074726342.png 602w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;그림 출처: 심교훈. 2019. 10. 8. &quot;유유상종의 진리를 이용한 분류 모델, kNN(k-Nearest Neighbor)&quot;. &lt;a href=&quot;https://bskyvision.com/563&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/563&lt;/a&gt;. b스카이비전&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;K 가 작을수록 복잡도 높아짐&lt;/p&gt;
-&lt;p&gt;→ 과잉적합&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;K가 증가할수록 정확도가 떨어진다&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;거리 측정 방법:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;맨하튼 거리: 가장 심플&lt;/li&gt;
-&lt;li&gt;유클리디안 거리: 최단 거리&lt;/li&gt;
-&lt;li&gt;민코우스키 거리: 많이 떨어진 성분 부각&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-text결정-트리decision-treecode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EA%B2%B0%EC%A0%95-%ED%8A%B8%EB%A6%ACdecision-treecode&quot; aria-label=&quot;code classlanguage text결정 트리decision treecode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;결정 트리(Decision Tree)&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; DecisionTreeClassifier&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; grid search&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
-    criterion&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;’gini’
-    알파&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;가중치&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    max_depth&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;k
-    pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Categorical&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;income&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;codes
-    dt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;feature_importances ← 중요도 분석
-    path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; `DecisionTreeClassifier&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cost_complexity_pruning_path&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;trainX&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; trainY&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    ccp_alpha &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ccp_alpha
-    &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; 이때 먼저&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ccp_alpha &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; `ccp_alphas&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;where&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ccp_alphas &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;`
-    clfs&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tree_&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;node_count &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; clfs&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tree_&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_depth&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;지도학습, 비지도학습&lt;/li&gt;
-&lt;li&gt;알파값(가중치 조정) 높이기 ~ 오분류율(불순도) 증가&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;핵심: 변별력이 좋은 질문을 위에서부터 하나하나 세팅&lt;/p&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;Feature가 3개 이상이면 초평면으로 구분&lt;/li&gt;
-&lt;li&gt;Featrue(차원)이 많아져도 덜 중요한 feature는 분류 기준에서 제외되어 feature 선정에 크게 신경 쓸 필요 X&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;중요한 Feature 확인 가능&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;중요도 분석&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tree 과도하게 분할( = 과잉 적합 = 트리가 복잡) → 아래 노드에 데이터 小 → 데이터 단편화 → 유의미한 결정 내리기 어려움&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;즉, Depth 높 ~ 트리 길어짐 ~ 과도하게 분할 ~ overfitting ~ 정확도 낮음&lt;/li&gt;
-&lt;li&gt;해결 위해 정지기준 or 사전/사후 가지치기 사용&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;정지기준&lt;/code&gt;: depth 지정 or 마지막 노드의 데이터 수가 임계치 이하로 떨어지지 않도록 지정&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;알파(가중치): depth 조정&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;가지치기&lt;/code&gt;: 트리 단순화하여 일반화 특성 향상시키기.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;사전 가지치기&lt;/code&gt;: depth, 마지막 노드의 최소 데이터 수, 불순척도(criterion)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;사후 가지치기&lt;/code&gt;: 오분류율, 패널티항, 알파(가중치)&lt;/li&gt;
-&lt;/ol&gt;
- &lt;br&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ID3 알고리즘&lt;/code&gt;: 정보량과 엔트로피 개념 활용&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;알고리즘 &lt;strong&gt;순서&lt;/strong&gt;: &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;엔트로피 계산량에 의해 엔트로피(E)가 낮고, &lt;/li&gt;
-&lt;li&gt;정보획득량(IG)가 높은 선택지를 선택함&lt;/li&gt;
-&lt;li&gt;A 속성은 마지막에도 결정 노드에 쓰이지 않았다. N개의 속성 중에 가장 변별력이 낮은 속성이었던 이유다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;불순척도(지니지수, 엔트로피) 작아지도록 분할 기준 선택. 분할 전 부모노드 보다 분할 후 자식노드의 불순척도가 작아지는 게 좋음(IG)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;지니지수&lt;/code&gt;: 0~0.5값&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;정보량&lt;/code&gt;&lt;/strong&gt;: 어떤 사건이 가지고 있는 정보의 양. 드물게 발생하는 일일수록 정보량이 크다.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;엔트로피&lt;/code&gt;&lt;/strong&gt;(E): 0~1값 정보량의 기댓값(평균). 발생한 사건들의 정보량을 모두 구해서 (가중)평균&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;엔트로피가 크다는 것은 평균정보량이 크다는 것&lt;/li&gt;
-&lt;li&gt;대개 사건들이 일어날 확률이 비슷한 경우에 엔트로피가 크다.&lt;/li&gt;
-&lt;li&gt;따라서 두 사건이 0.5, 0.5 확률로 일어날 때의 엔트로피가 가장 크다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;→ 즉, &lt;strong&gt;불확실성이&lt;/strong&gt; 클수록 엔트로피가 크다&lt;/p&gt;
-&lt;p&gt;→ 불확실성이 크면 클수록 분류하기는 어려워짐&lt;/p&gt;
-&lt;p&gt;→ 엔트로피가 가장 작은 것을 상위 의사결정 노드에 위치시켜야 함.&lt;/p&gt;
-&lt;p&gt;→ 이를 위해 &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;정보획득량&lt;/code&gt;&lt;/strong&gt;(IG)이란 개념이 필요&lt;/p&gt;
-&lt;p&gt;&quot;어떤 속성을 가지고 분류했을 때 가장 엔트로피(불확실성)가 작은지, 정보획득량이 큰지&quot;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-text서포트-벡터-머신svmcode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EC%84%9C%ED%8F%AC%ED%8A%B8-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0svmcode&quot; aria-label=&quot;code classlanguage text서포트 벡터 머신svmcode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;서포트 벡터 머신(SVM)&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; SVC&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-grid search &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
-    kernel &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ‘linear’
-    C
-    gamma
-    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;비선형&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;multiclassification&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; kernel &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; `‘rbf’
-     &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; 파라미터 C는 이상치 또는 오류를 얼마나 허용하는 가&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;복잡도 조절&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;를 정해주고&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; gamma는 결정 경계의 곡률을 결정
-        &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;max&lt;/span&gt; margin &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;min&lt;/span&gt; 섞임 조절
-        &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 大 &lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt; 패널티항 大 &lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt; 거리 짧음&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/br&gt;
-&lt;ul&gt;
-&lt;li&gt;가장 많이 사용되는 SVM은 radial(방사형) basis function (RBF) 커널을 사용한 SVM&lt;/li&gt;
-&lt;li&gt;SVM은 일반화 특성이 우수&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt; 모델 생성시 특정 옵션을 주어야 &lt;code class=&quot;language-text&quot;&gt;predict_proba&lt;/code&gt;가 사용 가능&lt;/p&gt;
-&lt;p&gt; predict_proba 함수를 가지고 있지만, 모델 생성시 &lt;code class=&quot;language-text&quot;&gt;probalility=True&lt;/code&gt;를 설정하지 않으면 사용할 수 없다.&lt;/p&gt;
-&lt;p&gt; 이때, 레이블이 3개 이상인 경우, LinearSVC보단 SVC를 사용하고, probability=True 옵션 주는 것을 추천한다. &lt;/p&gt;
-&lt;p&gt; 출처: &lt;a href=&quot;https://m.blog.naver.com/cjh226/221358912619&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://m.blog.naver.com/cjh226/221358912619&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&quot;선형-svm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%ED%98%95-svm&quot; aria-label=&quot;선형 svm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;선형 SVM&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;데이터를 선형으로 분리하는 최적의 선형 결정 경계를 찾는 알고리즘&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;그 중 가장 간단한 것이 선형 SVM(linear SVM)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;SVM 알고리즘의 목표: 클래스가 다른 데이터들을 가장 큰 마진(margin)으로 분리해내는 선 또는 면(결정 경계 또는 분리 초평면)을 찾아내는 것&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;마진: 두 데이터 군과 결정 경계와 떨어져있는 정도&lt;/li&gt;
-&lt;li&gt;서포트 벡터: 결정 경계와 가장 먼저 만나는 데이터&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;/li&gt;
-&lt;li&gt;SVM의 기본 매개변수인 C&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;cost(C): C는 얼마나 많은 데이터 샘플이 다른 클래스에 놓이는 것을 허용하는지를 결정&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ex: 작을 수록 많이 허용, 클 수록 적게 허용
-ex: C값을 낮게 설정하면 이상치들이 있을 가능성을 크게 잡아 일반적인 결정 경계를 찾아내고, 높게 설정하면 반대로 이상치의 존재 가능성을 작게 봐서 좀 더 세심하게 결정 경계를 찾아낸다.
-ex: &quot;난 데이터 샘플하나도 잘못 분류할 수 없어!&quot; : C를 높여야
-ex: &quot;몇 개는 놓쳐도 괜찮아, 이상치들이 꽤 있을 수도 있으니까&quot; : C를 낮춰야&lt;/p&gt;
-&lt;p&gt;인용: 심교훈. 2017. 10. 21. &quot;서포트 벡터 머신(SVM)의 사용자로서 꼭 알아야할 것들 - 매개변수 C와 gamma&quot;. &lt;a href=&quot;https://bskyvision.com/163&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/163&lt;/a&gt;. b스카이비전.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;C가 너무 낮으면 과소적합(underfitting)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;C가 너무 높으면 과대적합(overfitting)&lt;/p&gt;
-&lt;p&gt;→ 적합한 C값을 찾아내는 것이 중요&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;하드마진(hard-margin) SVM&lt;/li&gt;
-&lt;li&gt;소프트마진(soft-margin) SVM&lt;/li&gt;
-&lt;/ul&gt;
- &lt;/br&gt;
-&lt;h3 id=&quot;rbf-커널-svm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rbf-%EC%BB%A4%EB%84%90-svm&quot; aria-label=&quot;rbf 커널 svm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;RBF 커널 SVM&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;커널 기법은 주어진 데이터를 고차원 특징 공간으로 사상해주는 것이다.&lt;/li&gt;
-&lt;li&gt;3차원 공간에서 분류된 것을 다시 2차원 공간으로 매핑해서 보면 결정 경계가 둥그렇게 보일 것&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;RBF 커널의 경우 gamma라는 매개변수를 사용자가 조정해야 한다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;gamma&lt;/code&gt; : 하나의 데이터 샘플이 영향력을 행사하는 거리를 결정&lt;/li&gt;
-&lt;li&gt;ex: gamma가 클수록 한 데이터 포인터들이 영향력을 행사하는 거리가 짧아지는 반면, 낮을수록 커진다&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ex: gamma는 가우시안 함수의 표준편차와 관련되어 있는데, 클수록 작은 표준편차를 의미&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&apos;편차가 크다&apos;: 어떤 자료는 평균보다 엄청 크고 어떤 자료는 평균보다 엄청 작다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;gamma 매개변수는 결정 경계의 곡률을 조정한다고 말할 수도 있다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;gamma의 값이 높아짐에 따라 공간이 점점 작아지는데, 위에서 언급한 것과 같이 각각의 데이터 포인터가 영향력을 행사하는 거리가 짧아졌기 때문 &amp;#x3C;- 아마 정확도가 높아질 듯하다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;매개변수 C와 마찬가지로 너무 낮으면 과소적합될 가능성이 크고, 너무 높으면 과대적합의 위험이 있다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;두 값 모두 커질수록 알고리즘의 복잡도는 증가하고, 작아질수록 복잡도는 낮아진다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;선형-회귀linear-regression&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80linear-regression&quot; aria-label=&quot;선형 회귀linear regression permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;선형 회귀(linear regression)&lt;/strong&gt;&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; LinearRegression&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;예측값(Y햇)이 실수(연속형)일 떈, ‘.mean’, ‘.score’ 말고 R2(*0~1값을 가짐) 사용(값의 범위가 MSE보다 작기 때문)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;선형회귀는 사용되는 &apos;특성(feature)의 개수&apos;에 따라 &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;단순 선형 회귀(simple linear regression): 단 하나의 특징(feature)을 가지고 라벨값(label) 또는 타깃(target)을 예측하기 위한 회귀 모델을 찾는다.&lt;/li&gt;
-&lt;li&gt;다중 선형 회귀(multiple linear regression): 하나의 특성이 아닌 여러 개의 특성을 활용해서 회귀모델을 만듦&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;선형 회귀는 y와 y햇 사이의 평균제곱오차(mean squared error, MSE)를 최소화하는 파라미터(w, b)&lt;/strong&gt;를 찾는다. y와 y햇의 차이가 작으면 작을 수록 예측 성능이 좋기 때문&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;라쏘(Lasso):&lt;/strong&gt; 선형 회귀의 단점을 극복하기 위해 개발된 방법&lt;/li&gt;
-&lt;li&gt;linear regression에선 predict_proba 함수를 제공하지 않는다&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;y햇 = w[0]+x[0]+b&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;w: 가중치(weight), 계수(coefficient)&lt;/li&gt;
-&lt;li&gt;b: 편항(offset)&lt;/li&gt;
-&lt;li&gt;y햇: 예측값&lt;/li&gt;
-&lt;li&gt;x[0]: 특징&lt;/li&gt;
-&lt;li&gt;&quot;feature와 lable 사이의 관계를 잘 설명해낼 수 있는 최적(가장 적합한)의 w와 b를 찾는 것&quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&quot;code-classlanguage-text라쏘l1code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%9D%BC%EC%8F%98l1code&quot; aria-label=&quot;code classlanguage text라쏘l1code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;라쏘(L1)&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;추가 제약조건이자 grid search&lt;/li&gt;
-&lt;li&gt;선형 회귀에 &lt;strong&gt;L1&lt;/strong&gt; 규제를 줘서 과대적합을 피하는 방법이다.&lt;/li&gt;
-&lt;li&gt;상관성이 있을 수도 있는 feature의 영향력을 줄일 수 있음&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;동작 원리:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MSE가 최소가 되게 하는 w, b 찾기 + w의 모든 원소가 0이 되거나 0에 가깝게&lt;/li&gt;
-&lt;li&gt;MSE와 penalty 항의 합이 최소가 되게 하는 w와 b를 찾는 것이 라쏘의 목적&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;L1-norm(벡터의 요소들의 절대값들의 합) 패널티를 조정하는 건 알파값(선형회귀 분석의 grid serch)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;알파 너무 작으면 과대적합(복잡도 큼), 너무 크면 과소 적합(복잡도 넘 작음)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;라쏘의 장점:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;제약 조건을 통해 일반화된 모형을 찾는다.&lt;/li&gt;
-&lt;li&gt;모델 해석력이 good (모델에서 가장 중요한 특성이 무엇인지 아는)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&quot;code-classlanguage-text릿지l2code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%A6%BF%EC%A7%80l2code&quot; aria-label=&quot;code classlanguage text릿지l2code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;릿지(L2)&lt;/code&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;L2-norm&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;릿지 원의 크기와 라쏘의 마름모 크기는 정규화 역할하는 람다 혹은 C로 조절&lt;/li&gt;
-&lt;li&gt;특성이 다수일 경우에는 릿지 회귀가 좀 더 잘 작동. 선형 회귀와 달리 모델의 복잡도를 조정할 수 있기 때문. 복잡도를 조정할 수 있다는 말은 사용자가 설정 가능한 파라미터가 있다는 뜻&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;알파값(가중치)&lt;/strong&gt;: (feature가 생각보다 덜 쓰였다던가의)과소적합: 1보다 작은 α 값(ex: 0.1, 0.01, 0.001)로 조정&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;즉, alpha 값을 크게 설정 ~ 기울기가 줄어듦 ~ 특성들이 출력에 미치는 영향력이 줄어듦(현재 특성들에 덜 의존)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;alpha = 0 ← 선형회귀&lt;/li&gt;
-&lt;li&gt;default : alpha = 1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;정리&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;특성이 많은데 그중 &lt;strong&gt;일부분만 중요하다면 라쏘&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;특성의 중요도가 전체적으로 &lt;strong&gt;비슷하다면 릿지&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-text로지스틱-회귀-분석code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1-%ED%9A%8C%EA%B7%80-%EB%B6%84%EC%84%9Dcode&quot; aria-label=&quot;code classlanguage text로지스틱 회귀 분석code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;로지스틱 회귀 분석&lt;/code&gt;&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Logisticregression&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-grid search&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    penaly &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ‘l2’
-    C &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; c
-    max_iter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;선형회귀분석에서 쓰던 MSE 말고 Cross Entropy(CE) 사용&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;오즈&lt;/strong&gt;(0.9가 나왔으면 1이라 보는 것)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;계산 시 유의 사항:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;예측값(y햇)이 실제값(y)과에 가깝게 나오게 하기 위해 CE, MSE 최소화&lt;/li&gt;
-&lt;li&gt;출력에 1이 여러 개인(sigmoid 출력) 이진분류일 경우 &lt;strong&gt;BCE&lt;/strong&gt;(바이너리 CE) 사용: 개별 출력이라 1이 여러 개&lt;/li&gt;
-&lt;li&gt;출력에 1이 한 개일 경우(one-shot 형태로 softmax가 출력) &lt;strong&gt;CCE&lt;/strong&gt;(카테고리컬 CE) 사용: 그룹(?) 출력이라 1이 하나&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;→ BCE, CCE는 결과가 다르고 정확도 측정도 달라지므로 주의해서 선택&lt;/p&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;sklearn 패키지에서는 sigmoid 안 거치고 바로 softmax로 감&lt;/p&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;보통의 계산 순서: &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;sigmoid 함수로 계산&lt;/li&gt;
-&lt;li&gt;softmax함수로 계산(이때 CE 사용)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
- &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;로지스틱함수의 yHat 계산법(step):&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;시그모이드 계산&lt;/li&gt;
-&lt;li&gt;시그모이드(sigmoid) 함수: 가중치와 바이어스는 시그모이드의 비활성도를 조절해준다.&lt;/li&gt;
-&lt;li&gt;CE 계산&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
- &lt;br&gt;
-&lt;h2 id=&quot;code-classlanguage-text나이브-베이지안code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-text%EB%82%98%EC%9D%B4%EB%B8%8C-%EB%B2%A0%EC%9D%B4%EC%A7%80%EC%95%88code&quot; aria-label=&quot;code classlanguage text나이브 베이지안code permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;나이브 베이지안&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;model = GaussianNB()&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Feature들이 서로 독립이라 가정&lt;/strong&gt;하고 &lt;strong&gt;조건부 확률 계산&lt;/strong&gt;해서 데이터 분류&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;명목형&lt;/strong&gt;(1, 0), &lt;strong&gt;연속형&lt;/strong&gt;(정규분포 사용) 변수 모두 사용 가능&lt;/p&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;계산 순서:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;결합 확률은 너무 복잡해서 두 feature를 독립이라 가정하여,&lt;/li&gt;
-&lt;li&gt;베이지안 식에 의해 각각을 곱해 계산한 후,&lt;/li&gt;
-&lt;li&gt;큰 확률의 값을 선택&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt; Ex: yes 일 확률 : 1 , no일 확률: 0 =&gt; (계산 후) no로 분류&lt;/p&gt;
- &lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;m 추정치(m-Estimates)&lt;/code&gt;: 비교하려는 두 샘플의 data 중에 특정 데이터가 없을 땐 두 확률이 모두 0으로 나와서 분류할 수 없으므로, m-Estimates라는 m과 p를 사용해서 조건부 확률 계산식을 조정함. &lt;/li&gt;
-&lt;li&gt;분모의 m은 임의의 확률, mp는 분자가 0 나오는 거 방지&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;명목형, 연속형 모두 섞여 있는 data 일 땐,&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;명목형, 연속형 각각 model 학습&lt;/li&gt;
-&lt;li&gt;각각의 model 정확도 추정&lt;/li&gt;
-&lt;li&gt;&apos;2&apos;의 그 정확도(확률)을 곱함&lt;/li&gt;
-&lt;li&gt;&apos;3&apos;의 확률의 곱으로 정확도 측정&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;blockquote&gt;
-&lt;p&gt; 참고: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;심교훈. 019. 10. 24. &quot;결정 트리(Decision Tree) 알고리즘, ID3 소개&quot;. &lt;a href=&quot;https://bskyvision.com/598&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/598&lt;/a&gt;. b스카이비전.&lt;/li&gt;
-&lt;li&gt;심교훈. 2020. 1. 20. &quot;[ubuntu+python] 선형 회귀의 업그레이드 버전1, 릿지 회귀&quot;. &lt;a href=&quot;https://bskyvision.com/687&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/687&lt;/a&gt;. b스카이비전&lt;/li&gt;
-&lt;li&gt;심교훈. 2017. 10. 21. &quot;서포트 벡터 머신(SVM)의 사용자로서 꼭 알아야할 것들 - 매개변수 C와 gamma&quot;. &lt;a href=&quot;https://bskyvision.com/163&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://bskyvision.com/163&lt;/a&gt;. b스카이비전.&lt;/li&gt;
-&lt;li&gt;머신러닝. 2020.01.14. &quot;서포트 벡터 머신(Support Vector Machine) 쉽게 이해하기&quot;. &lt;a href=&quot;http://hleecaster.com/ml-svm-concept/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://hleecaster.com/ml-svm-concept/&lt;/a&gt;. 아무튼워라밸&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/blockquote&gt;</content:encoded></item></channel></rss>
