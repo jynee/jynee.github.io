@@ -592,14 +592,17 @@ nGOutput <span class="token operator">=</span> nDInput
     <span class="token keyword">return</span> RMSprop<span class="token punctuation">(</span>lr <span class="token operator">=</span> a<span class="token punctuation">)</span></code></pre></div>
 </br>
 <h4 id="step3-모델-그림" style="position:relative;"><a href="#step3-%EB%AA%A8%EB%8D%B8-%EA%B7%B8%EB%A6%BC" aria-label="step3 모델 그림 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step3. 모델 그림</h4>
-<div class="gatsby-highlight" data-language="py"><pre class="language-py"><code class="language-py">Generator <span class="token operator">-</span><span class="token operator">-</span><span class="token operator">></span> Discriminator를 연결한 모델을 생성한다<span class="token punctuation">.</span>
-아래 네트워크로 z가 들어가면 DGz <span class="token operator">=</span> <span class="token number">1</span>이 나오도록 G를 학습한다<span class="token punctuation">.</span>
-D 네트워크는 업데이트하지 않고<span class="token punctuation">,</span> G 네트워크만 업데이트한다<span class="token punctuation">.</span>
-
-        <span class="token operator">+</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">+</span>   Gz   <span class="token operator">+</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">+</span>
-  z <span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">></span><span class="token operator">|</span> G <span class="token operator">|</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">></span><span class="token operator">|</span> D <span class="token operator">|</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">></span> DGz
-        <span class="token operator">+</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">+</span>        <span class="token operator">+</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">+</span>
-      trainable   <span class="token keyword">not</span> trainable</code></pre></div>
+<ul>
+<li>Generator --> Discriminator를 연결한 모델을 생성한다.</li>
+<li>아래 네트워크로 z가 들어가면 DGz = 1이 나오도록 G를 학습한다.</li>
+<li>D 네트워크는 업데이트하지 않고, G 네트워크만 업데이트한다.</li>
+</ul>
+<div class="gatsby-highlight" data-language="mermaid"><pre class="language-mermaid"><code class="language-mermaid">graph LR
+z[z] --&gt;B{trainable}
+    B --&gt;|trainable| C[G]
+    C --&gt;|Gz| D[D]
+    B --&gt;|NOT trainable| D
+	D --&gt; DGz</code></pre></div>
 </br>
 </br>
 <h4 id="step4-객체지향-함수-정의" style="position:relative;"><a href="#step4-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98" aria-label="step4 객체지향 함수 정의 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step4. (객체지향) 함수 정의</h4>
