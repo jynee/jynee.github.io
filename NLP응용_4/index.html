@@ -565,14 +565,39 @@
 <p>문자 단위의 시계열 데이터 생성</p>
 <ul>
 <li>
-<p>아래처럼 되도록 생성: 보통의 시계열 Batch data처럼 생성
-| x          | y(one-hot encoding) |
-| ---------- | ------------------- |
-| I love you | (공백)              |
-| love you   | v                   |
-| ove you v  | e                   |
-| ...        | ...                 |</p>
+<p>아래처럼 되도록 생성: 보통의 시계열 Batch data처럼 생성</p>
 <blockquote>
+<p> <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/78dfc4b9095769d7132abeeec32f0606/fe9e8/image-20200822112750536.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 22.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAdElEQVQY032Oyw7DIAwE+f8vRSBRhHkYG2mbuEoTKWkPc9rdsV3rHcyMOeeNEAK890aMESLy2DvYc0dEyDlDVW+klEBUMcYwVNdj72TBlVLw2oQiaheMLfxcFax1Sr75D/aOa62j1moSG13GzPMi0r/fHbs3O1U4qDSKIQAAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="image-20200822112750536"
+        title="image-20200822112750536"
+        src="/static/78dfc4b9095769d7132abeeec32f0606/fcda8/image-20200822112750536.png"
+        srcset="/static/78dfc4b9095769d7132abeeec32f0606/12f09/image-20200822112750536.png 148w,
+/static/78dfc4b9095769d7132abeeec32f0606/e4a3f/image-20200822112750536.png 295w,
+/static/78dfc4b9095769d7132abeeec32f0606/fcda8/image-20200822112750536.png 590w,
+/static/78dfc4b9095769d7132abeeec32f0606/efc66/image-20200822112750536.png 885w,
+/static/78dfc4b9095769d7132abeeec32f0606/fe9e8/image-20200822112750536.png 1146w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <p> y값을 word 단위가 아니고 characters(ex: a, b, c, ... z) 로 설정<br></p>
 </blockquote>
 </li>
@@ -702,7 +727,37 @@ sys<span class="token punctuation">.</span>stdout<span class="token punctuation"
 <li>attention 연산: attention score</li>
 <li>episodic memory 구성한 후, </li>
 <li>일반적인 답변을 줄 수 있게끔 구성한 네트워크</li>
-<li><img src="markdown-images/image-20200731122306179.png" alt="image-20200731122306179"></li>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a3b05891cf69b95d604a666ba46c6279/74d4e/image-20200731122306179.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAAB5klEQVQoz21Ti27bMAz0/3/bhg1Fk3RZ0qax3Tp+yA9ZsR62byRtZx0wAowU6UgeqXOkh4C6d+juXrw1bvEv++2uWfds/SPuL4bvIw70YcI8z5jI/2d8zPdhnCSIrTUeLoz/4Pgs0oMXIJu1Fvv9HrvdDr9PJxxeXmR1bknCBTPVo2h6xIUmIiOOxyPFHGCHAcaOiJjqOE0PKs5ZSTyGAGeX/bwy54Tt2jIzZSLBO8FRMHh8wpCpplUvIOMm9FTpUxlZ+T8XTUots3rLGmIWMLhRZqjIP+s7YcMyw616pjQ6Q4w8gz3eKfBuPe2DrCkl3KzWVtpjY2zZmkcH0QYqGiMJPSV05NdbA0tgdp7V/pzi9HpBkqZQSuH8dkWSFURglLjNIj64E4ucEpqVEXte98QsiNsw49drgm8/nvD95zOOpzOeng+4JJmM4KPsJLEhbMRzYE05OiD1gJ+H4mXd3NMP33GTZnkTaDtRoWXPGBZKRaOI+GXGVTZKVUiSGB/UVhzHuF6prSRBU9dyPz50OMuDtZ3G++Ui3veaHpBko7/IRusOZVmgbRqoqkKe5yiKHL3Wq6pmUYRgichgHUq6z2830SEXkS+FnfsfqFcqIjPjlRQjPvhZZLF9XmzL5xhkHAtmEhn9AbSIoN9wa3B/AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="image-20200731122306179"
+        title="image-20200731122306179"
+        src="/static/a3b05891cf69b95d604a666ba46c6279/fcda8/image-20200731122306179.png"
+        srcset="/static/a3b05891cf69b95d604a666ba46c6279/12f09/image-20200731122306179.png 148w,
+/static/a3b05891cf69b95d604a666ba46c6279/e4a3f/image-20200731122306179.png 295w,
+/static/a3b05891cf69b95d604a666ba46c6279/fcda8/image-20200731122306179.png 590w,
+/static/a3b05891cf69b95d604a666ba46c6279/efc66/image-20200731122306179.png 885w,
+/static/a3b05891cf69b95d604a666ba46c6279/74d4e/image-20200731122306179.png 1157w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
 </ol>
 <blockquote>
 <p>출처: Ankit Kumar외, 2016.05, Ask Me Anything: Dynamic Memory Networks for Natural Language Processing. 에서 'attention score' 추가<br></p>
@@ -836,7 +891,36 @@ atttention score layer의 출력층에서 나온 w인<code class="language-text"
 </ul>
 <br>
 <h3 id="code" style="position:relative;"><a href="#code" aria-label="code permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>code:</h3>
-<p><img src="markdown-images/image-20200812161218399.png" alt="image-20200812161218399"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/9d93b7c1a2b416814ac294610a2f0c57/c5bb3/image-20200812161218399.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 141.2162162162162%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAAsSAAALEgHS3X78AAAFR0lEQVRIx3VWaVvaaBTl/3+azjNLq+1oizp1aREEK1oBQRZlDzthSSAJewhLEmhtz9w3QDva9sN9IiSc3HvOuefVZsw7eFyKdZ3PJCijDOaGCHMpYaLxmI+aGEsVlJMhFAv34MtJ5HMx1Pg0FkYP+kyBbQXS/Q6od60yjS5qgwB8iQNcRexweJ+hXIjCHAgo3vnh93vgOTvCnn0bfp8bGxzbo+5mHeiaBINqMhQgCRXEwj4c7P2Dvb2X4JJBzNJRfCok0CgmcPHhPexvthCnF+jT1WSPAFnLRq8OrVVCjYvROFGrAtRBNHwFoZnDpMNjQWPP6Llep45yI4y84kGp44VKtNg2nFmAVJ8WA+g0VkepAg9jCI08enIdjRqHHBfFkt0nShZmH5raQvzeR0A1TKbNNYesq9lqXAaqUHeJ6DXcvh0keCfqnTCkMQkgxsClIjAJbEkCtJp5eNzHNPI2gv4LEqVvYaxGpgdYzXoNJImPw8PXcJySEE47vFcnaClpDNUq5HbZUpNVu1VEMHAB++tthOiqrxuyGdUsjEYOJnU2UXhUKinrzaGAF+eu9ySKH1NVxkxTLA6XNCr7oaaKSGcDCEc+IJWmZ6ZkL0tlpQZDKEInQL1LRBPZTeLLdW5HJO1AuX4LdcpjMKyiJRQsQNaNTtznZA+ykgvl7hVGWpUAewQ4aMKo52A0CzCHIgb9BvwfPThybsHp24InsItaN4TuoEiAxTWgYhXjk5VuCbvyso0pxvibk/fEYhwB/zlS5LeTQzuyyQgSsSDdUzAd030a+dMacOUK5ZuYm7KxL5b6ANqojXY1gxGNXaGVuidxqpUk8cZhNpEw1doEmF91xEaebbz7fx+zDucypnoTg1EFgpCllSPCx23LBmwDRCFveZN9ZoAT615vPeL3Yi+yVk/p5xArkpoFB+45D9rDBMYj0QJhIzI1Le+ZK8DN5x9DZT3yldeJa68b8VgAHy9dcLzbx5nrkATIQ5ZKUIdN60HW1Qqw9W3snwJm0rcIBS9wsP8KL54/w+vd55QqSfQ7DcitMnErWRwvzSeAv+qwRLmWuA+gVIgjmwmjkLuD0s1jZjbQEOPoUCYONPIf45AWQBuJ6w6VnwO2xIL1x9cHFQ+fR8CXCWQtgVj5GOc3u3AHt8FLt/hK30vVNCa0fibbll8BMuKZCJbslGkDShm1LyKbiuHkeB+X5y4ELpzoyhW0qEOVJydQVho/CLM2ttDgoFK0P1CH004NQjYMlcTgKdovKZEziRsM6xyGtI6jbg1j2qgvxtrcT4SxfCgKORTES4Ryh7iJ7yFeO0WFQDp3N1gSSJu7QyV8De72CnUKjjTxLZADFmsen3Jpk9sl5PMRnLkPcO134vR0H3Y6J1KpkLXXtyEvXNTpPrnATdejt2/gcZ2QC+q0hkMs5v3HgBLlGl9Ko0p15jzCzqu/sPXidxxTJvYo7nPZKDhSf59e8vzv3/Bm70+U+DDaShbqhEdX5b7v9mZkFj1yJ4d0moJgKoO9pE984YuGGimbvAvScTAlPw4h9u5Rln1oj+4hDKJoDsJg62tuROH5BD7GaYzIFjL8B2vFmOdYIAxpZEZJouSGOIySJzniro/PxogA+pbhF1SPRmbJcuE+ReD6HPVaZnVQLYdghn/77w5evfwD75w76E4LUDQOc52EoK1h0fVUFGtkZht2TDocB8ilbmGy1aKxWWcBnwdO51tUMjHozTKWLR4GxRsLY2Mi/9zY/S5vdZMiMIEOb5OOTTOfwIjOF/ZvRijohUQvNYlTnUT6lvCUj4be+cGL/wHNlt10zii32AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="image-20200812161218399"
+        title="image-20200812161218399"
+        src="/static/9d93b7c1a2b416814ac294610a2f0c57/fcda8/image-20200812161218399.png"
+        srcset="/static/9d93b7c1a2b416814ac294610a2f0c57/12f09/image-20200812161218399.png 148w,
+/static/9d93b7c1a2b416814ac294610a2f0c57/e4a3f/image-20200812161218399.png 295w,
+/static/9d93b7c1a2b416814ac294610a2f0c57/fcda8/image-20200812161218399.png 590w,
+/static/9d93b7c1a2b416814ac294610a2f0c57/c5bb3/image-20200812161218399.png 680w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <ul>
 <li>
 <p>순서</p>
@@ -940,7 +1024,38 @@ data</em>vectorization의 return 값은 </p>
 </ol>
 </li>
 </ul>
-<p><img src="markdown-images/image-20200803190130197.png" alt="image-20200803190130197"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/91702bc3f10f90de85396cbf5fb4ba3e/df56e/image-20200803190130197.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 99.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAClklEQVQ4y51Uia6bMBDk/7+vUl+TkAQIl8Hc9zXdcUKVRnmRWksWxqxnZ2fHWNu2IcsmxGpCrgokKobWGkqep9MRtn3C5eJgmjaYsW4Yux5xGCJNUkRRhOPhgMPxiCJVsPphkeAV0yyBfY++qZDqSkArRLGWAxp53mCeFyzrgq2fMNcdWl2gLSU2TVHXNZqmlUQNrHHP/BhL30r2xDBVwiAMYziOg9vtJkwvaOVwlmWSlIlyw/B6vcIPAnjXM6y8aNCTmcy8KCRYI2Mpno9CDpRlicAPDBMClRJTF6XZ5wyldO5rnaHQCSzPi4xmu262bSOQoJvrQQURMgHlt8v5DN/34QibNFbCUBLk2R/mjusi9FxYw7ii61q0bWsOsgxqUtfCINWo6gZN2yGMYhSimRKmStaDNIYNHYcBmzRqW1Zs1LDvF0M3zzMD6LqO0YwZA8dDJp1z7V8iwRXxTbS8nJBKJfPQQzqFsakh6DJbacAEa1k2DMOKcdz4XZ6ree+6GVVZQ8c+sutPKPsHtPOFwv1CqRXWSZjNgzhDgIQp2bK9Fju7PTYIvqz3Ncc4jkbDIIxMyYlIEKsEZVXdHSFlzmTxwCCwtR9+HXsSDjqgFhAt+oViD6UUVBwb3dd1/SvW2l9e5/MgoLGM2CQWIFqFoAR8JWG9Y2ZumGSuhNXuN67vN6IxgK40jabmmnaapunO8BMggQoxMp+0093A2oBwcj9JEhOzLMt7wGfQ19F1nWFKZjQ0mRHsWfNvGb7TlIAsm9eQTMmQe8/n3jL8TgKCsERO/hB4AciS375tyifG9OUgV42NITjL5fpjyZ9AWR7LDcSLZ/lZUEdK8F8l7ww5CUI/UkMyfI75Zw1paGpIH+4/3t0yjP0NP0kJW9zPtykAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="image-20200803190130197"
+        title="image-20200803190130197"
+        src="/static/91702bc3f10f90de85396cbf5fb4ba3e/fcda8/image-20200803190130197.png"
+        srcset="/static/91702bc3f10f90de85396cbf5fb4ba3e/12f09/image-20200803190130197.png 148w,
+/static/91702bc3f10f90de85396cbf5fb4ba3e/e4a3f/image-20200803190130197.png 295w,
+/static/91702bc3f10f90de85396cbf5fb4ba3e/fcda8/image-20200803190130197.png 590w,
+/static/91702bc3f10f90de85396cbf5fb4ba3e/efc66/image-20200803190130197.png 885w,
+/static/91702bc3f10f90de85396cbf5fb4ba3e/c83ae/image-20200803190130197.png 1180w,
+/static/91702bc3f10f90de85396cbf5fb4ba3e/df56e/image-20200803190130197.png 1188w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <br>
 <ul>
 <li>
