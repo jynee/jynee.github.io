@@ -653,7 +653,7 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 <tr>
 <td></td>
 <td></td>
-<td>여기서 Mask(opt.) 부분은 <br />Decoder의 Masked MultiHead Attention과 <br />다른 Masking이고 Optional 한 부분. <br />단순히 아래와 같은 코드를 통해 <br />입력 dimension(=512) 중 word이 <br />아닌 경우를 구분하는 역할<br />(word 입력이 끝난 후 padding 처리와 동일)</td>
+<td>여기서 Mask(opt.) 부분은 <br />Decoder의 Masked MultiHead Attention과 <br />다른 Masking이고 Optional 한 부분. <br />단순히 아래와 같은 코드를 통해 <br />입력 dimension(=512) 중 word가 <br />아닌 경우를 구분하는 역할</td>
 </tr>
 </tbody>
 </table>
@@ -672,7 +672,7 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 <tbody>
 <tr>
 <td><strong><code class="language-text">Positional Encoding</code></strong><img src="https://miro.medium.com/max/329/1*4HJt3iD5tbtf9wZFuDrM-Q.png" alt="Image for post"></td>
-<td>벡터로된 위치정보에다가 공식을 사용해서 <strong>'서로 간격이 일정하도록&#x26;고르게 분포 하도록 반영</strong>하면, 딥러닝이 이 정보를 분석해 어떤 pattern을 찾는다.<br />*서로 간격이 일정하도록 고르게 분포 : 모든 벡터가 거리 값이 같다.(아래 추가 설명 참고)</td>
+<td>벡터로된 위치정보에다가 공식을 사용해서 <strong>'서로 간격이 일정하도록&#x26;고르게 분포 하도록 반영</strong>하면, 딥러닝이 이 정보를 분석해 어떤 pattern을 찾는다.<br />*<code class="language-text">서로 간격이 일정하도록 고르게 분포</code> : 모든 벡터가 거리 값이 같다.(아래 추가 설명 참고)</td>
 <td>문장은 일반적인 임베딩과 <code class="language-text">Positional Encoding</code>을 <br /><strong>더하여</strong> Encoder의 Layer로 들어간다</td>
 <td></td>
 </tr>
@@ -836,8 +836,8 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 </thead>
 <tbody>
 <tr>
-<td>일반적인 Seq2Seq 모델과 동일하게 Inference시 Encoder의 들어오는 문장(번역할 문장)은 정확히 알지만, Decoder에 들어오는 문장(번역되어지는 문장)은 알지 못한다. <br />시작 표시를 나타내는 &#x3C;S>를 사용해서 Seq2Seq와 동일하게 Inference 한다.</td>
-<td>이때 Encoder은 일반 학습시의 Encoder와 동일하고, Decoder만 순차적으로 진행하기 위해 Greedy Decoder 혹은 Beam Search를 사용.<br />inference word가 &#x3C;E> (end point)이면 inference를 멈춘다.</td>
+<td>Inference시 Encoder의 들어오는 문장(번역할 문장)은 정확히 알지만, Decoder에 들어오는 문장(번역되어지는 문장)은 알지 못한다. <br />시작 표시를 나타내는 &#x3C;S>를 사용해서 Seq2Seq와 동일하게 Inference 한다.</td>
+<td>inference word가 &#x3C;E> (end point)이면<br />inference를 멈춘다.</td>
 </tr>
 <tr>
 <td><img src="https://miro.medium.com/max/946/1*JMTk-0Ky6fZh2RNFd8mghQ.png" alt="Image for post"></td>
