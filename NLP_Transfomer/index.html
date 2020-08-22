@@ -564,7 +564,11 @@
 <p>순서:</p>
 <ol>
 <li>Seq 처리: '<code class="language-text">positional encoding</code>' (순서정보를 입력하면 저장되고 공식에 맞춰 벡터를 수치화 시키는 곳)</li>
-<li>상대적/절대적인 정보를 넣어야 함 <br></li>
+</ol>
+<blockquote>
+<p> 상대적/절대적인 정보를 넣어야 함 <br></p>
+</blockquote>
+<ol start="2">
 <li>그걸 (input) encoder의 attention으로 전달 <br></li>
 <li>2의 결과를 FNN을 전달(단순 linear prejection(차원축소) 위함) <br></li>
 <li>3의 결과를 Decoder의 attention으로 전달<br></li>
@@ -576,9 +580,9 @@
 </ol>
 </li>
 <li><code class="language-text">attention</code>: 입력된 값을 가중치로 조정하여 목적에 맞게 바꿔줌 </li>
-<li><code class="language-text">self attention</code>: Q와 transposed K를 내적한후 Scaled with Softmax 함으로써 Self-Attention 시킵니다.(attention score)</li>
+<li><code class="language-text">self attention</code>: 입력값인 Q와 transposed K를 내적한 후, Scaled with Softmax 한다. 이는 곧 Self-Attention 시키는 것이고, 이를 통해 attention score 얻을 수 있다.</li>
 <li>
-<p><code class="language-text">Masked</code>: Self-Attention시 자신의 time step 이후 word는 가려 Self-Attention 되는 것을 막는 역할. <code class="language-text">np.triu</code>를 통해 한번 삼각형 행렬을 만들어 줍니다. 1이 Mask 역할.</p>
+<p><code class="language-text">Masked</code>: Self-Attention시 자신의 time step 이후 word는 가려 Self-Attention 되는 것을 막는 역할. </p>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token triple-quoted-string string">'''
 # make mask like this.
 0 1 1
@@ -608,8 +612,43 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 <tbody>
 <tr>
 <td><img src="https://miro.medium.com/max/329/1*4HJt3iD5tbtf9wZFuDrM-Q.png" alt="Image for post"><br /></td>
-<td><img src="https://miro.medium.com/max/254/1*4UvAIxzfkkUercHoGJuj3w.png" alt="Image for post" style="zoom:150%;"><br /></td>
-<td><img src="markdown-images/image-20200815215109073.png" alt="image-20200815215109073"></td>
+<td><span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 576px; ">
+      <a class="gatsby-resp-image-link" href="/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAD3ElEQVRIx51V+VMaSRTmD93aX/cf2fxiKmajkngsKIRzOAdQjmGAUYZR7sNwlCbgERCMKUtBxYDf9rQOCmKS2q561T1vXn/9vff6vVZhyri7uxutM5nMVP1LQzUJpGwqVypIppJwul1IZdKoVKu/Baqaxuz29hYhPoxEegdichv8Vgy+wMb/A7y7X4DjObDrHpgZC2wuB4Jc8JkXvwScZDAcAhwXJYyHvx3HqS5/+9aBGPehkI+AC5lRLESwLfnx/fvZL0FVT90YDgdUWSqlUCmtoLq7ir2KHuWSFonNN2jUqw/MB6M9T0Mgz6ppMTk+akCI6pCIm+DzqBEKrCAU/BedTvNFZgqGSlnc3Nyg1+sS6eHq+hoXF130+z9gMJggSTu4vOzhmugVG0W63S7VjxjKi/39fXg9QfBcHFxw80EExCIS3s4ugHX5EQmLT/5tEsYCnaO8hHr98BGwUqlhblaHlfcuLM7b8GGOobMsC29NmJ1Zg/qdBep/LFhasFOR/2kW3ffzEoNctoj+bf/e5YSYRIAtIhVvgrVtw6ANQrvkBWMUwBhiVFwWEU5LHHqNH8bVENyMBCl2gDj/BW9mlqHRrOGkfUILQiUlUuB8ZaTjLexsfoXIN5CIHmDDnSMAQQJEwMwiAdnGJrdPQOqQoofIiG3wG1X8+cdfyGazJMaXOD8/h6pU/ETYhOFxxGHWB8Hat7DB7sBuiUCv9WD5PQPtshNG3Tq8ThE+VwJOawx2cxRrKyzWff7xezgY/EDvqou4uIVXr/5GabdIgvwZzdZXmtHXr2fgJ3Vcr3+h+uvrHgLke27+HQqFHHVTFuX60Sy32x24WBYa7SoKpSJqe3s4OjpCLpfDvFqNqCBgt1xG4+CAXO4GrAwDk8VCbWVptVqPWZY3GswmaPU6GK1mmBgrXB4WdqcTGt0aVj/qYXXYYbYxCIRCWNKsQGc0EDsLjETWA340Go1HwFQ6DSmTRKqQhZROghMimFuYp+0ru1ugLSyR2oHO8BF2hwNhIYp8uUTbmje4AcZmQ/ey+wgo0xXiW2C9JAHk9KgQI7GqI5vPIbYl4MPyItyEcSabQbPZBB+NUFvNmhbhCD9ydzgcjnebYrFIqsXzrEZXtVpShhdjOlEUwYf5Z3VMGSrI8un1h1gMBoPRifl8HkO5ExGR9fLYI0lrt9tjzEZZVtCPj4+poWKk6JPJ5AhI2Vyr1egtmGQ31m1OT0/HjBR9lTxOk4CHh4fUflqzHQHKLpydjXfkq6sr2okmYyUDyiH6KaAceLkenxr1+32cnJw8c6vT6bzMcFI5ufln+mlvy39rL2AuubDZywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;"></span>
+  <img class="gatsby-resp-image-image" alt="image-20200822105845609" title="image-20200822105845609" src="/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png" srcset="/static/c924934dafc5a3ca5fd9cd80c3820dd0/12f09/image-20200822105845609.png 148w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/e4a3f/image-20200822105845609.png 295w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png 576w" sizes="(max-width: 576px) 100vw, 576px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy">
+  </a>
+    </span><br /></td>
+<td><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 355px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 112.16216216216218%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC8ElEQVQ4y5VUW1PaUBDmv/ehfagPbWdqH5xOp4oFsVULeOEiNCAkQAIBBLkngCBFuQhyh6/nBIMIanFnFsKe5cu3Z79dDYgNBgPU63Xc3t6i2Wzi+rqKGv3dbKBcLqNJ4jc3N2i322jftVGr1ZT8RqOhxMbjMYXBZDKBhj70uh0IPA+W4xAI8AgGBYjhCNKpJOIXCcTicXCsF5KcR6FQQCgYRDQSgSAI4IUger3eAyD9eMro281mM/x+P2xWK1iWRTgcRiqZgt1uB8MwaLVaMyAVRzMfoK7Sp2VFo1FkMmmk0yl4vR7kpByq1b+4uIgjFAop16P+/1HJ84DUVNB+f4BYLAFJKuDk2IZ4LInYeYK8rD6rZL7CWckUYN5Ho5GSIPAR6L+7sbFuxPqHn9j4/BuGTQ+OzS7lfDQaL4Fq8IJdFsrQbe3D5fDh1HIGN+PH7o4JYfF8VsliDzRUFrRb2WwWoihCykkIBHmccg7YPDZo97TwiB64eAZ3nTbpskyk0lpiNgOkYCaTCVbSSYvFAuYPA8PBLg5DJ9i266G16KBzGLDPGiETsMpV5VEzlhhGiJ7cbjecTidKpdK0w/UaOB8HlvgPvQ4C0SXrY9HtdVEsFpUBeJYhnRIqzH6/r0zMcDKG38LAu2VEcM8O3mBB+MABcdeGZCiKYunyZcDFAE0JMSzOdo7g+WWFSz/99hHPEMn8F3BegzOBEs/JaYTCHpiPDIgneOQvZeVMluVHE/IswwdRTzXoY/dxan0Lp/0DTg7fEFGzSlwi0/IqwMlkKtZKRUIm7YfbZSKSEkijKveA0mqA8yOXSefgsAZgPWaxvWmEyykStj6ywmqKElZuigro9fBkzExYe/cNH99r8WlNh69fTMhliQ4rV0tL4VlANYHKx+tlkUplyO4TwXE+snWyylk+n3+lbO6TqIDpXVHwcrmEbrc7i3c6ndUZqknValVZ79Tq9cYMhLIbDoerM1xMVO/1qd33lD3LcNXnRfsHVU52tbegVB4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="image-20200815215109073"
+        title="image-20200815215109073"
+        src="/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png"
+        srcset="/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/12f09/image-20200815215109073.png 148w,
+/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/e4a3f/image-20200815215109073.png 295w,
+/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png 355w"
+        sizes="(max-width: 355px) 100vw, 355px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></td>
 </tr>
 <tr>
 <td></td>
@@ -638,13 +677,20 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 <td></td>
 </tr>
 <tr>
-<td><strong><code class="language-text">Multi-Head Attention</code></strong><img src="https://miro.medium.com/max/254/1*4UvAIxzfkkUercHoGJuj3w.png" alt="Image for post"></td>
+<td><strong><code class="language-text">Multi-Head Attention</code></strong><span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 576px; ">
+      <a class="gatsby-resp-image-link" href="/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAD3ElEQVRIx51V+VMaSRTmD93aX/cf2fxiKmajkngsKIRzOAdQjmGAUYZR7sNwlCbgERCMKUtBxYDf9rQOCmKS2q561T1vXn/9vff6vVZhyri7uxutM5nMVP1LQzUJpGwqVypIppJwul1IZdKoVKu/Baqaxuz29hYhPoxEegdichv8Vgy+wMb/A7y7X4DjObDrHpgZC2wuB4Jc8JkXvwScZDAcAhwXJYyHvx3HqS5/+9aBGPehkI+AC5lRLESwLfnx/fvZL0FVT90YDgdUWSqlUCmtoLq7ir2KHuWSFonNN2jUqw/MB6M9T0Mgz6ppMTk+akCI6pCIm+DzqBEKrCAU/BedTvNFZgqGSlnc3Nyg1+sS6eHq+hoXF130+z9gMJggSTu4vOzhmugVG0W63S7VjxjKi/39fXg9QfBcHFxw80EExCIS3s4ugHX5EQmLT/5tEsYCnaO8hHr98BGwUqlhblaHlfcuLM7b8GGOobMsC29NmJ1Zg/qdBep/LFhasFOR/2kW3ffzEoNctoj+bf/e5YSYRIAtIhVvgrVtw6ANQrvkBWMUwBhiVFwWEU5LHHqNH8bVENyMBCl2gDj/BW9mlqHRrOGkfUILQiUlUuB8ZaTjLexsfoXIN5CIHmDDnSMAQQJEwMwiAdnGJrdPQOqQoofIiG3wG1X8+cdfyGazJMaXOD8/h6pU/ETYhOFxxGHWB8Hat7DB7sBuiUCv9WD5PQPtshNG3Tq8ThE+VwJOawx2cxRrKyzWff7xezgY/EDvqou4uIVXr/5GabdIgvwZzdZXmtHXr2fgJ3Vcr3+h+uvrHgLke27+HQqFHHVTFuX60Sy32x24WBYa7SoKpSJqe3s4OjpCLpfDvFqNqCBgt1xG4+CAXO4GrAwDk8VCbWVptVqPWZY3GswmaPU6GK1mmBgrXB4WdqcTGt0aVj/qYXXYYbYxCIRCWNKsQGc0EDsLjETWA340Go1HwFQ6DSmTRKqQhZROghMimFuYp+0ru1ugLSyR2oHO8BF2hwNhIYp8uUTbmje4AcZmQ/ey+wgo0xXiW2C9JAHk9KgQI7GqI5vPIbYl4MPyItyEcSabQbPZBB+NUFvNmhbhCD9ydzgcjnebYrFIqsXzrEZXtVpShhdjOlEUwYf5Z3VMGSrI8un1h1gMBoPRifl8HkO5ExGR9fLYI0lrt9tjzEZZVtCPj4+poWKk6JPJ5AhI2Vyr1egtmGQ31m1OT0/HjBR9lTxOk4CHh4fUflqzHQHKLpydjXfkq6sr2okmYyUDyiH6KaAceLkenxr1+32cnJw8c6vT6bzMcFI5ufln+mlvy39rL2AuubDZywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;"></span>
+  <img class="gatsby-resp-image-image" alt="image-20200822105845609" title="image-20200822105845609" src="/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png" srcset="/static/c924934dafc5a3ca5fd9cd80c3820dd0/12f09/image-20200822105845609.png 148w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/e4a3f/image-20200822105845609.png 295w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png 576w" sizes="(max-width: 576px) 100vw, 576px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy">
+  </a>
+    </span></td>
 <td>1문장을 여러 head로 Self-Attention 시킴<br /></td>
 <td>”Je suis étudiant”라는 문장의 임베딩 벡터가 512차원(<code class="language-text">d_model</code>)이라면 8개 <code class="language-text">head</code>로 나눠 64개의 벡터를 한 <code class="language-text">Scaled Dot Attention</code>이 맡아 처리하는 것. <br /><strong>이는 동일한 문장도 8명(8 heads)이 각각의 관점에서 보고 추후에 합치는 과정</strong>이라고도 볼 수 있다.<br />*<code class="language-text">d_model</code>은 임베딩을 하기 위한 차원으로 보통 512를 사용하고, <code class="language-text">d_k</code>와 <code class="language-text">d_v</code>는 64를 사용. <br /></td>
 <td><img src="https://miro.medium.com/max/2015/1*lsMX7fYhk55VCavim7GiMg.png" alt="Image for post"><br />동일한 [batch<em>size x len</em>q x d_model] shape의 동일한 <code class="language-text">Q, K, V</code>를 만들어 [d<em>model, d</em>model] <code class="language-text">linear</code>를 곱한 후, <br /><strong>임베딩 차원을 8등분하여 <code class="language-text">Scaled Dot Product Atttention</code>으로 넘겨준다.<br /></strong>그리고 multi-head attention 그림에서의 h는 <code class="language-text">n_heads</code>(number of head)를 나타내며 보통 8을 사용. 이는 64 * 8 = 512이기 때문.</td>
 </tr>
 <tr>
-<td><strong><code class="language-text">Scaled-Dot Product Attention</code></strong> <img src="markdown-images/image-20200813150949039.png" alt="image-20200813150949039"></td>
+<td><strong><code class="language-text">Scaled-Dot Product Attention</code></strong></td>
 <td><code class="language-text">Self-Attention</code>이 일어나는 부분.<br /></td>
 <td>- 한 <code class="language-text">head</code>당 <br />(input 값) : Q(64), K(64), V(64)씩 가져가게 되는데, dimension(=512) 중 word가 아닌 경우를 구분하는 역할.<br />- 처음의 Q를 ResNet의 <code class="language-text">Residual Shortcut</code>와 같은 컨셉으로 더해준다. 이는 층이 깊어지는 것을 더 잘 학습 시키기 위함</td>
 <td><img src="https://miro.medium.com/max/1433/1*Mj7Bdi0xVPPIqGbfu7cbSw.png" alt="Image for post"><br /><em><code class="language-text">Self-Attention</code>></em><br />1. Q와 transposed K 사이를 내적하여 어텐션을 Softmax를 통해 구하고,<br/>2. 그 후에 V를 내적하여 중요한 부분(Attention)을 더 살린다.<br />3. 이렇게 8개의 head(여러 관점)으로 본 것을 다시 <code class="language-text">concate</code>하고<br />4. <code class="language-text">PoswiseFeedForwardNet</code>로 보냄</td>
@@ -768,7 +814,7 @@ subsequent_mask <span class="token operator">=</span> torch<span class="token pu
 </tr>
 <tr>
 <td><img src="https://miro.medium.com/max/440/1*64GKtTstp4zi3CEj5Y91iw.png" alt="Image for post"></td>
-<td>노란색 Box에서 왼쪽 2개 화살표가 Encoder의 K,V 오른쪽 화살표가 Self-Attention을 거친 Decoder의 Q</td>
+<td>노란색 Box에서 왼쪽 2개 화살표가 Encoder의 K,V <br />오른쪽 화살표가 Self-Attention을 거친 Decoder의 Q</td>
 <td><img src="https://miro.medium.com/max/779/1*y_oOzc5s7I6urwrXiIcQAA.png" alt="Image for post"><br />이렇게 나온 logistic을 일반적인Teacher Forcing을 통해 학습</td>
 </tr>
 </tbody>

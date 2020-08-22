@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 Aug 2020 01:54:54 GMT</lastBuildDate><item><title><![CDATA[NLP BERT]]></title><description><![CDATA[NLP  Bidirectional Encoder Representations Form Transformer transformer의 encoder만 사용한다.  Pre-traning과 fine-tuning으로 활용한다. 즉, transformer…]]></description><link>https://jynee.github.io/tags#1st/NLP_BERT_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/NLP_BERT_1/</guid><pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nlp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp&quot; aria-label=&quot;nlp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JyneeEarth | Feed]]></title><description><![CDATA[jynee's lab]]></description><link>https://jynee.github.io/tags#1st</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 Aug 2020 02:02:05 GMT</lastBuildDate><item><title><![CDATA[NLP BERT]]></title><description><![CDATA[NLP  Bidirectional Encoder Representations Form Transformer transformer의 encoder만 사용한다.  Pre-traning과 fine-tuning으로 활용한다. 즉, transformer…]]></description><link>https://jynee.github.io/tags#1st/NLP_BERT_1/</link><guid isPermaLink="false">https://jynee.github.io/tags#1st/NLP_BERT_1/</guid><pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nlp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp&quot; aria-label=&quot;nlp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h1&gt;
 &lt;h2 id=&quot;code-classlanguage-textbertcode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textbertcode&quot; aria-label=&quot;code classlanguage textbertcode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;BERT&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bidirectional Encoder Representations Form Transformer&lt;/li&gt;
@@ -748,7 +748,11 @@ wordEmbedding &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embedd
 &lt;p&gt;순서:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Seq 처리: &apos;&lt;code class=&quot;language-text&quot;&gt;positional encoding&lt;/code&gt;&apos; (순서정보를 입력하면 저장되고 공식에 맞춰 벡터를 수치화 시키는 곳)&lt;/li&gt;
-&lt;li&gt;상대적/절대적인 정보를 넣어야 함 &lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 상대적/절대적인 정보를 넣어야 함 &lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;그걸 (input) encoder의 attention으로 전달 &lt;br&gt;&lt;/li&gt;
 &lt;li&gt;2의 결과를 FNN을 전달(단순 linear prejection(차원축소) 위함) &lt;br&gt;&lt;/li&gt;
 &lt;li&gt;3의 결과를 Decoder의 attention으로 전달&lt;br&gt;&lt;/li&gt;
@@ -760,9 +764,9 @@ wordEmbedding &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Embedd
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;attention&lt;/code&gt;: 입력된 값을 가중치로 조정하여 목적에 맞게 바꿔줌 &lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;self attention&lt;/code&gt;: Q와 transposed K를 내적한후 Scaled with Softmax 함으로써 Self-Attention 시킵니다.(attention score)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;self attention&lt;/code&gt;: 입력값인 Q와 transposed K를 내적한 후, Scaled with Softmax 한다. 이는 곧 Self-Attention 시키는 것이고, 이를 통해 attention score 얻을 수 있다.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Masked&lt;/code&gt;: Self-Attention시 자신의 time step 이후 word는 가려 Self-Attention 되는 것을 막는 역할. &lt;code class=&quot;language-text&quot;&gt;np.triu&lt;/code&gt;를 통해 한번 삼각형 행렬을 만들어 줍니다. 1이 Mask 역할.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Masked&lt;/code&gt;: Self-Attention시 자신의 time step 이후 word는 가려 Self-Attention 되는 것을 막는 역할. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token triple-quoted-string string&quot;&gt;&apos;&apos;&apos;
 # make mask like this.
 0 1 1
@@ -792,8 +796,43 @@ subsequent_mask &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; torc
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/329/1*4HJt3iD5tbtf9wZFuDrM-Q.png&quot; alt=&quot;Image for post&quot;&gt;&lt;br /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/254/1*4UvAIxzfkkUercHoGJuj3w.png&quot; alt=&quot;Image for post&quot; style=&quot;zoom:150%;&quot;&gt;&lt;br /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;markdown-images/image-20200815215109073.png&quot; alt=&quot;image-20200815215109073&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 576px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAD3ElEQVRIx51V+VMaSRTmD93aX/cf2fxiKmajkngsKIRzOAdQjmGAUYZR7sNwlCbgERCMKUtBxYDf9rQOCmKS2q561T1vXn/9vff6vVZhyri7uxutM5nMVP1LQzUJpGwqVypIppJwul1IZdKoVKu/Baqaxuz29hYhPoxEegdichv8Vgy+wMb/A7y7X4DjObDrHpgZC2wuB4Jc8JkXvwScZDAcAhwXJYyHvx3HqS5/+9aBGPehkI+AC5lRLESwLfnx/fvZL0FVT90YDgdUWSqlUCmtoLq7ir2KHuWSFonNN2jUqw/MB6M9T0Mgz6ppMTk+akCI6pCIm+DzqBEKrCAU/BedTvNFZgqGSlnc3Nyg1+sS6eHq+hoXF130+z9gMJggSTu4vOzhmugVG0W63S7VjxjKi/39fXg9QfBcHFxw80EExCIS3s4ugHX5EQmLT/5tEsYCnaO8hHr98BGwUqlhblaHlfcuLM7b8GGOobMsC29NmJ1Zg/qdBep/LFhasFOR/2kW3ffzEoNctoj+bf/e5YSYRIAtIhVvgrVtw6ANQrvkBWMUwBhiVFwWEU5LHHqNH8bVENyMBCl2gDj/BW9mlqHRrOGkfUILQiUlUuB8ZaTjLexsfoXIN5CIHmDDnSMAQQJEwMwiAdnGJrdPQOqQoofIiG3wG1X8+cdfyGazJMaXOD8/h6pU/ETYhOFxxGHWB8Hat7DB7sBuiUCv9WD5PQPtshNG3Tq8ThE+VwJOawx2cxRrKyzWff7xezgY/EDvqou4uIVXr/5GabdIgvwZzdZXmtHXr2fgJ3Vcr3+h+uvrHgLke27+HQqFHHVTFuX60Sy32x24WBYa7SoKpSJqe3s4OjpCLpfDvFqNqCBgt1xG4+CAXO4GrAwDk8VCbWVptVqPWZY3GswmaPU6GK1mmBgrXB4WdqcTGt0aVj/qYXXYYbYxCIRCWNKsQGc0EDsLjETWA340Go1HwFQ6DSmTRKqQhZROghMimFuYp+0ru1ugLSyR2oHO8BF2hwNhIYp8uUTbmje4AcZmQ/ey+wgo0xXiW2C9JAHk9KgQI7GqI5vPIbYl4MPyItyEcSabQbPZBB+NUFvNmhbhCD9ydzgcjnebYrFIqsXzrEZXtVpShhdjOlEUwYf5Z3VMGSrI8un1h1gMBoPRifl8HkO5ExGR9fLYI0lrt9tjzEZZVtCPj4+poWKk6JPJ5AhI2Vyr1egtmGQ31m1OT0/HjBR9lTxOk4CHh4fUflqzHQHKLpydjXfkq6sr2okmYyUDyiH6KaAceLkenxr1+32cnJw8c6vT6bzMcFI5ufln+mlvy39rL2AuubDZywAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;image-20200822105845609&quot; title=&quot;image-20200822105845609&quot; src=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png&quot; srcset=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/12f09/image-20200822105845609.png 148w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/e4a3f/image-20200822105845609.png 295w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png 576w&quot; sizes=&quot;(max-width: 576px) 100vw, 576px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 355px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 112.16216216216218%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC8ElEQVQ4y5VUW1PaUBDmv/ehfagPbWdqH5xOp4oFsVULeOEiNCAkQAIBBLkngCBFuQhyh6/nBIMIanFnFsKe5cu3Z79dDYgNBgPU63Xc3t6i2Wzi+rqKGv3dbKBcLqNJ4jc3N2i322jftVGr1ZT8RqOhxMbjMYXBZDKBhj70uh0IPA+W4xAI8AgGBYjhCNKpJOIXCcTicXCsF5KcR6FQQCgYRDQSgSAI4IUger3eAyD9eMro281mM/x+P2xWK1iWRTgcRiqZgt1uB8MwaLVaMyAVRzMfoK7Sp2VFo1FkMmmk0yl4vR7kpByq1b+4uIgjFAop16P+/1HJ84DUVNB+f4BYLAFJKuDk2IZ4LInYeYK8rD6rZL7CWckUYN5Ho5GSIPAR6L+7sbFuxPqHn9j4/BuGTQ+OzS7lfDQaL4Fq8IJdFsrQbe3D5fDh1HIGN+PH7o4JYfF8VsliDzRUFrRb2WwWoihCykkIBHmccg7YPDZo97TwiB64eAZ3nTbpskyk0lpiNgOkYCaTCVbSSYvFAuYPA8PBLg5DJ9i266G16KBzGLDPGiETsMpV5VEzlhhGiJ7cbjecTidKpdK0w/UaOB8HlvgPvQ4C0SXrY9HtdVEsFpUBeJYhnRIqzH6/r0zMcDKG38LAu2VEcM8O3mBB+MABcdeGZCiKYunyZcDFAE0JMSzOdo7g+WWFSz/99hHPEMn8F3BegzOBEs/JaYTCHpiPDIgneOQvZeVMluVHE/IswwdRTzXoY/dxan0Lp/0DTg7fEFGzSlwi0/IqwMlkKtZKRUIm7YfbZSKSEkijKveA0mqA8yOXSefgsAZgPWaxvWmEyykStj6ywmqKElZuigro9fBkzExYe/cNH99r8WlNh69fTMhliQ4rV0tL4VlANYHKx+tlkUplyO4TwXE+snWyylk+n3+lbO6TqIDpXVHwcrmEbrc7i3c6ndUZqknValVZ79Tq9cYMhLIbDoerM1xMVO/1qd33lD3LcNXnRfsHVU52tbegVB4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20200815215109073&quot;
+        title=&quot;image-20200815215109073&quot;
+        src=&quot;/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png&quot;
+        srcset=&quot;/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/12f09/image-20200815215109073.png 148w,
+/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/e4a3f/image-20200815215109073.png 295w,
+/static/d9e4a628d8ca9bb7ff9ab4b656f83bf7/526ee/image-20200815215109073.png 355w&quot;
+        sizes=&quot;(max-width: 355px) 100vw, 355px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -822,13 +861,20 @@ subsequent_mask &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; torc
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Multi-Head Attention&lt;/code&gt;&lt;/strong&gt;&lt;img src=&quot;https://miro.medium.com/max/254/1*4UvAIxzfkkUercHoGJuj3w.png&quot; alt=&quot;Image for post&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Multi-Head Attention&lt;/code&gt;&lt;/strong&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 576px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAD3ElEQVRIx51V+VMaSRTmD93aX/cf2fxiKmajkngsKIRzOAdQjmGAUYZR7sNwlCbgERCMKUtBxYDf9rQOCmKS2q561T1vXn/9vff6vVZhyri7uxutM5nMVP1LQzUJpGwqVypIppJwul1IZdKoVKu/Baqaxuz29hYhPoxEegdichv8Vgy+wMb/A7y7X4DjObDrHpgZC2wuB4Jc8JkXvwScZDAcAhwXJYyHvx3HqS5/+9aBGPehkI+AC5lRLESwLfnx/fvZL0FVT90YDgdUWSqlUCmtoLq7ir2KHuWSFonNN2jUqw/MB6M9T0Mgz6ppMTk+akCI6pCIm+DzqBEKrCAU/BedTvNFZgqGSlnc3Nyg1+sS6eHq+hoXF130+z9gMJggSTu4vOzhmugVG0W63S7VjxjKi/39fXg9QfBcHFxw80EExCIS3s4ugHX5EQmLT/5tEsYCnaO8hHr98BGwUqlhblaHlfcuLM7b8GGOobMsC29NmJ1Zg/qdBep/LFhasFOR/2kW3ffzEoNctoj+bf/e5YSYRIAtIhVvgrVtw6ANQrvkBWMUwBhiVFwWEU5LHHqNH8bVENyMBCl2gDj/BW9mlqHRrOGkfUILQiUlUuB8ZaTjLexsfoXIN5CIHmDDnSMAQQJEwMwiAdnGJrdPQOqQoofIiG3wG1X8+cdfyGazJMaXOD8/h6pU/ETYhOFxxGHWB8Hat7DB7sBuiUCv9WD5PQPtshNG3Tq8ThE+VwJOawx2cxRrKyzWff7xezgY/EDvqou4uIVXr/5GabdIgvwZzdZXmtHXr2fgJ3Vcr3+h+uvrHgLke27+HQqFHHVTFuX60Sy32x24WBYa7SoKpSJqe3s4OjpCLpfDvFqNqCBgt1xG4+CAXO4GrAwDk8VCbWVptVqPWZY3GswmaPU6GK1mmBgrXB4WdqcTGt0aVj/qYXXYYbYxCIRCWNKsQGc0EDsLjETWA340Go1HwFQ6DSmTRKqQhZROghMimFuYp+0ru1ugLSyR2oHO8BF2hwNhIYp8uUTbmje4AcZmQ/ey+wgo0xXiW2C9JAHk9KgQI7GqI5vPIbYl4MPyItyEcSabQbPZBB+NUFvNmhbhCD9ydzgcjnebYrFIqsXzrEZXtVpShhdjOlEUwYf5Z3VMGSrI8un1h1gMBoPRifl8HkO5ExGR9fLYI0lrt9tjzEZZVtCPj4+poWKk6JPJ5AhI2Vyr1egtmGQ31m1OT0/HjBR9lTxOk4CHh4fUflqzHQHKLpydjXfkq6sr2okmYyUDyiH6KaAceLkenxr1+32cnJw8c6vT6bzMcFI5ufln+mlvy39rL2AuubDZywAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;image-20200822105845609&quot; title=&quot;image-20200822105845609&quot; src=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png&quot; srcset=&quot;/static/c924934dafc5a3ca5fd9cd80c3820dd0/12f09/image-20200822105845609.png 148w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/e4a3f/image-20200822105845609.png 295w,
+/static/c924934dafc5a3ca5fd9cd80c3820dd0/533c1/image-20200822105845609.png 576w&quot; sizes=&quot;(max-width: 576px) 100vw, 576px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;1문장을 여러 head로 Self-Attention 시킴&lt;br /&gt;&lt;/td&gt;
 &lt;td&gt;”Je suis étudiant”라는 문장의 임베딩 벡터가 512차원(&lt;code class=&quot;language-text&quot;&gt;d_model&lt;/code&gt;)이라면 8개 &lt;code class=&quot;language-text&quot;&gt;head&lt;/code&gt;로 나눠 64개의 벡터를 한 &lt;code class=&quot;language-text&quot;&gt;Scaled Dot Attention&lt;/code&gt;이 맡아 처리하는 것. &lt;br /&gt;&lt;strong&gt;이는 동일한 문장도 8명(8 heads)이 각각의 관점에서 보고 추후에 합치는 과정&lt;/strong&gt;이라고도 볼 수 있다.&lt;br /&gt;*&lt;code class=&quot;language-text&quot;&gt;d_model&lt;/code&gt;은 임베딩을 하기 위한 차원으로 보통 512를 사용하고, &lt;code class=&quot;language-text&quot;&gt;d_k&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;d_v&lt;/code&gt;는 64를 사용. &lt;br /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/2015/1*lsMX7fYhk55VCavim7GiMg.png&quot; alt=&quot;Image for post&quot;&gt;&lt;br /&gt;동일한 [batch&lt;em&gt;size x len&lt;/em&gt;q x d_model] shape의 동일한 &lt;code class=&quot;language-text&quot;&gt;Q, K, V&lt;/code&gt;를 만들어 [d&lt;em&gt;model, d&lt;/em&gt;model] &lt;code class=&quot;language-text&quot;&gt;linear&lt;/code&gt;를 곱한 후, &lt;br /&gt;&lt;strong&gt;임베딩 차원을 8등분하여 &lt;code class=&quot;language-text&quot;&gt;Scaled Dot Product Atttention&lt;/code&gt;으로 넘겨준다.&lt;br /&gt;&lt;/strong&gt;그리고 multi-head attention 그림에서의 h는 &lt;code class=&quot;language-text&quot;&gt;n_heads&lt;/code&gt;(number of head)를 나타내며 보통 8을 사용. 이는 64 * 8 = 512이기 때문.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Scaled-Dot Product Attention&lt;/code&gt;&lt;/strong&gt; &lt;img src=&quot;markdown-images/image-20200813150949039.png&quot; alt=&quot;image-20200813150949039&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;Scaled-Dot Product Attention&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Self-Attention&lt;/code&gt;이 일어나는 부분.&lt;br /&gt;&lt;/td&gt;
 &lt;td&gt;- 한 &lt;code class=&quot;language-text&quot;&gt;head&lt;/code&gt;당 &lt;br /&gt;(input 값) : Q(64), K(64), V(64)씩 가져가게 되는데, dimension(=512) 중 word가 아닌 경우를 구분하는 역할.&lt;br /&gt;- 처음의 Q를 ResNet의 &lt;code class=&quot;language-text&quot;&gt;Residual Shortcut&lt;/code&gt;와 같은 컨셉으로 더해준다. 이는 층이 깊어지는 것을 더 잘 학습 시키기 위함&lt;/td&gt;
 &lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/1433/1*Mj7Bdi0xVPPIqGbfu7cbSw.png&quot; alt=&quot;Image for post&quot;&gt;&lt;br /&gt;&lt;em&gt;&lt;code class=&quot;language-text&quot;&gt;Self-Attention&lt;/code&gt;&gt;&lt;/em&gt;&lt;br /&gt;1. Q와 transposed K 사이를 내적하여 어텐션을 Softmax를 통해 구하고,&lt;br/&gt;2. 그 후에 V를 내적하여 중요한 부분(Attention)을 더 살린다.&lt;br /&gt;3. 이렇게 8개의 head(여러 관점)으로 본 것을 다시 &lt;code class=&quot;language-text&quot;&gt;concate&lt;/code&gt;하고&lt;br /&gt;4. &lt;code class=&quot;language-text&quot;&gt;PoswiseFeedForwardNet&lt;/code&gt;로 보냄&lt;/td&gt;
@@ -952,8 +998,8 @@ subsequent_mask &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; torc
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/440/1*64GKtTstp4zi3CEj5Y91iw.png&quot; alt=&quot;Image for post&quot;&gt;&lt;/td&gt;
-&lt;td&gt;노란색 Box에서 왼쪽 2개 화살표가 Encoder의 K,V 오른쪽 화살표가 Self-Attention을 거친 Decoder의 Q&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/779/1*y_oOzc5s7I6urwrXiIcQAA.png&quot; alt=&quot;Image for post&quot;&gt;&lt;br /&gt;이렇게 나온 logistic을 일반적인Teacher Forcing을 통해 학습&lt;/td&gt;
+&lt;td&gt;노란색 Box에서 왼쪽 2개 화살표가 Encoder의 K,V &lt;br /&gt;오른쪽 화살표가 Self-Attention을 거친 Decoder의 Q&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://miro.medium.com/max/779/1*y_oOzc5s7I6urwrXiIcQAA.png&quot; alt=&quot;Image for post&quot;&gt;&lt;br /&gt;이렇게 나온 값을 일반적인Teacher Forcing을 통해 학습&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
