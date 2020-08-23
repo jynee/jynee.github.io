@@ -615,13 +615,7 @@
 0 1 1
 0 0 1
 0 0 0
-'''</span>
-
-<span class="token keyword">def</span> <span class="token function">get_attn_subsequent_mask</span><span class="token punctuation">(</span>seq<span class="token punctuation">)</span><span class="token punctuation">:</span>
-attn_shape <span class="token operator">=</span> <span class="token punctuation">[</span>seq<span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> seq<span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span> seq<span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
-subsequent_mask <span class="token operator">=</span> np<span class="token punctuation">.</span>triu<span class="token punctuation">(</span>np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>attn_shape<span class="token punctuation">)</span><span class="token punctuation">,</span> k<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
-subsequent_mask <span class="token operator">=</span> torch<span class="token punctuation">.</span>from_numpy<span class="token punctuation">(</span>subsequent_mask<span class="token punctuation">)</span><span class="token punctuation">.</span>byte<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">return</span> subsequent_mask</code></pre></div>
+'''</span></code></pre></div>
 </li>
 <li><code class="language-text">d_model</code> : 임베딩을 하기 위한 차원으로 보통 512를 사용. embedding vector table. <br></li>
 <li><code class="language-text">attention value</code>: 수치화된 table에서 중요한 정보를 골라 가중치를 줄 수 있음<br></li>
