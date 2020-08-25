@@ -1045,14 +1045,11 @@ chatting<span class="token punctuation">(</span><span class="token number">100</
 <li>
 <p>등장 배경:</p>
 <ul>
-<li>FastText를 사용한다면,</li>
-<li>
-<p>n-gram character 방식<br></p>
+<li>FastText를 사용한다면, n-gram character 방식<br></li>
+</ul>
 <p><em>단점 ></em></p>
 <ul>
 <li>word2vec의 oov 문제를 해결하지만, <strong>collision 문제 발생</strong><br></li>
-</ul>
-</li>
 <li>hash 사용한다면, hash-table 크기를 작게 잡으면 collision 발생</li>
 </ul>
 <blockquote>
@@ -1061,7 +1058,7 @@ chatting<span class="token punctuation">(</span><span class="token number">100</
 <li>Collision 문제를 해결하기 위해서 <strong>별도의 overflow page를 사용</strong>한다</li>
 <li>overflow page가 늘어나면 검색 속도가 떨어진다</li>
 <li>
-<p>overflow paee가 임계치를 초과하면 <strong>hash-table을 늘려서</strong> DB를 재구성</p>
+<p>overflow page가 임계치를 초과하면 <strong>hash-table을 늘려서</strong> DB를 재구성</p>
 <p>=> "Reorganization" 따라서 기존의 <strong>단어들의 위치가 변경</strong>된다.</p>
 <ul>
 <li>NLP 분석 시엔 Reorganization하면 단어들의 위치가 변경되므로 다시 학습시켜야 한다. 따라서 근본적인 해결책이 되진 못한다.<br></li>
