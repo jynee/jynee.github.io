@@ -1285,45 +1285,44 @@ statements = [
 tf_vector <span class="token operator">=</span> TfidfVectorizer<span class="token punctuation">(</span>max_features <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">)</span> <span class="token comment"># max_features = 8 최대 단어 개수(빈도 높은 8개 단어만 추출)</span>
 tfidf <span class="token operator">=</span> tf_vector<span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>statements<span class="token punctuation">)</span> <span class="token comment">#.toarray 써주면 배열 형태로 출력 </span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>tfidf<span class="token punctuation">.</span>shape<span class="token punctuation">)</span></code></pre></div>
-<br>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;br&gt;
 ```python
 # SVD (Singular Vector Decomposition)으로 TF-IDF를 분해한다.
-# U, S, VT 행렬의 의미 --> Latent Semantic Analysis (LSA)
+# U, S, VT 행렬의 의미 --&gt; Latent Semantic Analysis (LSA)
 # U 행렬 ~ 차원 = (문서 개수 X topic 개수) : 문서당 topic 분포
 # S 행렬 ~ 차원 = (topic 개수 X topic 개수) : 대각성분. 나중에 행렬에 넣을 땐 대각성분만 빼면 0
 # VT 행렬. 차원 = (topic 개수 X 단어 개수) : topic 당 단어 빈도 (분포)
 U, S, VT = np.linalg.svd(tfidf.toarray(), full_matrices = True)
-<p>print(U.round(2), '\n') # 모든 열벡터들의 내적 = 0
-print(S.round (2), '\n') # 왼->오로 갈 수록 수치가 작아짐. 따라서 성분이 큰 것(=수치가 큰 것)이 앞에 나옴
-print(VT.round(2), '\n')</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;br&gt;
-&gt; **print(U.round(2), &#39;\n&#39;)**
-&gt;
-&gt; [[ 0.65 -0.   -0.02  0.76]
-&gt;  [ 0.33 -0.79 -0.42 -0.29]
-&gt;  [ 0.53 -0.    0.72 -0.44]
-&gt;  [ 0.43  0.61 -0.55 -0.38]] 
-&lt;br&gt;
-&gt; **print(S.round (2), &#39;\n&#39;)**
-&gt;
-&gt; [1.34 1.   0.88 0.66] 
-&lt;br&gt;
-&gt; **print(VT.round(2), &#39;\n&#39;)**
-&gt; [[ 0.16  0.16  0.65  0.2   0.27  0.2   0.57  0.2 ]
-&gt;  [-0.51 -0.51  0.33 -0.    0.51 -0.   -0.33 -0.  ]
-&gt;  [-0.31 -0.31 -0.08  0.42 -0.52  0.42  0.06  0.42]
-&gt;  [-0.28 -0.28  0.29 -0.34 -0.48 -0.34  0.42 -0.34]
-&gt;  [ 0.24 -0.45 -0.33  0.56  0.21 -0.28  0.33 -0.28]
-&gt;  [ 0.25 -0.35 -0.16 -0.41  0.1   0.71  0.16 -0.29]
-&gt;  [-0.6   0.3  -0.47 -0.12  0.3   0.06  0.47  0.06]
-&gt;  [ 0.25 -0.35 -0.16 -0.41  0.1  -0.29  0.16  0.71]] 
-&lt;br&gt;
 
-```python
-# S를 행렬 형태로 변환한다.
-s = np.zeros(tfidf.shape)
-s[:S.shape[0], :S.shape[0]] = np.diag(S) # 대각선에 정방행렬(S)를 집어 넣어라 
-print(s.round(2), &#39;\n&#39;)</code></pre></div>
+print(U.round(2), &#39;\n&#39;) # 모든 열벡터들의 내적 = 0
+print(S.round (2), &#39;\n&#39;) # 왼-&gt;오로 갈 수록 수치가 작아짐. 따라서 성분이 큰 것(=수치가 큰 것)이 앞에 나옴 
+print(VT.round(2), &#39;\n&#39;)</code></pre></div>
+<br>
+> **print(U.round(2), '\n')**
+>
+> [[ 0.65 -0.   -0.02  0.76]
+>  [ 0.33 -0.79 -0.42 -0.29]
+>  [ 0.53 -0.    0.72 -0.44]
+>  [ 0.43  0.61 -0.55 -0.38]] 
+<br>
+> **print(S.round (2), '\n')**
+>
+> [1.34 1.   0.88 0.66] 
+<br>
+> **print(VT.round(2), '\n')**
+> [[ 0.16  0.16  0.65  0.2   0.27  0.2   0.57  0.2 ]
+>  [-0.51 -0.51  0.33 -0.    0.51 -0.   -0.33 -0.  ]
+>  [-0.31 -0.31 -0.08  0.42 -0.52  0.42  0.06  0.42]
+>  [-0.28 -0.28  0.29 -0.34 -0.48 -0.34  0.42 -0.34]
+>  [ 0.24 -0.45 -0.33  0.56  0.21 -0.28  0.33 -0.28]
+>  [ 0.25 -0.35 -0.16 -0.41  0.1   0.71  0.16 -0.29]
+>  [-0.6   0.3  -0.47 -0.12  0.3   0.06  0.47  0.06]
+>  [ 0.25 -0.35 -0.16 -0.41  0.1  -0.29  0.16  0.71]] 
+<br>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># S를 행렬 형태로 변환한다.</span>
+s <span class="token operator">=</span> np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>tfidf<span class="token punctuation">.</span>shape<span class="token punctuation">)</span>
+s<span class="token punctuation">[</span><span class="token punctuation">:</span>S<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">:</span>S<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> np<span class="token punctuation">.</span>diag<span class="token punctuation">(</span>S<span class="token punctuation">)</span> <span class="token comment"># 대각선에 정방행렬(S)를 집어 넣어라 </span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token builtin">round</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'\n'</span><span class="token punctuation">)</span></code></pre></div>
 <br>
 <blockquote>
 <p><strong>print(s.round(2), '\n')</strong>
@@ -1438,32 +1437,31 @@ vocab <span class="token operator">=</span> tf_vector<span class="token punctuat
 </blockquote>
 <br>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># Latent Semantic Analysis (LSA)</span></code></pre></div>
+</br>
 <br>
-```python
-svd = TruncatedSVD(n_components = len(newsData.target_names), n_iter=1000) # svd.shape = (20,)
-svd.fit(tfidf) # tfidf.shape = (11314, 500)
-<p>U = svd.fit<em>transform(tfidf) / svd.singular</em>values_ # svd.fit<em>transform(tfidf) = (11314, 20) # svd.singular</em>values_ = (20,) # U.shape = (11314, 20)
-VT = svd.components_ # VT.shape = (20,500) # VT: 직교행렬(내적 0 이라 서로 독립적이다)
-S = np.diag(svd.singular<em>values</em>) # S.shape = (20, 20) # S: 대각 성분을 제외한 원소는 모두 0 </p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;br&gt;
-```python
-# 문서 별 Topic 번호를 확인한다. (문서 10개만 확인)
-for i in range(10):
-    print(&#39;문서-{:d} : topic = {:d}&#39;.format(i, np.argmax(U[i:(i+1), :][0])))
-    ## 해석: 0문서엔 17번이란 이름으로 부여된 topic(단어..)가 있고, 2문서에도 같은 게 있다. 그럼 0문서랑 2문서랑 clustering 해도 되겠다 &lt; 라고 판단하는 알고리즘임 
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">svd <span class="token operator">=</span> TruncatedSVD<span class="token punctuation">(</span>n_components <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>newsData<span class="token punctuation">.</span>target_names<span class="token punctuation">)</span><span class="token punctuation">,</span> n_iter<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">)</span> <span class="token comment"># svd.shape = (20,)</span>
+svd<span class="token punctuation">.</span>fit<span class="token punctuation">(</span>tfidf<span class="token punctuation">)</span> <span class="token comment"># tfidf.shape = (11314, 500)</span>
+
+U <span class="token operator">=</span> svd<span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>tfidf<span class="token punctuation">)</span> <span class="token operator">/</span> svd<span class="token punctuation">.</span>singular_values_ <span class="token comment"># svd.fit_transform(tfidf) = (11314, 20) # svd.singular_values_ = (20,) # U.shape = (11314, 20)</span>
+VT <span class="token operator">=</span> svd<span class="token punctuation">.</span>components_ <span class="token comment"># VT.shape = (20,500) # VT: 직교행렬(내적 0 이라 서로 독립적이다)</span>
+S <span class="token operator">=</span> np<span class="token punctuation">.</span>diag<span class="token punctuation">(</span>svd<span class="token punctuation">.</span>singular_values_<span class="token punctuation">)</span> <span class="token comment"># S.shape = (20, 20) # S: 대각 성분을 제외한 원소는 모두 0 </span></code></pre></div>
+</br>
+<br>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># 문서 별 Topic 번호를 확인한다. (문서 10개만 확인)</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'문서-{:d} : topic = {:d}'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> np<span class="token punctuation">.</span>argmax<span class="token punctuation">(</span>U<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token comment">## 해석: 0문서엔 17번이란 이름으로 부여된 topic(단어..)가 있고, 2문서에도 같은 게 있다. 그럼 0문서랑 2문서랑 clustering 해도 되겠다 &lt; 라고 판단하는 알고리즘임 </span>
     
-# VT 행렬에서 topic 별로 중요 단어를 표시한다 
-# topic: 주요 성분(내림차순 배열). &quot;tf_vector = TfidfVectorizer(max_features = 500)&quot; 해서 자주 나오는 단어만 500개 남겼잖슴? 거기서 남긴 500개가 주요성분이란 뜻이고 그게 즉 topic임 
-for i in range(len(VT)):
-    idx = np.flipud(VT[i].argsort())[:10] # np.flipud(): 위아래 반전 # .argsort(): 오름차순 배열 =&gt; 문서순이 아니라 토픽순으로 정렬하겠단 뜻 =&gt; flipud+argsort: 따라서 내림차순 배열이 됨 
-    print(&#39;토픽-{:2d} : &#39;.format(i+1), end=&#39;&#39;)
-    for n in idx:
-        print(&#39;{:s} &#39;.format(vocab[n]), end=&#39;&#39;) # 토픽을 차원축소=묶었으므로 vocab[n] 하면 응축된(topic)이 1개씩 나오게 됨 
-    print()</code></pre></div>
+<span class="token comment"># VT 행렬에서 topic 별로 중요 단어를 표시한다 </span>
+<span class="token comment"># topic: 주요 성분(내림차순 배열). "tf_vector = TfidfVectorizer(max_features = 500)" 해서 자주 나오는 단어만 500개 남겼잖슴? 거기서 남긴 500개가 주요성분이란 뜻이고 그게 즉 topic임 </span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>VT<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    idx <span class="token operator">=</span> np<span class="token punctuation">.</span>flipud<span class="token punctuation">(</span>VT<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>argsort<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">10</span><span class="token punctuation">]</span> <span class="token comment"># np.flipud(): 위아래 반전 # .argsort(): 오름차순 배열 => 문서순이 아니라 토픽순으로 정렬하겠단 뜻 => flipud+argsort: 따라서 내림차순 배열이 됨 </span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'토픽-{:2d} : '</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> n <span class="token keyword">in</span> idx<span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'{:s} '</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>vocab<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span> <span class="token comment"># 토픽을 차원축소=묶었으므로 vocab[n] 하면 응축된(topic)이 1개씩 나오게 됨 </span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></div>
 <br>
-```python
-newsData.keys()
-```
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">newsData<span class="token punctuation">.</span>keys<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></div>
 <blockquote>
 <p>dict<em>keys(['data', 'filenames', 'target</em>names', 'target', 'DESCR'])</p>
 </blockquote>
@@ -1939,7 +1937,7 @@ sentences <span class="token operator">=</span> <span class="token punctuation">
 <li>중의적 단어가 있을 때, </li>
 <li>단어 주변의 문맥을 살펴,</li>
 <li>
-<p>이 문장에 사용된 단어의 뜻을 찾아냄</p>
+<p>이 문장에 사용된 단어의 뜻을 찾아낸다.</p>
 <blockquote>
 <table>
 <thead>
